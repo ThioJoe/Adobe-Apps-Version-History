@@ -272,6 +272,10 @@
         <aside id="sidebar">
             <div class="search-box">
                 <input type="text" id="search-input" placeholder="Filter software..." disabled>
+                <div style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-secondary); display: flex; align-items: center; gap: 0.5rem;">
+                    <input type="checkbox" id="show-empty-checkbox">
+                    <label for="show-empty-checkbox" style="cursor: pointer; user-select: none;">Show apps with 0 versions</label>
+                </div>
             </div>
             <div id="product-list"></div>
         </aside>
@@ -292,6 +296,7 @@
         const searchInput = document.getElementById('search-input');
         const detailView = document.getElementById('detail-view');
         const initialView = document.getElementById('initial-view');
+        const showEmptyCheckbox = document.getElementById('show-empty-checkbox');
 
         let allProducts = [];
 
@@ -300,7 +305,11 @@
                 const response = await fetch('data/index.json');
                 if (!response.ok) throw new Error('Network response was not ok');
                 allProducts = await response.json();
-                renderProductList(allProducts);
+                
+                // Sort alphabetically by displayName
+                allProducts.sort((a, b) => a.displayName.localeCompare(b.displayName));
+                
+                filterProducts(searchInput.value);
                 searchInput.disabled = false;
             } catch (error) {
                 console.error("Could not load index.json:", error);
@@ -309,6 +318,7 @@
         });
 
         searchInput.addEventListener('input', (e) => filterProducts(e.target.value));
+        showEmptyCheckbox.addEventListener('change', () => filterProducts(searchInput.value));
 
         function renderProductList(list) {
             productList.innerHTML = '';
@@ -327,10 +337,16 @@
 
         function filterProducts(query) {
             const q = query.toLowerCase();
-            const filtered = allProducts.filter(p => 
-                p.displayName.toLowerCase().includes(q) || 
-                p.id.toLowerCase().includes(q)
-            );
+            const showEmpty = showEmptyCheckbox.checked;
+            
+            const filtered = allProducts.filter(p => {
+                const matchesQuery = p.displayName.toLowerCase().includes(q) || p.id.toLowerCase().includes(q);
+                // Fallback to showing it if buildCount is undefined (before the action runs again)
+                const hasBuilds = p.buildCount === undefined || p.buildCount > 0;
+                
+                return matchesQuery && (showEmpty || hasBuilds);
+            });
+            
             renderProductList(filtered);
         }
 

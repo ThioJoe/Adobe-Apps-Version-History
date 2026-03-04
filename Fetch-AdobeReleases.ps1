@@ -153,6 +153,7 @@ foreach ($appKey in $productsMap.Keys) {
     $indexData += @{
         id = $cleanId
         displayName = $app.displayName
+        buildCount = @($app.builds).Count
     }
 }
 
