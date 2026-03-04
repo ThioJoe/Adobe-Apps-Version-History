@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -63,9 +64,32 @@
             flex-direction: column;
         }
 
-        .search-box {
+        .sidebar-header {
             padding: 0.75rem;
             border-bottom: 1px solid var(--border);
+        }
+
+        .btn-latest {
+            width: 100%;
+            padding: 0.6rem;
+            background: var(--bg-hover);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            font-weight: 600;
+            border-radius: 6px;
+            margin-bottom: 0.75rem;
+            cursor: pointer;
+            transition: all 0.2s;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            gap: 8px;
+        }
+
+        .btn-latest:hover {
+            background: var(--border);
+            color: var(--accent);
         }
 
         input[type="text"] {
@@ -102,6 +126,10 @@
         .product-item.active {
             border-left: 3px solid var(--accent);
             background-color: var(--bg-hover);
+        }
+
+        .product-item.empty-product {
+            opacity: 0.35;
         }
 
         .product-name {
@@ -171,13 +199,19 @@
             text-align: center;
         }
 
-        .badge.platform { background: #555; }
-        .badge.version { 
-            background: #8e44ad; 
+        .badge.platform {
+            background: #555;
+        }
+
+        .badge.version {
+            background: #8e44ad;
             min-width: 75px;
             cursor: pointer;
         }
-        .badge.version:hover { filter: brightness(1.2); }
+
+        .badge.version:hover {
+            filter: brightness(1.2);
+        }
 
         .date-container {
             display: flex;
@@ -226,55 +260,38 @@
             color: var(--text-secondary);
             font-size: 0.85rem;
         }
-
-        #loading-overlay {
-            position: fixed;
-            top: 0; left: 0; right: 0; bottom: 0;
-            background: rgba(0,0,0,0.8);
-            display: none;
-            flex-direction: column;
-            align-items: center;
-            justify-content: center;
-            z-index: 1000;
-        }
-
-        .spinner {
-            width: 40px;
-            height: 40px;
-            border: 4px solid var(--border);
-            border-top: 4px solid var(--accent);
-            border-radius: 50%;
-            animation: spin 1s linear infinite;
-            margin-bottom: 1rem;
-        }
-
-        @keyframes spin {
-            0% { transform: rotate(0deg); }
-            100% { transform: rotate(360deg); }
-        }
     </style>
 </head>
-<body>
 
-    <div id="loading-overlay">
-        <div class="spinner"></div>
-        <p id="loading-text">Loading Data...</p>
-    </div>
+<body>
 
     <header>
         <div class="header-left">
-            <svg width="24" height="24" viewBox="0 0 256 256" fill="var(--accent)"><path d="M161.7 39.5l94.3 216.5h-47L176.6 182h-58.4l34.1-80.2 34.1 80.2h10.4l-35.1-83.3zM89.7 39.5L0 256h44.6L79.1 176h46.8l20.4-50.5H91.1l20.1-50.5z"/></svg>
+            <svg width="24" height="24" viewBox="0 0 256 256" fill="var(--accent)">
+                <path
+                    d="M161.7 39.5l94.3 216.5h-47L176.6 182h-58.4l34.1-80.2 34.1 80.2h10.4l-35.1-83.3zM89.7 39.5L0 256h44.6L79.1 176h46.8l20.4-50.5H91.1l20.1-50.5z" />
+            </svg>
             <h2 style="font-size: 1.1rem; font-weight: 700;">Adobe Release Browser</h2>
         </div>
     </header>
 
     <div class="main-container">
         <aside id="sidebar">
-            <div class="search-box">
+            <div class="sidebar-header">
+                <button id="btn-show-latest" class="btn-latest">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5"
+                        stroke-linecap="round" stroke-linejoin="round">
+                        <circle cx="12" cy="12" r="10" />
+                        <polyline points="12 6 12 12 16 14" />
+                    </svg>
+                    View Latest Global Releases
+                </button>
                 <input type="text" id="search-input" placeholder="Filter software..." disabled>
-                <div style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-secondary); display: flex; align-items: center; gap: 0.5rem;">
+                <div
+                    style="margin-top: 0.5rem; font-size: 0.8rem; color: var(--text-secondary); display: flex; align-items: center; gap: 0.5rem;">
                     <input type="checkbox" id="show-empty-checkbox">
-                    <label for="show-empty-checkbox" style="cursor: pointer; user-select: none;">Show apps with 0 versions</label>
+                    <label for="show-empty-checkbox" style="cursor: pointer; user-select: none;">Show apps with 0
+                        versions</label>
                 </div>
             </div>
             <div id="product-list"></div>
@@ -282,21 +299,26 @@
 
         <main id="content">
             <div id="initial-view" class="empty-state">
-                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 1rem; opacity: 0.5;"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
+                    stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 1rem; opacity: 0.5;">
+                    <polyline points="9 18 15 12 9 6"></polyline>
+                </svg>
                 <p>Select a product from the sidebar to view releases.</p>
             </div>
 
             <div id="detail-view" style="display: none;"></div>
+            <div id="latest-releases-view" style="display: none;"></div>
         </main>
     </div>
 
     <script>
-        const overlay = document.getElementById('loading-overlay');
         const productList = document.getElementById('product-list');
         const searchInput = document.getElementById('search-input');
+        const showEmptyCheckbox = document.getElementById('show-empty-checkbox');
         const detailView = document.getElementById('detail-view');
         const initialView = document.getElementById('initial-view');
-        const showEmptyCheckbox = document.getElementById('show-empty-checkbox');
+        const latestReleasesView = document.getElementById('latest-releases-view');
+        const btnShowLatest = document.getElementById('btn-show-latest');
 
         let allProducts = [];
 
@@ -325,12 +347,19 @@
 
         searchInput.addEventListener('input', (e) => filterProducts(e.target.value));
         showEmptyCheckbox.addEventListener('change', () => filterProducts(searchInput.value));
+        btnShowLatest.addEventListener('click', showLatestGlobalReleases);
 
         function renderProductList(list) {
             productList.innerHTML = '';
             list.forEach(p => {
                 const div = document.createElement('div');
                 div.className = 'product-item';
+
+                // Gray out products with no versions
+                if (p.buildCount === 0) {
+                    div.classList.add('empty-product');
+                }
+
                 div.dataset.id = p.id;
                 div.innerHTML = `
                     <span class="product-name">${p.displayName}</span>
@@ -344,19 +373,120 @@
         function filterProducts(query) {
             const q = query.toLowerCase();
             const showEmpty = showEmptyCheckbox.checked;
-            
+
             const filtered = allProducts.filter(p => {
                 const matchesQuery = p.displayName.toLowerCase().includes(q) || p.id.toLowerCase().includes(q);
-                // Fallback to showing it if buildCount is undefined (before the action runs again)
                 const hasBuilds = p.buildCount === undefined || p.buildCount > 0;
-                
+
                 return matchesQuery && (showEmpty || hasBuilds);
             });
-            
+
             renderProductList(filtered);
         }
 
-        const productCache = {};
+        function showLatestGlobalReleases() {
+            document.querySelectorAll('.product-item').forEach(el => el.classList.remove('active'));
+            initialView.style.display = 'none';
+            detailView.style.display = 'none';
+            latestReleasesView.style.display = 'block';
+
+            let allBuilds = [];
+
+            // Extract and tag every build across all apps
+            allProducts.forEach(app => {
+                if (!app.builds) return;
+                app.builds.forEach(b => {
+                    allBuilds.push({
+                        ...b,
+                        appName: app.displayName,
+                        appId: app.id
+                    });
+                });
+            });
+
+            // Step 1: Deduplicate by AppID+version+platform
+            const seen = new Set();
+            const deduped = [];
+            allBuilds.forEach(b => {
+                const key = `${b.appId}-${b.version}-${b.platform}`;
+                if (!seen.has(key)) { deduped.push(b); seen.add(key); }
+            });
+
+            // Step 2: Merge rows with the same AppID, version, and type across different platforms.
+            const mergeMap = new Map();
+            deduped.forEach(b => {
+                const key = `${b.appId}||${b.version}||${b.type}`;
+                if (!mergeMap.has(key)) {
+                    mergeMap.set(key, {
+                        appName: b.appName,
+                        appId: b.appId,
+                        version: b.version,
+                        type: b.type,
+                        platforms: [b.platform],
+                        goLive: b.goLive
+                    });
+                } else {
+                    const existing = mergeMap.get(key);
+                    if (!existing.platforms.includes(b.platform)) {
+                        existing.platforms.push(b.platform);
+                    }
+                    const existingTime = parseInt(existing.goLive) || 0;
+                    const newTime = parseInt(b.goLive) || 0;
+                    if (newTime > 0 && (existingTime === 0 || newTime < existingTime)) {
+                        existing.goLive = b.goLive;
+                    }
+                }
+            });
+
+            // Sort purely by date, newest first
+            const mergedBuilds = Array.from(mergeMap.values());
+            mergedBuilds.sort((a, b) => (parseInt(b.goLive) || 0) - (parseInt(a.goLive) || 0));
+
+            // Grab the top 100 for performance and layout
+            const topBuilds = mergedBuilds.slice(0, 100);
+
+            const tableRows = topBuilds.map(b => {
+                const displayDate = formatDate(b.goLive);
+                const copyValue = formatDateForCopy(b.goLive);
+                const platformBadges = [...b.platforms].sort().map(p => {
+                    return `<span class="badge platform" style="background:${platformColor(p)}">${p}</span>`;
+                }).join(' ');
+
+                return `
+                    <tr>
+                        <td><strong>${b.appName}</strong><br><span style="font-size: 0.75rem; color: var(--text-secondary);">${b.appId}</span></td>
+                        <td><span class="badge version" onclick="copyToClipboard('${b.version}', this)" title="Click to copy version">${b.version}</span></td>
+                        <td>
+                            <div class="date-container">
+                                <span>${displayDate}</span>
+                                <button class="btn-copy" onclick="copyToClipboard('${copyValue}', this)" title="Copy Date as +ISO">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                </button>
+                            </div>
+                        </td>
+                        <td><div style="display:flex;flex-wrap:wrap;gap:4px;">${platformBadges}</div></td>
+                        <td style="color: var(--text-secondary)">${b.type}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            latestReleasesView.innerHTML = `
+                <div class="detail-header">
+                    <h1>Latest Global Releases</h1>
+                    <div class="stats-bar">
+                        <span>Showing the 100 most recent releases across all monitored software.</span>
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr><th>App</th><th>Version</th><th>Release Date</th><th>Platform</th><th>Type</th></tr>
+                    </thead>
+                    <tbody>
+                        ${tableRows}
+                    </tbody>
+                </table>
+            `;
+        }
 
         async function fetchAndShowProductDetails(productMeta) {
             document.querySelectorAll('.product-item').forEach(el => el.classList.remove('active'));
@@ -368,6 +498,7 @@
 
         function renderProductDetails(product) {
             initialView.style.display = 'none';
+            latestReleasesView.style.display = 'none';
             detailView.style.display = 'block';
             let rawBuilds = product.builds || [];
 
@@ -389,7 +520,7 @@
                         type: b.type,
                         platforms: [b.platform],
                         goLive: b.goLive,
-                        ids: [b.buildId]
+                        ids: [b.buildId || b.id]
                     });
                 } else {
                     const existing = mergeMap.get(key);
@@ -401,8 +532,8 @@
                     if (newTime > 0 && (existingTime === 0 || newTime < existingTime)) {
                         existing.goLive = b.goLive;
                     }
-                    if (!existing.ids.includes(b.buildId)) {
-                        existing.ids.push(b.buildId);
+                    if (!existing.ids.includes(b.buildId || b.id)) {
+                        existing.ids.push(b.buildId || b.id);
                     }
                 }
             });
@@ -461,23 +592,23 @@
             input.select();
             document.execCommand('copy');
             document.body.removeChild(input);
-            
+
             btn.classList.add('copied');
             const originalHtml = btn.innerHTML;
             btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
             setTimeout(() => {
                 btn.classList.remove('copied');
                 btn.innerHTML = originalHtml;
-            }, 350); 
+            }, 350);
         }
 
         function platformColor(platform) {
             const lc = platform.toLowerCase();
             let baseHue;
-            if      (lc.startsWith('win'))                              baseHue = 210;
-            else if (lc.startsWith('mac'))                              baseHue = 158;
-            else if (lc.startsWith('android'))                          baseHue = 120;
-            else if (lc.startsWith('ios') || lc.startsWith('ipad'))    baseHue = 290;
+            if (lc.startsWith('win')) baseHue = 210;
+            else if (lc.startsWith('mac')) baseHue = 158;
+            else if (lc.startsWith('android')) baseHue = 120;
+            else if (lc.startsWith('ios') || lc.startsWith('ipad')) baseHue = 290;
             else return 'hsl(0, 0%, 33%)';
 
             let h = 5381;
@@ -493,9 +624,9 @@
             if (!val) return '<span style="opacity: 0.3">No Date</span>';
             let date = /^\d+$/.test(val) ? new Date(parseInt(val)) : new Date(val);
             if (isNaN(date.getTime())) return val;
-            return date.toLocaleDateString(undefined, { 
-                year: 'numeric', month: 'short', day: 'numeric', 
-                hour: '2-digit', minute: '2-digit' 
+            return date.toLocaleDateString(undefined, {
+                year: 'numeric', month: 'short', day: 'numeric',
+                hour: '2-digit', minute: '2-digit'
             });
         }
 
@@ -507,4 +638,5 @@
         }
     </script>
 </body>
+
 </html>
