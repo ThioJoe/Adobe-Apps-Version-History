@@ -96,6 +96,8 @@ if (-not (Test-Path $outDir)) {
     New-Item -ItemType Directory -Path $outDir | Out-Null
 }
 
+$anyDataChanged = $false
+
 foreach ($appKey in $productsMap.Keys) {
     $app = $productsMap[$appKey]
     $cleanId = $app.id -replace '[^a-zA-Z0-9_-]', ''
@@ -105,16 +107,17 @@ foreach ($appKey in $productsMap.Keys) {
     
     $outPath = Join-Path $outDir "$cleanId.json"
     
+    $fileNeedsUpdate = $false
+    
     if (Test-Path $outPath) {
         $existingJson = Get-Content -Path $outPath -Raw -Encoding UTF8
         $existingApp = ConvertFrom-Json $existingJson
         
-        $existingBuildIds = @{}
+        $existingBuildSigs = @{}
         if ($null -ne $existingApp.builds) {
             foreach ($b in $existingApp.builds) {
-                if ($null -ne $b.buildId) {
-                    $existingBuildIds[$b.buildId] = $true
-                }
+                $sig = "$($b.buildId)_$($b.version)_$($b.platform)"
+                $existingBuildSigs[$sig] = $true
             }
         }
         
@@ -124,50 +127,59 @@ foreach ($appKey in $productsMap.Keys) {
         }
         
         foreach ($newBuild in $app.builds) {
-            if (-not $existingBuildIds.ContainsKey($newBuild.buildId)) {
+            $newSig = "$($newBuild.buildId)_$($newBuild.version)_$($newBuild.platform)"
+            if (-not $existingBuildSigs.ContainsKey($newSig)) {
                 $mergedBuilds += $newBuild
+                $fileNeedsUpdate = $true
             }
         }
         
         $app.builds = $mergedBuilds
+    } else {
+        $fileNeedsUpdate = $true
     }
     
-    # Convert object to JSON. Depth 10 accommodates nested build arrays.
-    $json = ConvertTo-Json -InputObject $app -Depth 10 -Compress:$false
-    
-    # Write as BOM-less UTF8 to avoid Git formatting issues
-    [System.IO.File]::WriteAllText($outPath, $json, [System.Text.Encoding]::UTF8)
+    if ($fileNeedsUpdate) {
+        $anyDataChanged = $true
+        # Convert object to JSON. Depth 10 accommodates nested build arrays.
+        $json = ConvertTo-Json -InputObject $app -Depth 10 -Compress:$false
+        
+        # Write as BOM-less UTF8 to avoid Git formatting issues
+        [System.IO.File]::WriteAllText($outPath, $json, [System.Text.Encoding]::UTF8)
+    }
 }
 
 Write-Host "Data successfully separated by app and saved to the 'data' directory."
 
-Write-Host "Generating index.json and all_data.json..."
-$indexData = @()
-$allData = @()
+if ($anyDataChanged) {
+    Write-Host "Generating index.json and all_data.json..."
+    $indexData = @()
+    $allData = @()
 
-foreach ($appKey in $productsMap.Keys) {
-    $app = $productsMap[$appKey]
-    $cleanId = $app.id -replace '[^a-zA-Z0-9_-]', ''
-    
-    if ([string]::IsNullOrWhiteSpace($cleanId)) { continue }
-    if ($excludedIds -contains $cleanId) { continue }
-    
-    $indexData += @{
-        id = $cleanId
-        displayName = $app.displayName
-        buildCount = @($app.builds).Count
+    $savedFiles = Get-ChildItem -Path $outDir -Filter "*.json"
+    foreach ($file in $savedFiles) {
+        $appData = ConvertFrom-Json (Get-Content -Path $file.FullName -Raw -Encoding UTF8)
+        
+        $indexData += @{
+            id = $appData.id
+            displayName = $appData.displayName
+            buildCount = @($appData.builds).Count
+        }
+        
+        $allData += $appData
     }
-    
-    $allData += $app
+
+    $indexData = $indexData | Sort-Object displayName
+    $indexJson = ConvertTo-Json -InputObject $indexData -Depth 5 -Compress:$false
+    $indexPath = Join-Path (Get-Location).Path "index.json"
+    [System.IO.File]::WriteAllText($indexPath, $indexJson, [System.Text.Encoding]::UTF8)
+
+    $allData = $allData | Sort-Object id
+    $allDataJson = ConvertTo-Json -InputObject $allData -Depth 10 -Compress:$false
+    $allDataPath = Join-Path (Get-Location).Path "all_data.json"
+    [System.IO.File]::WriteAllText($allDataPath, $allDataJson, [System.Text.Encoding]::UTF8)
+
+    Write-Host "Index and global data files successfully generated."
+} else {
+    Write-Host "No new builds found. Skipping index and global data generation."
 }
-
-$indexData = $indexData | Sort-Object displayName
-$indexJson = ConvertTo-Json -InputObject $indexData -Depth 5 -Compress:$false
-$indexPath = Join-Path (Get-Location).Path "index.json"
-[System.IO.File]::WriteAllText($indexPath, $indexJson, [System.Text.Encoding]::UTF8)
-
-$allDataJson = ConvertTo-Json -InputObject $allData -Depth 10 -Compress:$false
-$allDataPath = Join-Path (Get-Location).Path "all_data.json"
-[System.IO.File]::WriteAllText($allDataPath, $allDataJson, [System.Text.Encoding]::UTF8)
-
-Write-Host "Index and global data files successfully generated."
