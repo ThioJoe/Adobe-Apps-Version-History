@@ -1,0 +1,374 @@
+﻿[
+    {
+        "id":  "FFC_portfolio",
+        "displayName":  "Portfolio"
+    },
+    {
+        "id":  "COCM",
+        "displayName":  "STI_ColorCommonSet_CMYK_HD"
+    },
+    {
+        "id":  "TAPI",
+        "displayName":  "Touch App Plugins"
+    },
+    {
+        "id":  "MSOPENGL",
+        "displayName":  "MSOPENGL"
+    },
+    {
+        "id":  "FFC_dcweb",
+        "displayName":  "Acrobat"
+    },
+    {
+        "id":  "KBRGBETA",
+        "displayName":  "Bridge (Beta)"
+    },
+    {
+        "id":  "PSXUWP",
+        "displayName":  "Adobe Express Photos"
+    },
+    {
+        "id":  "STGR",
+        "displayName":  "Substance 3D Stager"
+    },
+    {
+        "id":  "PSTI",
+        "displayName":  "Adobe Preview CC"
+    },
+    {
+        "id":  "FFC",
+        "displayName":  "FFC"
+    },
+    {
+        "id":  "CPAS",
+        "displayName":  "Adobe Captivate Assets 2017"
+    },
+    {
+        "id":  "ESHR",
+        "displayName":  "Dimension"
+    },
+    {
+        "id":  "FFC_lightroomweb",
+        "displayName":  "Lightroom"
+    },
+    {
+        "id":  "IDSNBETA",
+        "displayName":  "InDesign (Beta)"
+    },
+    {
+        "id":  "AME",
+        "displayName":  "Media Encoder"
+    },
+    {
+        "id":  "FRSC",
+        "displayName":  "Fresco"
+    },
+    {
+        "id":  "FFC_mixamo",
+        "displayName":  "Mixamo"
+    },
+    {
+        "id":  "SPRKBE",
+        "displayName":  "XD (Beta)"
+    },
+    {
+        "id":  "SBSTP",
+        "displayName":  "Substance 3D Painter"
+    },
+    {
+        "id":  "HLAN",
+        "displayName":  "Animate HLAN"
+    },
+    {
+        "id":  "APRO",
+        "displayName":  "Acrobat"
+    },
+    {
+        "id":  "FLBR",
+        "displayName":  "Flash Builder Premium"
+    },
+    {
+        "id":  "FWKS",
+        "displayName":  "Fireworks CS6"
+    },
+    {
+        "id":  "PHSPBETA",
+        "displayName":  "Photoshop (Beta)"
+    },
+    {
+        "id":  "FMDN",
+        "displayName":  "Microsoft Dot Net Framework"
+    },
+    {
+        "id":  "ECR",
+        "displayName":  "Camera Raw Elements 13.0"
+    },
+    {
+        "id":  "PPROBETA",
+        "displayName":  "Premiere (Beta)"
+    },
+    {
+        "id":  "ILST",
+        "displayName":  "Illustrator"
+    },
+    {
+        "id":  "FFC_color",
+        "displayName":  "Adobe Color"
+    },
+    {
+        "id":  "CORE",
+        "displayName":  "STI_Color_HD"
+    },
+    {
+        "id":  "SEPS",
+        "displayName":  "Substance 3D Viewer for Photoshop"
+    },
+    {
+        "id":  "FFC_firefly",
+        "displayName":  "Adobe Firefly"
+    },
+    {
+        "id":  "SHPR",
+        "displayName":  "Substance 3D Modeler"
+    },
+    {
+        "id":  "FFC_live",
+        "displayName":  "Adobe Live"
+    },
+    {
+        "id":  "AICY",
+        "displayName":  "InCopy"
+    },
+    {
+        "id":  "ACAI",
+        "displayName":  "CAI"
+    },
+    {
+        "id":  "CORG",
+        "displayName":  "STI_ColorCommonSet_RGB_HD"
+    },
+    {
+        "id":  "FFC_adobeexpress",
+        "displayName":  "Adobe Express"
+    },
+    {
+        "id":  "IDVC14w64",
+        "displayName":  "Microsoft VC 2022 Runtime"
+    },
+    {
+        "id":  "ASCT",
+        "displayName":  "Scout CC"
+    },
+    {
+        "id":  "CPVC",
+        "displayName":  "Adobe Captivate Voices 2017"
+    },
+    {
+        "id":  "CHARBETA",
+        "displayName":  "Character Animator (Beta)"
+    },
+    {
+        "id":  "IDSN",
+        "displayName":  "InDesign"
+    },
+    {
+        "id":  "COSY",
+        "displayName":  "CoreSync"
+    },
+    {
+        "id":  "AEFT",
+        "displayName":  "After Effects"
+    },
+    {
+        "id":  "KBRG",
+        "displayName":  "Bridge"
+    },
+    {
+        "id":  "KANC",
+        "displayName":  "Adobe Notification Client"
+    },
+    {
+        "id":  "KCCC",
+        "displayName":  "Creative Cloud"
+    },
+    {
+        "id":  "COMP",
+        "displayName":  "STI_Color_MotionPicture_HD"
+    },
+    {
+        "id":  "FFC_sbstsource",
+        "displayName":  "Substance 3D Assets"
+    },
+    {
+        "id":  "FFC_sbstshare",
+        "displayName":  "Substance 3D Community Assets"
+    },
+    {
+        "id":  "FFC_psweb",
+        "displayName":  "Photoshop"
+    },
+    {
+        "id":  "PHSP",
+        "displayName":  "Photoshop"
+    },
+    {
+        "id":  "UXPD",
+        "displayName":  "UXP Developer Tools"
+    },
+    {
+        "id":  "KETK",
+        "displayName":  "Extendscript Toolkit CC"
+    },
+    {
+        "id":  "AMEBETA",
+        "displayName":  "Media Encoder (Beta)"
+    },
+    {
+        "id":  "CCXP",
+        "displayName":  "CCX Process"
+    },
+    {
+        "id":  "LRCCPR",
+        "displayName":  "Lightroom (Prerelease)"
+    },
+    {
+        "id":  "PPRO",
+        "displayName":  "Premiere"
+    },
+    {
+        "id":  "GSDK",
+        "displayName":  "Gaming SDK 1.4"
+    },
+    {
+        "id":  "MUSE",
+        "displayName":  "Muse CC"
+    },
+    {
+        "id":  "AAM",
+        "displayName":  "Adobe Application Manager"
+    },
+    {
+        "id":  "ANML",
+        "displayName":  "Adobe Character Animator (Preview 4)"
+    },
+    {
+        "id":  "UXPW",
+        "displayName":  "UXP WebView Support"
+    },
+    {
+        "id":  "CDEC",
+        "displayName":  "Codecs"
+    },
+    {
+        "id":  "FFC_stock",
+        "displayName":  "Adobe Stock"
+    },
+    {
+        "id":  "DOTN",
+        "displayName":  "Microsoft Dot Net Framework"
+    },
+    {
+        "id":  "MSXML",
+        "displayName":  "MSXML 6 Framework"
+    },
+    {
+        "id":  "LIBS",
+        "displayName":  "CC Library"
+    },
+    {
+        "id":  "SBSTD",
+        "displayName":  "Substance 3D Designer"
+    },
+    {
+        "id":  "FFC_podcast",
+        "displayName":  "Adobe Podcast"
+    },
+    {
+        "id":  "DRWV",
+        "displayName":  "Dreamweaver"
+    },
+    {
+        "id":  "AEFTBETA",
+        "displayName":  "After Effects (Beta)"
+    },
+    {
+        "id":  "LRCC",
+        "displayName":  "Lightroom"
+    },
+    {
+        "id":  "AUDT",
+        "displayName":  "Audition"
+    },
+    {
+        "id":  "AUDTBETA",
+        "displayName":  "Audition (Beta)"
+    },
+    {
+        "id":  "FFC_sbstreviewer",
+        "displayName":  "Substance 3D Reviewer"
+    },
+    {
+        "id":  "FLPR",
+        "displayName":  "Animate"
+    },
+    {
+        "id":  "KFNT",
+        "displayName":  "Adobe Fonts"
+    },
+    {
+        "id":  "FFC_fonts",
+        "displayName":  "Adobe Fonts"
+    },
+    {
+        "id":  "CHAR",
+        "displayName":  "Character Animator"
+    },
+    {
+        "id":  "KASU",
+        "displayName":  "HD_ASU"
+    },
+    {
+        "id":  "FFC_behance",
+        "displayName":  "Behance"
+    },
+    {
+        "id":  "COPS",
+        "displayName":  "STI_Color_Photoshop_HD"
+    },
+    {
+        "id":  "LTRM",
+        "displayName":  "Lightroom Classic"
+    },
+    {
+        "id":  "KEMN",
+        "displayName":  "Extension Manager CC"
+    },
+    {
+        "id":  "FFC_neo",
+        "displayName":  "Project Neo (Beta)"
+    },
+    {
+        "id":  "ILSTPR",
+        "displayName":  "Illustrator (Prerelease)"
+    },
+    {
+        "id":  "ACR",
+        "displayName":  "Camera Raw"
+    },
+    {
+        "id":  "DIST",
+        "displayName":  "Adobe Acrobat Distiller DC"
+    },
+    {
+        "id":  "SBSTA",
+        "displayName":  "Substance 3D Sampler"
+    },
+    {
+        "id":  "FFC_frameweb",
+        "displayName":  "Frame.io"
+    },
+    {
+        "id":  "FFC_contentauth",
+        "displayName":  "Adobe Content Authenticity"
+    }
+]
