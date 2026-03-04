@@ -1,6 +1,8 @@
 # Fetch-AdobeReleases.ps1
 $ProgressPreference = 'SilentlyContinue'
 
+$excludedIds = @("VC10win32", "VC10win64", "VC11win32", "VC11win64", "VC14win64")
+
 $endpointUrl = $env:ADOBE_ENDPOINT_URL
 if ([string]::IsNullOrWhiteSpace($endpointUrl)) {
     Write-Error "ADOBE_ENDPOINT_URL environment variable is not set."
@@ -98,6 +100,8 @@ foreach ($appKey in $productsMap.Keys) {
     $app = $productsMap[$appKey]
     $cleanId = $app.id -replace '[^a-zA-Z0-9_-]', ''
     if ([string]::IsNullOrWhiteSpace($cleanId)) { continue }
+    
+    if ($excludedIds -contains $cleanId) { continue }
     
     $outPath = Join-Path $outDir "$cleanId.json"
     
