@@ -50,6 +50,18 @@
             gap: 15px;
         }
 
+        .disclaimer {
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            border: 1px solid var(--border);
+            border-radius: 4px;
+            padding: 0.25rem 0.6rem;
+        }
+
+        .disclaimer a {
+            color: var(--text-secondary);
+        }
+
         .main-container {
             display: flex;
             flex: 1;
@@ -308,11 +320,13 @@
 
     <header>
         <div class="header-left">
-            <svg width="24" height="24" viewBox="0 0 256 256" fill="var(--accent)">
-                <path
-                    d="M161.7 39.5l94.3 216.5h-47L176.6 182h-58.4l34.1-80.2 34.1 80.2h10.4l-35.1-83.3zM89.7 39.5L0 256h44.6L79.1 176h46.8l20.4-50.5H91.1l20.1-50.5z" />
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="var(--accent)" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                <polygon points="12 2 2 7 12 12 22 7 12 2"/>
+                <polyline points="2 17 12 22 22 17"/>
+                <polyline points="2 12 12 17 22 12"/>
             </svg>
             <h2 style="font-size: 1.1rem; font-weight: 700;">Adobe Release Browser</h2>
+            <span class="disclaimer">&#9432; Unofficial Community Project &mdash; Though this project uses release data directly from Adobe's API, it is NOT affiliated with or endorsed by <a href="https://www.adobe.com" target="_blank" rel="noopener">Adobe</a></span>
         </div>
     </header>
 
