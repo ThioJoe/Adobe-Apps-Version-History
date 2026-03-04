@@ -1,58 +1,23 @@
 ﻿[
     {
         "buildCount":  0,
-        "displayName":  "Portfolio",
-        "id":  "FFC_portfolio"
+        "displayName":  "Acrobat",
+        "id":  "FFC_dcweb"
     },
     {
-        "buildCount":  3,
-        "displayName":  "STI_ColorCommonSet_CMYK_HD",
-        "id":  "COCM"
+        "buildCount":  7,
+        "displayName":  "Character Animator",
+        "id":  "CHAR"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Touch App Plugins",
-        "id":  "TAPI"
+        "buildCount":  0,
+        "displayName":  "Adobe Live",
+        "id":  "FFC_live"
     },
     {
-        "buildCount":  60,
-        "displayName":  "Dimension",
-        "id":  "ESHR"
-    },
-    {
-        "buildCount":  2,
-        "displayName":  "MSOPENGL",
-        "id":  "MSOPENGL"
-    },
-    {
-        "buildCount":  33,
-        "displayName":  "FFC",
-        "id":  "FFC"
-    },
-    {
-        "buildCount":  3,
-        "displayName":  "STI_Color_HD",
-        "id":  "CORE"
-    },
-    {
-        "buildCount":  64,
-        "displayName":  "Substance 3D Stager",
-        "id":  "STGR"
-    },
-    {
-        "buildCount":  2,
-        "displayName":  "Adobe Express Photos",
-        "id":  "PSXUWP"
-    },
-    {
-        "buildCount":  2,
-        "displayName":  "Adobe Captivate Assets 2017",
-        "id":  "CPAS"
-    },
-    {
-        "buildCount":  2,
-        "displayName":  "Adobe Character Animator (Preview 4)",
-        "id":  "ANML"
+        "buildCount":  10,
+        "displayName":  "Camera Raw Elements 13.0",
+        "id":  "ECR"
     },
     {
         "buildCount":  58,
@@ -60,14 +25,44 @@
         "id":  "HLAN"
     },
     {
+        "buildCount":  2,
+        "displayName":  "Touch App Plugins",
+        "id":  "TAPI"
+    },
+    {
+        "buildCount":  4,
+        "displayName":  "Bridge (Beta)",
+        "id":  "KBRGBETA"
+    },
+    {
+        "buildCount":  104,
+        "displayName":  "Substance 3D Designer",
+        "id":  "SBSTD"
+    },
+    {
+        "buildCount":  3,
+        "displayName":  "STI_ColorCommonSet_CMYK_HD",
+        "id":  "COCM"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Portfolio",
+        "id":  "FFC_portfolio"
+    },
+    {
+        "buildCount":  60,
+        "displayName":  "Dimension",
+        "id":  "ESHR"
+    },
+    {
         "buildCount":  22,
         "displayName":  "Media Encoder",
         "id":  "AME"
     },
     {
-        "buildCount":  0,
-        "displayName":  "Lightroom",
-        "id":  "FFC_lightroomweb"
+        "buildCount":  32,
+        "displayName":  "Lightroom Classic",
+        "id":  "LTRM"
     },
     {
         "buildCount":  0,
@@ -85,19 +80,9 @@
         "id":  "FRSC"
     },
     {
-        "buildCount":  13,
-        "displayName":  "InDesign (Beta)",
-        "id":  "IDSNBETA"
-    },
-    {
-        "buildCount":  3,
-        "displayName":  "Acrobat",
-        "id":  "APRO"
-    },
-    {
-        "buildCount":  103,
-        "displayName":  "Substance 3D Painter",
-        "id":  "SBSTP"
+        "buildCount":  0,
+        "displayName":  "Lightroom",
+        "id":  "FFC_lightroomweb"
     },
     {
         "buildCount":  7,
@@ -105,9 +90,9 @@
         "id":  "FWKS"
     },
     {
-        "buildCount":  6,
-        "displayName":  "XD (Beta)",
-        "id":  "SPRKBE"
+        "buildCount":  3,
+        "displayName":  "Acrobat",
+        "id":  "APRO"
     },
     {
         "buildCount":  3,
@@ -115,19 +100,14 @@
         "id":  "FLBR"
     },
     {
-        "buildCount":  42,
-        "displayName":  "Illustrator",
-        "id":  "ILST"
-    },
-    {
-        "buildCount":  10,
-        "displayName":  "Camera Raw Elements 13.0",
-        "id":  "ECR"
+        "buildCount":  13,
+        "displayName":  "InDesign (Beta)",
+        "id":  "IDSNBETA"
     },
     {
         "buildCount":  6,
-        "displayName":  "Premiere (Beta)",
-        "id":  "PPROBETA"
+        "displayName":  "XD (Beta)",
+        "id":  "SPRKBE"
     },
     {
         "buildCount":  28,
@@ -135,39 +115,9 @@
         "id":  "AICY"
     },
     {
-        "buildCount":  12,
-        "displayName":  "Adobe Preview CC",
-        "id":  "PSTI"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Adobe Firefly",
-        "id":  "FFC_firefly"
-    },
-    {
-        "buildCount":  32,
-        "displayName":  "Lightroom Classic",
-        "id":  "LTRM"
-    },
-    {
-        "buildCount":  1,
-        "displayName":  "Microsoft VC 2022 Runtime",
-        "id":  "IDVC14w64"
-    },
-    {
-        "buildCount":  35,
-        "displayName":  "Substance 3D Modeler",
-        "id":  "SHPR"
-    },
-    {
-        "buildCount":  1,
-        "displayName":  "Microsoft Dot Net Framework",
-        "id":  "FMDN"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Adobe Color",
-        "id":  "FFC_color"
+        "buildCount":  6,
+        "displayName":  "Premiere (Beta)",
+        "id":  "PPROBETA"
     },
     {
         "buildCount":  42,
@@ -175,39 +125,9 @@
         "id":  "IDSN"
     },
     {
-        "buildCount":  30,
-        "displayName":  "CAI",
-        "id":  "ACAI"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Adobe Live",
-        "id":  "FFC_live"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Adobe Express",
-        "id":  "FFC_adobeexpress"
-    },
-    {
-        "buildCount":  4,
-        "displayName":  "Bridge (Beta)",
-        "id":  "KBRGBETA"
-    },
-    {
-        "buildCount":  2,
-        "displayName":  "Scout CC",
-        "id":  "ASCT"
-    },
-    {
-        "buildCount":  6,
-        "displayName":  "After Effects (Beta)",
-        "id":  "AEFTBETA"
-    },
-    {
-        "buildCount":  2,
-        "displayName":  "Adobe Captivate Voices 2017",
-        "id":  "CPVC"
+        "buildCount":  49,
+        "displayName":  "CoreSync",
+        "id":  "COSY"
     },
     {
         "buildCount":  4,
@@ -215,29 +135,9 @@
         "id":  "CHARBETA"
     },
     {
-        "buildCount":  49,
-        "displayName":  "CoreSync",
-        "id":  "COSY"
-    },
-    {
         "buildCount":  27,
         "displayName":  "After Effects",
         "id":  "AEFT"
-    },
-    {
-        "buildCount":  1,
-        "displayName":  "Adobe Acrobat Distiller DC",
-        "id":  "DIST"
-    },
-    {
-        "buildCount":  58,
-        "displayName":  "Animate",
-        "id":  "FLPR"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Substance 3D Assets",
-        "id":  "FFC_sbstsource"
     },
     {
         "buildCount":  102,
@@ -245,29 +145,39 @@
         "id":  "KCCC"
     },
     {
-        "buildCount":  0,
-        "displayName":  "Photoshop",
-        "id":  "FFC_psweb"
+        "buildCount":  22,
+        "displayName":  "Substance 3D Viewer for Photoshop",
+        "id":  "SEPS"
     },
     {
-        "buildCount":  34,
-        "displayName":  "Premiere",
-        "id":  "PPRO"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Substance 3D Community Assets",
-        "id":  "FFC_sbstshare"
+        "buildCount":  35,
+        "displayName":  "Substance 3D Modeler",
+        "id":  "SHPR"
     },
     {
         "buildCount":  0,
-        "displayName":  "Acrobat",
-        "id":  "FFC_dcweb"
+        "displayName":  "Adobe Firefly",
+        "id":  "FFC_firefly"
     },
     {
-        "buildCount":  6,
-        "displayName":  "Media Encoder (Beta)",
-        "id":  "AMEBETA"
+        "buildCount":  0,
+        "displayName":  "Adobe Color",
+        "id":  "FFC_color"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Adobe Express Photos",
+        "id":  "PSXUWP"
+    },
+    {
+        "buildCount":  64,
+        "displayName":  "Substance 3D Stager",
+        "id":  "STGR"
+    },
+    {
+        "buildCount":  12,
+        "displayName":  "Adobe Preview CC",
+        "id":  "PSTI"
     },
     {
         "buildCount":  12,
@@ -276,43 +186,18 @@
     },
     {
         "buildCount":  2,
-        "displayName":  "Lightroom (Prerelease)",
-        "id":  "LRCCPR"
-    },
-    {
-        "buildCount":  11,
-        "displayName":  "STI_Color_MotionPicture_HD",
-        "id":  "COMP"
-    },
-    {
-        "buildCount":  68,
-        "displayName":  "Photoshop",
-        "id":  "PHSP"
+        "displayName":  "Adobe Captivate Assets 2017",
+        "id":  "CPAS"
     },
     {
         "buildCount":  2,
-        "displayName":  "Microsoft Dot Net Framework",
-        "id":  "DOTN"
+        "displayName":  "Scout CC",
+        "id":  "ASCT"
     },
     {
         "buildCount":  2,
-        "displayName":  "Adobe Application Manager",
-        "id":  "AAM"
-    },
-    {
-        "buildCount":  6,
-        "displayName":  "Gaming SDK 1.4",
-        "id":  "GSDK"
-    },
-    {
-        "buildCount":  10,
-        "displayName":  "UXP WebView Support",
-        "id":  "UXPW"
-    },
-    {
-        "buildCount":  22,
-        "displayName":  "Substance 3D Viewer for Photoshop",
-        "id":  "SEPS"
+        "displayName":  "Adobe Captivate Voices 2017",
+        "id":  "CPVC"
     },
     {
         "buildCount":  26,
@@ -320,24 +205,9 @@
         "id":  "KBRG"
     },
     {
-        "buildCount":  8,
-        "displayName":  "Muse CC",
-        "id":  "MUSE"
-    },
-    {
-        "buildCount":  1,
-        "displayName":  "MSXML 6 Framework",
-        "id":  "MSXML"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Adobe Stock",
-        "id":  "FFC_stock"
-    },
-    {
-        "buildCount":  104,
-        "displayName":  "Substance 3D Designer",
-        "id":  "SBSTD"
+        "buildCount":  30,
+        "displayName":  "CAI",
+        "id":  "ACAI"
     },
     {
         "buildCount":  3,
@@ -345,9 +215,119 @@
         "id":  "PHSPBETA"
     },
     {
+        "buildCount":  0,
+        "displayName":  "Adobe Express",
+        "id":  "FFC_adobeexpress"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Project Neo (Beta)",
+        "id":  "FFC_neo"
+    },
+    {
+        "buildCount":  42,
+        "displayName":  "Illustrator",
+        "id":  "ILST"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Substance 3D Assets",
+        "id":  "FFC_sbstsource"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Substance 3D Community Assets",
+        "id":  "FFC_sbstshare"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Photoshop",
+        "id":  "FFC_psweb"
+    },
+    {
+        "buildCount":  11,
+        "displayName":  "STI_Color_MotionPicture_HD",
+        "id":  "COMP"
+    },
+    {
+        "buildCount":  6,
+        "displayName":  "Media Encoder (Beta)",
+        "id":  "AMEBETA"
+    },
+    {
+        "buildCount":  103,
+        "displayName":  "Substance 3D Painter",
+        "id":  "SBSTP"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Lightroom (Prerelease)",
+        "id":  "LRCCPR"
+    },
+    {
+        "buildCount":  68,
+        "displayName":  "Photoshop",
+        "id":  "PHSP"
+    },
+    {
+        "buildCount":  12,
+        "displayName":  "CCX Process",
+        "id":  "CCXP"
+    },
+    {
+        "buildCount":  6,
+        "displayName":  "Gaming SDK 1.4",
+        "id":  "GSDK"
+    },
+    {
+        "buildCount":  8,
+        "displayName":  "Muse CC",
+        "id":  "MUSE"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Adobe Application Manager",
+        "id":  "AAM"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Adobe Character Animator (Preview 4)",
+        "id":  "ANML"
+    },
+    {
+        "buildCount":  10,
+        "displayName":  "UXP WebView Support",
+        "id":  "UXPW"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Codecs",
+        "id":  "CDEC"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Adobe Stock",
+        "id":  "FFC_stock"
+    },
+    {
+        "buildCount":  34,
+        "displayName":  "Premiere",
+        "id":  "PPRO"
+    },
+    {
+        "buildCount":  33,
+        "displayName":  "FFC",
+        "id":  "FFC"
+    },
+    {
         "buildCount":  14,
         "displayName":  "CC Library",
         "id":  "LIBS"
+    },
+    {
+        "buildCount":  5,
+        "displayName":  "STI_ColorCommonSet_RGB_HD",
+        "id":  "CORG"
     },
     {
         "buildCount":  0,
@@ -360,9 +340,9 @@
         "id":  "DRWV"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Codecs",
-        "id":  "CDEC"
+        "buildCount":  6,
+        "displayName":  "After Effects (Beta)",
+        "id":  "AEFTBETA"
     },
     {
         "buildCount":  36,
@@ -380,39 +360,14 @@
         "id":  "AUDTBETA"
     },
     {
-        "buildCount":  5,
-        "displayName":  "STI_ColorCommonSet_RGB_HD",
-        "id":  "CORG"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Substance 3D Reviewer",
-        "id":  "FFC_sbstreviewer"
-    },
-    {
         "buildCount":  2,
         "displayName":  "Adobe Fonts",
         "id":  "KFNT"
     },
     {
-        "buildCount":  0,
-        "displayName":  "Adobe Fonts",
-        "id":  "FFC_fonts"
-    },
-    {
-        "buildCount":  7,
-        "displayName":  "Character Animator",
-        "id":  "CHAR"
-    },
-    {
-        "buildCount":  2,
-        "displayName":  "HD_ASU",
-        "id":  "KASU"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Behance",
-        "id":  "FFC_behance"
+        "buildCount":  58,
+        "displayName":  "Animate",
+        "id":  "FLPR"
     },
     {
         "buildCount":  3,
@@ -421,8 +376,28 @@
     },
     {
         "buildCount":  0,
-        "displayName":  "Project Neo (Beta)",
-        "id":  "FFC_neo"
+        "displayName":  "Adobe Fonts",
+        "id":  "FFC_fonts"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Substance 3D Reviewer",
+        "id":  "FFC_sbstreviewer"
+    },
+    {
+        "buildCount":  3,
+        "displayName":  "STI_Color_HD",
+        "id":  "CORE"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Illustrator (Prerelease)",
+        "id":  "ILSTPR"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Behance",
+        "id":  "FFC_behance"
     },
     {
         "buildCount":  2,
@@ -435,9 +410,19 @@
         "id":  "KEMN"
     },
     {
+        "buildCount":  0,
+        "displayName":  "Frame.io",
+        "id":  "FFC_frameweb"
+    },
+    {
+        "buildCount":  1,
+        "displayName":  "Adobe Acrobat Distiller DC",
+        "id":  "DIST"
+    },
+    {
         "buildCount":  2,
-        "displayName":  "Illustrator (Prerelease)",
-        "id":  "ILSTPR"
+        "displayName":  "HD_ASU",
+        "id":  "KASU"
     },
     {
         "buildCount":  204,
@@ -445,23 +430,13 @@
         "id":  "ACR"
     },
     {
-        "buildCount":  12,
-        "displayName":  "CCX Process",
-        "id":  "CCXP"
+        "buildCount":  0,
+        "displayName":  "Adobe Content Authenticity",
+        "id":  "FFC_contentauth"
     },
     {
         "buildCount":  116,
         "displayName":  "Substance 3D Sampler",
         "id":  "SBSTA"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Frame.io",
-        "id":  "FFC_frameweb"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Adobe Content Authenticity",
-        "id":  "FFC_contentauth"
     }
 ]
