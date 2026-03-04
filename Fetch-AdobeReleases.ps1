@@ -1,7 +1,7 @@
 # Fetch-AdobeReleases.ps1
 $ProgressPreference = 'SilentlyContinue'
 
-$excludedIds = @("VC10win32", "VC10win64", "VC11win32", "VC11win64", "VC14win64")
+$excludedIds = @("VC10win32", "VC10win64", "VC11win32", "VC11win64", "VC14win64", "FMDN", "DOTN", "IDVC14w64", "MSOPENGL", "MSXML")
 
 $endpointUrl = $env:ADOBE_ENDPOINT_URL
 if ([string]::IsNullOrWhiteSpace($endpointUrl)) {
