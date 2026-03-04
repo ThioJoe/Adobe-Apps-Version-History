@@ -34,7 +34,13 @@ If you want to use the raw data yourself, you can grab the master JSON file here
   * Note: I've chosen not to publish the exact endpoint here. I figure if Adobe wanted it public they would have made it so.
 * **Storage:** The historical build data is appended and saved as JSON. It is stored both as individual files per app (in the `data/` directory) and as a single master dataset (`all_data.json`) in the root directory.
 
+
+## FAQs
+#### What about older versions?
+* The API only provides a rolling window of recent updates. However, this repo archives all previously fetched versions and seamlessly appends new ones as they are discovered.
+
 -----
 
-#### Notes
+#### Note to Adobe
 * I don't think Adobe will have a problem with this project, but if for some reason Adobe has any issue with this, they can let me know and I will take it down, or modify it in any way requested.
+* Or if they want to confirm the exact endpoint being used I am happy to provide it. This repo only uses a small subset of the info returned, basically just the release versions and dates.
