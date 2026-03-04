@@ -140,3 +140,24 @@ foreach ($appKey in $productsMap.Keys) {
 }
 
 Write-Host "Data successfully separated by app and saved to the 'data' directory."
+
+Write-Host "Generating index.json..."
+$indexData = @()
+foreach ($appKey in $productsMap.Keys) {
+    $app = $productsMap[$appKey]
+    $cleanId = $app.id -replace '[^a-zA-Z0-9_-]', ''
+    
+    if ([string]::IsNullOrWhiteSpace($cleanId)) { continue }
+    if ($excludedIds -contains $cleanId) { continue }
+    
+    $indexData += @{
+        id = $cleanId
+        displayName = $app.displayName
+    }
+}
+
+$indexData = $indexData | Sort-Object displayName
+$indexJson = ConvertTo-Json -InputObject $indexData -Depth 5 -Compress:$false
+$indexPath = Join-Path $outDir "index.json"
+[System.IO.File]::WriteAllText($indexPath, $indexJson, [System.Text.Encoding]::UTF8)
+Write-Host "Index generated."

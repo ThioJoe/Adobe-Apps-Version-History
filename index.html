@@ -1,0 +1,498 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Adobe Release Browser</title>
+    <style>
+        :root {
+            --bg-main: #121212;
+            --bg-card: #1e1e1e;
+            --bg-hover: #2a2a2a;
+            --text-primary: #ffffff;
+            --text-secondary: #b0b0b0;
+            --accent: #eb1000;
+            --border: #333333;
+            --success: #2ecc71;
+        }
+
+        * {
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            background-color: var(--bg-main);
+            color: var(--text-primary);
+            line-height: 1.6;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            overflow: hidden;
+        }
+
+        header {
+            padding: 0.75rem 2rem;
+            background-color: var(--bg-card);
+            border-bottom: 1px solid var(--border);
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            z-index: 10;
+        }
+
+        .header-left {
+            display: flex;
+            align-items: center;
+            gap: 15px;
+        }
+
+        .main-container {
+            display: flex;
+            flex: 1;
+            overflow: hidden;
+        }
+
+        #sidebar {
+            width: 300px;
+            background-color: var(--bg-card);
+            border-right: 1px solid var(--border);
+            display: flex;
+            flex-direction: column;
+        }
+
+        .search-box {
+            padding: 0.75rem;
+            border-bottom: 1px solid var(--border);
+        }
+
+        input[type="text"] {
+            width: 100%;
+            padding: 0.6rem;
+            background: var(--bg-main);
+            border: 1px solid var(--border);
+            border-radius: 6px;
+            color: var(--text-primary);
+            outline: none;
+            font-size: 0.85rem;
+        }
+
+        input[type="text"]:focus {
+            border-color: var(--accent);
+        }
+
+        #product-list {
+            flex: 1;
+            overflow-y: auto;
+        }
+
+        .product-item {
+            padding: 0.5rem 0.75rem;
+            border-bottom: 1px solid var(--border);
+            cursor: pointer;
+            transition: background 0.1s;
+        }
+
+        .product-item:hover {
+            background-color: var(--bg-hover);
+        }
+
+        .product-item.active {
+            border-left: 3px solid var(--accent);
+            background-color: var(--bg-hover);
+        }
+
+        .product-name {
+            font-weight: 500;
+            font-size: 0.85rem;
+            display: block;
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+
+        .product-family {
+            font-size: 0.7rem;
+            color: var(--text-secondary);
+            display: block;
+        }
+
+        #content {
+            flex: 1;
+            padding: 2rem;
+            overflow-y: auto;
+            position: relative;
+        }
+
+        .empty-state {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            height: 100%;
+            text-align: center;
+            color: var(--text-secondary);
+        }
+
+        table {
+            width: 100%;
+            border-collapse: collapse;
+            margin-top: 1.5rem;
+            background: var(--bg-card);
+            border-radius: 8px;
+            overflow: hidden;
+        }
+
+        th {
+            text-align: left;
+            padding: 0.75rem 1rem;
+            background-color: var(--bg-hover);
+            color: var(--text-secondary);
+            font-size: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.05em;
+        }
+
+        td {
+            padding: 0.75rem 1rem;
+            border-bottom: 1px solid var(--border);
+            font-size: 0.85rem;
+        }
+
+        .badge {
+            display: inline-block;
+            padding: 0.2rem 0.5rem;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: bold;
+            background: var(--border);
+            text-align: center;
+        }
+
+        .badge.platform { background: #555; }
+        .badge.version { 
+            background: #8e44ad; 
+            min-width: 75px;
+            cursor: pointer;
+        }
+        .badge.version:hover { filter: brightness(1.2); }
+
+        .date-container {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        .btn-copy {
+            background: none;
+            border: none;
+            color: var(--text-secondary);
+            cursor: pointer;
+            display: flex;
+            align-items: center;
+            padding: 2px;
+            border-radius: 4px;
+            transition: all 0.2s;
+            opacity: 0.4;
+        }
+
+        .btn-copy:hover {
+            background: var(--bg-hover);
+            color: var(--text-primary);
+            opacity: 1;
+        }
+
+        .btn-copy.copied {
+            color: var(--success) !important;
+            opacity: 1;
+        }
+
+        .detail-header {
+            margin-bottom: 1.5rem;
+        }
+
+        .detail-header h1 {
+            font-size: 1.75rem;
+            margin-bottom: 0.25rem;
+        }
+
+        .stats-bar {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 1.5rem;
+            margin-bottom: 1rem;
+            color: var(--text-secondary);
+            font-size: 0.85rem;
+        }
+
+        #loading-overlay {
+            position: fixed;
+            top: 0; left: 0; right: 0; bottom: 0;
+            background: rgba(0,0,0,0.8);
+            display: none;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            z-index: 1000;
+        }
+
+        .spinner {
+            width: 40px;
+            height: 40px;
+            border: 4px solid var(--border);
+            border-top: 4px solid var(--accent);
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-bottom: 1rem;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+    </style>
+</head>
+<body>
+
+    <div id="loading-overlay">
+        <div class="spinner"></div>
+        <p id="loading-text">Loading Data...</p>
+    </div>
+
+    <header>
+        <div class="header-left">
+            <svg width="24" height="24" viewBox="0 0 256 256" fill="var(--accent)"><path d="M161.7 39.5l94.3 216.5h-47L176.6 182h-58.4l34.1-80.2 34.1 80.2h10.4l-35.1-83.3zM89.7 39.5L0 256h44.6L79.1 176h46.8l20.4-50.5H91.1l20.1-50.5z"/></svg>
+            <h2 style="font-size: 1.1rem; font-weight: 700;">Adobe Release Browser</h2>
+        </div>
+    </header>
+
+    <div class="main-container">
+        <aside id="sidebar">
+            <div class="search-box">
+                <input type="text" id="search-input" placeholder="Filter software..." disabled>
+            </div>
+            <div id="product-list"></div>
+        </aside>
+
+        <main id="content">
+            <div id="initial-view" class="empty-state">
+                <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 1rem; opacity: 0.5;"><polyline points="9 18 15 12 9 6"></polyline></svg>
+                <p>Select a product from the sidebar to view releases.</p>
+            </div>
+
+            <div id="detail-view" style="display: none;"></div>
+        </main>
+    </div>
+
+    <script>
+        const overlay = document.getElementById('loading-overlay');
+        const productList = document.getElementById('product-list');
+        const searchInput = document.getElementById('search-input');
+        const detailView = document.getElementById('detail-view');
+        const initialView = document.getElementById('initial-view');
+
+        let allProducts = [];
+
+        window.addEventListener('load', async () => {
+            try {
+                const response = await fetch('data/index.json');
+                if (!response.ok) throw new Error('Network response was not ok');
+                allProducts = await response.json();
+                renderProductList(allProducts);
+                searchInput.disabled = false;
+            } catch (error) {
+                console.error("Could not load index.json:", error);
+                initialView.innerHTML = `<p style="color: var(--accent);">Error: Could not load data index. Ensure the GitHub Action has run successfully.</p>`;
+            }
+        });
+
+        searchInput.addEventListener('input', (e) => filterProducts(e.target.value));
+
+        function renderProductList(list) {
+            productList.innerHTML = '';
+            list.forEach(p => {
+                const div = document.createElement('div');
+                div.className = 'product-item';
+                div.dataset.id = p.id;
+                div.innerHTML = `
+                    <span class="product-name">${p.displayName}</span>
+                    <span class="product-family">${p.id}</span>
+                `;
+                div.onclick = () => fetchAndShowProductDetails(p);
+                productList.appendChild(div);
+            });
+        }
+
+        function filterProducts(query) {
+            const q = query.toLowerCase();
+            const filtered = allProducts.filter(p => 
+                p.displayName.toLowerCase().includes(q) || 
+                p.id.toLowerCase().includes(q)
+            );
+            renderProductList(filtered);
+        }
+
+        async function fetchAndShowProductDetails(productMeta) {
+            document.querySelectorAll('.product-item').forEach(el => el.classList.remove('active'));
+            const activeItem = Array.from(document.querySelectorAll('.product-item')).find(el => el.dataset.id === productMeta.id);
+            if (activeItem) activeItem.classList.add('active');
+
+            overlay.style.display = 'flex';
+            
+            try {
+                const response = await fetch(`data/${productMeta.id}.json`);
+                if (!response.ok) throw new Error('Product data not found');
+                const productData = await response.json();
+                renderProductDetails(productData);
+            } catch (error) {
+                console.error(`Error loading data for ${productMeta.id}:`, error);
+                alert("Failed to load product details.");
+            } finally {
+                overlay.style.display = 'none';
+            }
+        }
+
+        function renderProductDetails(product) {
+            initialView.style.display = 'none';
+            detailView.style.display = 'block';
+            let rawBuilds = product.builds || [];
+
+            // Step 1: Deduplicate by version+platform
+            const seen = new Set();
+            const deduped = [];
+            rawBuilds.forEach(b => {
+                const key = `${b.version}-${b.platform}`;
+                if (!seen.has(key)) { deduped.push(b); seen.add(key); }
+            });
+
+            // Step 2: Merge rows with the same version and type across different platforms.
+            const mergeMap = new Map();
+            deduped.forEach(b => {
+                const key = `${b.version}||${b.type}`;
+                if (!mergeMap.has(key)) {
+                    mergeMap.set(key, {
+                        version: b.version,
+                        type: b.type,
+                        platforms: [b.platform],
+                        goLive: b.goLive,
+                        ids: [b.buildId]
+                    });
+                } else {
+                    const existing = mergeMap.get(key);
+                    if (!existing.platforms.includes(b.platform)) {
+                        existing.platforms.push(b.platform);
+                    }
+                    const existingTime = parseInt(existing.goLive) || 0;
+                    const newTime = parseInt(b.goLive) || 0;
+                    if (newTime > 0 && (existingTime === 0 || newTime < existingTime)) {
+                        existing.goLive = b.goLive;
+                    }
+                    if (!existing.ids.includes(b.buildId)) {
+                        existing.ids.push(b.buildId);
+                    }
+                }
+            });
+
+            const builds = Array.from(mergeMap.values());
+            builds.sort((a, b) => (parseInt(b.goLive) || 0) - (parseInt(a.goLive) || 0));
+
+            const tableRows = builds.map(b => {
+                const displayDate = formatDate(b.goLive);
+                const copyValue = formatDateForCopy(b.goLive);
+                const platformBadges = [...b.platforms].sort().map(p => {
+                    return `<span class="badge platform" style="background:${platformColor(p)}">${p}</span>`;
+                }).join(' ');
+
+                return `
+                    <tr>
+                        <td><span class="badge version" onclick="copyToClipboard('${b.version}', this)" title="Click to copy version">${b.version}</span></td>
+                        <td>
+                            <div class="date-container">
+                                <span>${displayDate}</span>
+                                <button class="btn-copy" onclick="copyToClipboard('${copyValue}', this)" title="Copy Date as +ISO">
+                                    <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                                </button>
+                            </div>
+                        </td>
+                        <td><div style="display:flex;flex-wrap:wrap;gap:4px;">${platformBadges}</div></td>
+                        <td style="color: var(--text-secondary)">${b.type}</td>
+                        <td style="font-family: monospace; font-size: 0.75rem; color: var(--text-secondary)">${b.ids.join(', ')}</td>
+                    </tr>
+                `;
+            }).join('');
+
+            detailView.innerHTML = `
+                <div class="detail-header">
+                    <h1>${product.displayName}</h1>
+                    <div class="stats-bar">
+                        <span><strong>Product ID:</strong> ${product.id}</span>
+                        <span><strong>Versions Found:</strong> ${builds.length}</span>
+                    </div>
+                </div>
+                <table>
+                    <thead>
+                        <tr><th>Version</th><th>Release Date</th><th>Platform</th><th>Type</th><th>Build ID</th></tr>
+                    </thead>
+                    <tbody>
+                        ${tableRows}
+                    </tbody>
+                </table>
+            `;
+        }
+
+        function copyToClipboard(text, btn) {
+            const input = document.createElement('textarea');
+            input.value = text;
+            document.body.appendChild(input);
+            input.select();
+            document.execCommand('copy');
+            document.body.removeChild(input);
+            
+            btn.classList.add('copied');
+            const originalHtml = btn.innerHTML;
+            btn.innerHTML = `<svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><polyline points="20 6 9 17 4 12"/></svg>`;
+            setTimeout(() => {
+                btn.classList.remove('copied');
+                btn.innerHTML = originalHtml;
+            }, 350); 
+        }
+
+        function platformColor(platform) {
+            const lc = platform.toLowerCase();
+            let baseHue;
+            if      (lc.startsWith('win'))                              baseHue = 210;
+            else if (lc.startsWith('mac'))                              baseHue = 158;
+            else if (lc.startsWith('android'))                          baseHue = 120;
+            else if (lc.startsWith('ios') || lc.startsWith('ipad'))    baseHue = 290;
+            else return 'hsl(0, 0%, 33%)';
+
+            let h = 5381;
+            for (let i = 0; i < platform.length; i++) h = ((h << 5) + h) ^ platform.charCodeAt(i);
+            h = Math.abs(h);
+
+            const lightness = 30 + (h % 6) * 2.5;
+            const hueOffset = (h % 17) - 8;
+            return `hsl(${baseHue + hueOffset}, 58%, ${lightness}%)`;
+        }
+
+        function formatDate(val) {
+            if (!val) return '<span style="opacity: 0.3">No Date</span>';
+            let date = /^\d+$/.test(val) ? new Date(parseInt(val)) : new Date(val);
+            if (isNaN(date.getTime())) return val;
+            return date.toLocaleDateString(undefined, { 
+                year: 'numeric', month: 'short', day: 'numeric', 
+                hour: '2-digit', minute: '2-digit' 
+            });
+        }
+
+        function formatDateForCopy(val) {
+            if (!val) return "";
+            let date = /^\d+$/.test(val) ? new Date(parseInt(val)) : new Date(val);
+            if (isNaN(date.getTime())) return "";
+            return '+' + date.toISOString().split('.')[0] + 'Z';
+        }
+    </script>
+</body>
+</html>
