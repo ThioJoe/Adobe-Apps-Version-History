@@ -1,0 +1,43 @@
+# .github/workflows/update-data.yml
+name: Fetch Adobe Release Data
+
+on:
+  schedule:
+    - cron: '0 0 * * *' # Runs daily at midnight UTC
+  workflow_dispatch: # Allows you to manually trigger it from the Actions tab
+
+permissions:
+  contents: write
+
+jobs:
+  update-data:
+    runs-on: windows-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run Fetch Script
+        env:
+          ADOBE_ENDPOINT_URL: ${{ secrets.ADOBE_ENDPOINT_URL }}
+          ADOBE_APP_ID: ${{ secrets.ADOBE_APP_ID }}
+          ADOBE_API_KEY: ${{ secrets.ADOBE_API_KEY }}
+        shell: powershell
+        run: |
+          .\Fetch-AdobeReleases.ps1
+
+      - name: Commit and Push Changes
+        run: |
+          git config --local user.email "action@github.com"
+          git config --local user.name "GitHub Action"
+          git add data/
+          
+          # Check if there are any changes to commit
+          $changes = git status --porcelain
+          if ($changes) {
+              git commit -m "Automated release data update"
+              git push
+          } else {
+              Write-Host "No new data to commit."
+          }
+        shell: powershell
