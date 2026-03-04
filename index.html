@@ -300,9 +300,10 @@
 
         let allProducts = [];
 
-        window.addEventListener('load', async () => {
+		window.addEventListener('load', async () => {
             try {
-                const response = await fetch('data/index.json');
+                const timestamp = new Date().getTime();
+                const response = await fetch(`data/index.json?t=${timestamp}`);
                 if (!response.ok) throw new Error('Network response was not ok');
                 allProducts = await response.json();
                 
@@ -350,17 +351,30 @@
             renderProductList(filtered);
         }
 
+        const productCache = {};
+
         async function fetchAndShowProductDetails(productMeta) {
             document.querySelectorAll('.product-item').forEach(el => el.classList.remove('active'));
             const activeItem = Array.from(document.querySelectorAll('.product-item')).find(el => el.dataset.id === productMeta.id);
             if (activeItem) activeItem.classList.add('active');
 
+            // Serve from memory if already fetched
+            if (productCache[productMeta.id]) {
+                renderProductDetails(productCache[productMeta.id]);
+                return;
+            }
+
             overlay.style.display = 'flex';
-            
+
             try {
-                const response = await fetch(`data/${productMeta.id}.json`);
+                const timestamp = new Date().getTime();
+                const response = await fetch(`data/${productMeta.id}.json?t=${timestamp}`);
                 if (!response.ok) throw new Error('Product data not found');
                 const productData = await response.json();
+
+                // Store in memory for future clicks
+                productCache[productMeta.id] = productData;
+
                 renderProductDetails(productData);
             } catch (error) {
                 console.error(`Error loading data for ${productMeta.id}:`, error);
