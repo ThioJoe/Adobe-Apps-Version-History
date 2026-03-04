@@ -134,7 +134,7 @@ foreach ($appKey in $productsMap.Keys) {
             }
         }
         
-        $app.builds = $mergedBuilds
+        $app.builds = $mergedBuilds | Sort-Object version, platform
     } else {
         $fileNeedsUpdate = $true
     }
