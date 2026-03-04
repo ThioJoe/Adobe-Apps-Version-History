@@ -331,6 +331,29 @@
             color: var(--text-secondary);
             font-size: 0.85rem;
         }
+
+        .version-legend {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: flex-end;
+            gap: 0.6rem 1rem;
+            margin-bottom: 0.5rem;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+        }
+
+        .version-legend-item {
+            display: flex;
+            align-items: center;
+            gap: 0.35rem;
+        }
+
+        .version-legend-swatch {
+            width: 10px;
+            height: 10px;
+            border-radius: 3px;
+            flex-shrink: 0;
+        }
     </style>
 </head>
 
@@ -629,7 +652,18 @@
                     majorVersionSeen.add(major);
                 }
             });
+            majorVersionOrder.sort((a, b) => b - a); // highest major version = index 0 (purple)
             const majorVersionIndex = new Map(majorVersionOrder.map((mv, i) => [mv, i]));
+
+            const legendHtml = majorVersionOrder.length > 1 ? `
+                <div class="version-legend">
+                    ${majorVersionOrder.map((mv, i) => {
+                        const c = getMajorVersionColors(i);
+                        const label = i === 0 ? `v ${mv} (Latest Major)` : `v ${mv}`;
+                        const divider = i === 1 ? `<span style="color: var(--border); user-select:none;">|</span>` : '';
+                        return `${divider}<span class="version-legend-item"><span class="version-legend-swatch" style="background:${c.badge}"></span>${label}</span>`;
+                    }).join('')}
+                </div>` : '';
 
             const tableRows = builds.map(b => {
                 const displayDate = formatDate(b.goLive);
@@ -668,6 +702,7 @@
                         <span><strong>Versions Found:</strong> ${builds.length}</span>
                     </div>
                 </div>
+                ${legendHtml}
                 <table>
                     <thead>
                         <tr><th style="width:15%">Version</th><th style="width:22%">Release Date</th><th style="width:28%">Platform</th><th style="width:13%">Type</th><th style="width:22%">Build ID</th></tr>
