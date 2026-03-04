@@ -112,6 +112,23 @@
             overflow-y: auto;
         }
 
+        #product-list::-webkit-scrollbar {
+            width: 1rem;
+        }
+
+        #product-list::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        #product-list::-webkit-scrollbar-thumb {
+            background-color: var(--border);
+            border-radius: 0.3rem;
+        }
+
+        #product-list::-webkit-scrollbar-thumb:hover {
+            background-color: var(--text-secondary);
+        }
+
         .product-item {
             padding: 0.5rem 0.75rem;
             border-bottom: 1px solid var(--border);
@@ -152,6 +169,23 @@
             padding: 2rem;
             overflow-y: scroll;
             position: relative;
+        }
+
+        #content::-webkit-scrollbar {
+            width: 1rem;
+        }
+
+        #content::-webkit-scrollbar-track {
+            background: transparent;
+        }
+
+        #content::-webkit-scrollbar-thumb {
+            background-color: var(--border);
+            border-radius: 0.3rem;
+        }
+
+        #content::-webkit-scrollbar-thumb:hover {
+            background-color: var(--text-secondary);
         }
 
         .empty-state {
