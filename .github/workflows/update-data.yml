@@ -31,6 +31,8 @@ jobs:
           git config --local user.email "action@github.com"
           git config --local user.name "GitHub Action"
           git add data/
+          git add index.json
+          git add all_data.json
           
           # Check if there are any changes to commit
           $changes = git status --porcelain

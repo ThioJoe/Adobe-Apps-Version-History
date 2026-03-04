@@ -300,21 +300,26 @@
 
         let allProducts = [];
 
-		window.addEventListener('load', async () => {
+        window.addEventListener('load', async () => {
             try {
                 const timestamp = new Date().getTime();
-                const response = await fetch(`data/index.json?t=${timestamp}`);
+                const response = await fetch(`all_data.json?t=${timestamp}`);
                 if (!response.ok) throw new Error('Network response was not ok');
                 allProducts = await response.json();
-                
+
                 // Sort alphabetically by displayName
                 allProducts.sort((a, b) => a.displayName.localeCompare(b.displayName));
-                
+
+                // Add buildCount so the filter function still works
+                allProducts.forEach(p => {
+                    p.buildCount = p.builds ? p.builds.length : 0;
+                });
+
                 filterProducts(searchInput.value);
                 searchInput.disabled = false;
             } catch (error) {
-                console.error("Could not load index.json:", error);
-                initialView.innerHTML = `<p style="color: var(--accent);">Error: Could not load data index. Ensure the GitHub Action has run successfully.</p>`;
+                console.error("Could not load all_data.json:", error);
+                initialView.innerHTML = `<p style="color: var(--accent);">Error: Could not load data. Ensure the GitHub Action has run successfully.</p>`;
             }
         });
 
@@ -358,30 +363,7 @@
             const activeItem = Array.from(document.querySelectorAll('.product-item')).find(el => el.dataset.id === productMeta.id);
             if (activeItem) activeItem.classList.add('active');
 
-            // Serve from memory if already fetched
-            if (productCache[productMeta.id]) {
-                renderProductDetails(productCache[productMeta.id]);
-                return;
-            }
-
-            overlay.style.display = 'flex';
-
-            try {
-                const timestamp = new Date().getTime();
-                const response = await fetch(`data/${productMeta.id}.json?t=${timestamp}`);
-                if (!response.ok) throw new Error('Product data not found');
-                const productData = await response.json();
-
-                // Store in memory for future clicks
-                productCache[productMeta.id] = productData;
-
-                renderProductDetails(productData);
-            } catch (error) {
-                console.error(`Error loading data for ${productMeta.id}:`, error);
-                alert("Failed to load product details.");
-            } finally {
-                overlay.style.display = 'none';
-            }
+            renderProductDetails(productMeta);
         }
 
         function renderProductDetails(product) {

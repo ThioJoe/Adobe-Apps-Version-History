@@ -141,8 +141,10 @@ foreach ($appKey in $productsMap.Keys) {
 
 Write-Host "Data successfully separated by app and saved to the 'data' directory."
 
-Write-Host "Generating index.json..."
+Write-Host "Generating index.json and all_data.json..."
 $indexData = @()
+$allData = @()
+
 foreach ($appKey in $productsMap.Keys) {
     $app = $productsMap[$appKey]
     $cleanId = $app.id -replace '[^a-zA-Z0-9_-]', ''
@@ -155,10 +157,17 @@ foreach ($appKey in $productsMap.Keys) {
         displayName = $app.displayName
         buildCount = @($app.builds).Count
     }
+    
+    $allData += $app
 }
 
 $indexData = $indexData | Sort-Object displayName
 $indexJson = ConvertTo-Json -InputObject $indexData -Depth 5 -Compress:$false
-$indexPath = Join-Path $outDir "index.json"
+$indexPath = Join-Path (Get-Location).Path "index.json"
 [System.IO.File]::WriteAllText($indexPath, $indexJson, [System.Text.Encoding]::UTF8)
-Write-Host "Index generated."
+
+$allDataJson = ConvertTo-Json -InputObject $allData -Depth 10 -Compress:$false
+$allDataPath = Join-Path (Get-Location).Path "all_data.json"
+[System.IO.File]::WriteAllText($allDataPath, $allDataJson, [System.Text.Encoding]::UTF8)
+
+Write-Host "Index and global data files successfully generated."
