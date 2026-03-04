@@ -246,6 +246,10 @@
             cursor: pointer;
         }
 
+        tr.major-version-row {
+            transition: background 0.1s;
+        }
+
         .badge.version:hover {
             filter: brightness(1.2);
         }
@@ -579,6 +583,18 @@
             const builds = Array.from(mergeMap.values());
             builds.sort((a, b) => (parseInt(b.goLive) || 0) - (parseInt(a.goLive) || 0));
 
+            // Assign major version color indices (0 = latest major, 1 = previous, etc.)
+            const majorVersionOrder = [];
+            const majorVersionSeen = new Set();
+            builds.forEach(b => {
+                const major = parseInt(b.version.split('.')[0]);
+                if (!isNaN(major) && !majorVersionSeen.has(major)) {
+                    majorVersionOrder.push(major);
+                    majorVersionSeen.add(major);
+                }
+            });
+            const majorVersionIndex = new Map(majorVersionOrder.map((mv, i) => [mv, i]));
+
             const tableRows = builds.map(b => {
                 const displayDate = formatDate(b.goLive);
                 const copyValue = formatDateForCopy(b.goLive);
@@ -586,9 +602,13 @@
                     return `<span class="badge platform" style="background:${platformColor(p)}">${p}</span>`;
                 }).join(' ');
 
+                const major = parseInt(b.version.split('.')[0]);
+                const mvIdx = isNaN(major) ? 0 : (majorVersionIndex.get(major) ?? 0);
+                const mvColors = getMajorVersionColors(mvIdx);
+
                 return `
-                    <tr>
-                        <td><span class="badge version" onclick="copyToClipboard('${b.version}', this)" title="Click to copy version">${b.version}</span></td>
+                    <tr class="major-version-row" style="background: ${mvColors.row}">
+                        <td><span class="badge version" style="background: ${mvColors.badge}" onclick="copyToClipboard('${b.version}', this)" title="Click to copy version">${b.version}</span></td>
                         <td>
                             <div class="date-container">
                                 <span>${displayDate}</span>
@@ -638,6 +658,17 @@
                 btn.classList.remove('copied');
                 btn.innerHTML = originalHtml;
             }, 350);
+        }
+
+        function getMajorVersionColors(index) {
+            const palettes = [
+                { badge: '#8e44ad', row: 'rgba(142, 68, 173, 0.08)' },   // purple  (latest major)
+                { badge: '#1f6aa5', row: 'rgba(31, 106, 165, 0.08)' },   // blue
+                { badge: '#1a7a4a', row: 'rgba(26, 122, 74, 0.08)' },    // green
+                { badge: '#97720a', row: 'rgba(151, 114, 10, 0.08)' },   // amber
+                { badge: '#8b3a2a', row: 'rgba(139, 58, 42, 0.08)' },    // rust
+            ];
+            return palettes[index % palettes.length];
         }
 
         function platformColor(platform) {
