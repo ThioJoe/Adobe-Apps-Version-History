@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "PSXUWP",
+                       "platform":  "win64",
+                       "version":  "3.26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1770722870155"
+                   },
+                   {
+                       "buildId":  "PSXUWP",
+                       "platform":  "win64",
+                       "version":  "3.25.1",
+                       "type":  "Desktop",
+                       "goLive":  "1770285682978"
+                   }
+               ],
+    "displayName":  "Adobe Express Photos",
+    "id":  "PSXUWP"
+}

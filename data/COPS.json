@@ -1,0 +1,27 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "COPS",
+                       "platform":  "win32",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "COPS",
+                       "platform":  "osx10",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "COPS",
+                       "platform":  "winarm64",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1605096720688"
+                   }
+               ],
+    "displayName":  "STI_Color_Photoshop_HD",
+    "id":  "COPS"
+}

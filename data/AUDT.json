@@ -1,0 +1,104 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "winarm64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "25.3",
+                       "type":  "Desktop",
+                       "goLive":  "1749755553968"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "25.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728900526702"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "osx10-64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macuniversal",
+                       "version":  "25.6.4",
+                       "type":  "Desktop",
+                       "goLive":  "1768248652322"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macuniversal",
+                       "version":  "25.3",
+                       "type":  "Desktop",
+                       "goLive":  "1749755553968"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macuniversal",
+                       "version":  "25.6",
+                       "type":  "Desktop",
+                       "goLive":  "1763053473231"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macarm64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "25.2",
+                       "type":  "Desktop",
+                       "goLive":  "1743594569125"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "25.6.4",
+                       "type":  "Desktop",
+                       "goLive":  "1768248652322"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macuniversal",
+                       "version":  "25.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728900526702"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macuniversal",
+                       "version":  "25.2",
+                       "type":  "Desktop",
+                       "goLive":  "1743594569125"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "25.6",
+                       "type":  "Desktop",
+                       "goLive":  "1763053473231"
+                   }
+               ],
+    "displayName":  "Audition",
+    "id":  "AUDT"
+}

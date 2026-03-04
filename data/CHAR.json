@@ -1,0 +1,55 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "CHAR",
+                       "platform":  "osx10-64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "CHAR",
+                       "platform":  "win64",
+                       "version":  "25.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728900526702"
+                   },
+                   {
+                       "buildId":  "CHAR",
+                       "platform":  "macarm64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "CHAR",
+                       "platform":  "win64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "CHAR",
+                       "platform":  "macuniversal",
+                       "version":  "25.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728900526702"
+                   },
+                   {
+                       "buildId":  "CHAR",
+                       "platform":  "macuniversal",
+                       "version":  "25.6",
+                       "type":  "Desktop",
+                       "goLive":  "1763053473231"
+                   },
+                   {
+                       "buildId":  "CHAR",
+                       "platform":  "win64",
+                       "version":  "25.6",
+                       "type":  "Desktop",
+                       "goLive":  "1763053473231"
+                   }
+               ],
+    "displayName":  "Character Animator",
+    "id":  "CHAR"
+}

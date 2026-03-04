@@ -1,0 +1,237 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "FFC_sbstsource",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_frameweb",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_illustrator",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_portfolio",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_premierepro",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_photoshop",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_stock",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_framemob",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_firefly",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_color",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_lightroom",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_psexp",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_contentauth",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_capture",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_sbstreviewer",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_acrobat",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_dcweb",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_mixamo",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_psweb",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_lightroomweb",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_sbstshare",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_fresco",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_fireflymob",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_ccxpost",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_scan",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_mbehance",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_live",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_podcast",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_adobeexpress",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_neo",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_fonts",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_behance",
+                       "platform":  "unknown",
+                       "version":  "1.0",
+                       "type":  "Service",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "FFC_fillsign",
+                       "platform":  "unknown",
+                       "version":  "N/A",
+                       "type":  "Mobile App",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "FFC",
+    "id":  "FFC"
+}

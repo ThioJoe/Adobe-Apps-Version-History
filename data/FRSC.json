@@ -1,0 +1,41 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "FRSC",
+                       "platform":  "win64",
+                       "version":  "5.5.5",
+                       "type":  "Desktop",
+                       "goLive":  "1729617617989"
+                   },
+                   {
+                       "buildId":  "FRSC",
+                       "platform":  "win64",
+                       "version":  "5.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1754080792285"
+                   },
+                   {
+                       "buildId":  "FRSC",
+                       "platform":  "winarm64",
+                       "version":  "5.5.5",
+                       "type":  "Desktop",
+                       "goLive":  "1733953497622"
+                   },
+                   {
+                       "buildId":  "FRSC",
+                       "platform":  "winarm64",
+                       "version":  "5.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1754080774665"
+                   },
+                   {
+                       "buildId":  "FRSC",
+                       "platform":  "win64",
+                       "version":  "1.8.1",
+                       "type":  "Desktop",
+                       "goLive":  "1596184348211"
+                   }
+               ],
+    "displayName":  "Fresco",
+    "id":  "FRSC"
+}

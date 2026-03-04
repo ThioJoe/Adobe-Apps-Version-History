@@ -1,0 +1,48 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "AEFTBETA",
+                       "platform":  "win64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769627735997"
+                   },
+                   {
+                       "buildId":  "AEFTBETA",
+                       "platform":  "win64",
+                       "version":  "26.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1766015637537"
+                   },
+                   {
+                       "buildId":  "AEFTBETA",
+                       "platform":  "macuniversal",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769631784458"
+                   },
+                   {
+                       "buildId":  "AEFTBETA",
+                       "platform":  "winarm64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769626300680"
+                   },
+                   {
+                       "buildId":  "AEFTBETA",
+                       "platform":  "macuniversal",
+                       "version":  "26.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1766014286523"
+                   },
+                   {
+                       "buildId":  "AEFTBETA",
+                       "platform":  "winarm64",
+                       "version":  "26.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1766011577197"
+                   }
+               ],
+    "displayName":  "After Effects (Beta)",
+    "id":  "AEFTBETA"
+}

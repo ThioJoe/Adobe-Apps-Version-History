@@ -1,0 +1,48 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "SPRKBE",
+                       "platform":  "macarm64",
+                       "version":  "50.0.12",
+                       "type":  "Desktop",
+                       "goLive":  "1752161024088"
+                   },
+                   {
+                       "buildId":  "SPRKBE",
+                       "platform":  "win64",
+                       "version":  "57.1.12",
+                       "type":  "Desktop",
+                       "goLive":  "1752161024088"
+                   },
+                   {
+                       "buildId":  "SPRKBE",
+                       "platform":  "macarm64",
+                       "version":  "57.1.12",
+                       "type":  "Desktop",
+                       "goLive":  "1752161024088"
+                   },
+                   {
+                       "buildId":  "SPRKBE",
+                       "platform":  "osx10-64",
+                       "version":  "57.1.12",
+                       "type":  "Desktop",
+                       "goLive":  "1752161024088"
+                   },
+                   {
+                       "buildId":  "SPRKBE",
+                       "platform":  "osx10-64",
+                       "version":  "50.0.12",
+                       "type":  "Desktop",
+                       "goLive":  "1752161024088"
+                   },
+                   {
+                       "buildId":  "SPRKBE",
+                       "platform":  "win64",
+                       "version":  "50.0.12",
+                       "type":  "Desktop",
+                       "goLive":  "1752161024088"
+                   }
+               ],
+    "displayName":  "XD (Beta)",
+    "id":  "SPRKBE"
+}

@@ -1,0 +1,727 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "6.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "1596031457735"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "8.3.0",
+                       "type":  "Desktop",
+                       "goLive":  "1673344717906"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1625209465365"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "11.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1763459655724"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "6.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1596456507642"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "5.3.2",
+                       "type":  "Desktop",
+                       "goLive":  "1583483693044"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "9.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1687255289137"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "8.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1665050838870"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1625209465365"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1611828437204"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "11.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1768298343568"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "11.0.3",
+                       "type":  "Desktop",
+                       "goLive":  "1754387698262"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1627394557618"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.3.0",
+                       "type":  "Desktop",
+                       "goLive":  "1634108809465"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1627394557618"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "6.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "1596031457735"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "10.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1718100073187"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.3.0",
+                       "type":  "Desktop",
+                       "goLive":  "1634108809465"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "11.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1765274396753"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "11.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1741687278912"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "10.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1715853669224"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1611828437204"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "8.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1654596229593"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.2.3",
+                       "type":  "Desktop",
+                       "goLive":  "1629786754260"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1616493949337"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "11.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1749549582481"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "8.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1682589702688"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "6.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1597064952417"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "10.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1718100073187"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1616493949337"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "10.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1726567320900"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.4.2",
+                       "type":  "Desktop",
+                       "goLive":  "1646735577806"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "9.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1706609227780"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "6.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1596031438755"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1637746405802"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "11.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1765274396753"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "6.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1589465542954"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "9.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1701770765267"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1639453852347"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "9.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1695041738104"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "8.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1658225052615"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.4.2",
+                       "type":  "Desktop",
+                       "goLive":  "1646735577806"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "11.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1744279198351"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "10.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1730800892595"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "11.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "1770890369090"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.4.0",
+                       "type":  "Desktop",
+                       "goLive":  "1637746405802"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1639453852347"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "9.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1695041738104"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "10.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1718100073187"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "11.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1741687278912"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "9.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1699351311811"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "9.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1701770765267"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "11.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1749549582481"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "10.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1730800892595"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "10.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1730800892595"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "8.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1665050838870"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "5.3.2",
+                       "type":  "Desktop",
+                       "goLive":  "1583484521088"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "6.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1596031438755"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "10.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1715853669224"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "6.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1596456507642"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "9.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1695041738104"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "8.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "1661421932579"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "8.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1656410605232"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.4.3",
+                       "type":  "Desktop",
+                       "goLive":  "1649759572109"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "10.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1733219932292"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.4.0",
+                       "type":  "Desktop",
+                       "goLive":  "1637746405802"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "6.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1597064952417"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "11.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1744279198351"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1637746405802"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "8.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1656410605232"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "8.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1658225052615"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "10.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1726567320900"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "9.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1699351311811"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "8.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "1661421932579"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "8.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1682589702688"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1624453696454"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "9.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1687255289137"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "8.3.0",
+                       "type":  "Desktop",
+                       "goLive":  "1673344717906"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "10.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1726567320900"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "9.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1699351311811"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1624453696454"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "8.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1665050838870"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "11.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "1770890369090"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "10.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1715853669224"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "11.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1768298343568"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "6.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1589466127915"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "8.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1658225052615"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "9.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1701770765267"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "10.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1733219932292"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "11.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1763459655724"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "8.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "1661421932579"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "8.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1654596229593"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "7.2.3",
+                       "type":  "Desktop",
+                       "goLive":  "1629786754260"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "8.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1682589702688"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "9.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1706609227780"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "9.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1706609227780"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "10.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1733219932292"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "6.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1601298154069"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "11.0.3",
+                       "type":  "Desktop",
+                       "goLive":  "1754387698262"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "9.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1687255289137"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "8.3.0",
+                       "type":  "Desktop",
+                       "goLive":  "1673344717906"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "6.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1601298154069"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "osx10-64",
+                       "version":  "7.4.3",
+                       "type":  "Desktop",
+                       "goLive":  "1649759572109"
+                   }
+               ],
+    "displayName":  "Substance 3D Painter",
+    "id":  "SBSTP"
+}

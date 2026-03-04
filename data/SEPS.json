@@ -1,0 +1,160 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "win64",
+                       "version":  "0.24.1",
+                       "type":  "Desktop",
+                       "goLive":  "1746443716875"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "win64",
+                       "version":  "0.9.2",
+                       "type":  "Desktop",
+                       "goLive":  "1729780920868"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "macarm64",
+                       "version":  "0.25.1",
+                       "type":  "Desktop",
+                       "goLive":  "1758793712505"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "macarm64",
+                       "version":  "0.24.0",
+                       "type":  "Desktop",
+                       "goLive":  "1745465980213"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "osx10-64",
+                       "version":  "0.9.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728664022134"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "win64",
+                       "version":  "0.25.0",
+                       "type":  "Desktop",
+                       "goLive":  "1750327248859"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "macarm64",
+                       "version":  "0.9.1",
+                       "type":  "Desktop",
+                       "goLive":  "1729591216695"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "macarm64",
+                       "version":  "0.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728664022134"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "osx10-64",
+                       "version":  "0.9.2",
+                       "type":  "Desktop",
+                       "goLive":  "1729780920868"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "win64",
+                       "version":  "0.24.0",
+                       "type":  "Desktop",
+                       "goLive":  "1745465980213"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "macarm64",
+                       "version":  "0.9.2",
+                       "type":  "Desktop",
+                       "goLive":  "1729780920868"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "win64",
+                       "version":  "0.9.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728664022134"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "osx10-64",
+                       "version":  "0.9.1",
+                       "type":  "Desktop",
+                       "goLive":  "1729591216695"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "osx10-64",
+                       "version":  "0.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728664022134"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "osx10-64",
+                       "version":  "0.25.0",
+                       "type":  "Desktop",
+                       "goLive":  "1750327248859"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "win64",
+                       "version":  "0.9.1",
+                       "type":  "Desktop",
+                       "goLive":  "1729591216695"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "macarm64",
+                       "version":  "0.25.0",
+                       "type":  "Desktop",
+                       "goLive":  "1750327248859"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "win64",
+                       "version":  "0.25.1",
+                       "type":  "Desktop",
+                       "goLive":  "1758793712505"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "osx10-64",
+                       "version":  "0.25.1",
+                       "type":  "Desktop",
+                       "goLive":  "1758793712505"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "osx10-64",
+                       "version":  "0.24.0",
+                       "type":  "Desktop",
+                       "goLive":  "1745465980213"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "win64",
+                       "version":  "0.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728664022134"
+                   },
+                   {
+                       "buildId":  "SEPS",
+                       "platform":  "macarm64",
+                       "version":  "0.9.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728664022134"
+                   }
+               ],
+    "displayName":  "Substance 3D Viewer for Photoshop",
+    "id":  "SEPS"
+}

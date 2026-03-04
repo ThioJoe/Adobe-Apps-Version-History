@@ -1,0 +1,62 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "MUSE",
+                       "platform":  "osx10-64",
+                       "version":  "2018.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "MUSE",
+                       "platform":  "win64",
+                       "version":  "2018.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "MUSE",
+                       "platform":  "osx10-64",
+                       "version":  "2018.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1568363717386"
+                   },
+                   {
+                       "buildId":  "MUSE",
+                       "platform":  "win64",
+                       "version":  "2018.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1568364046796"
+                   },
+                   {
+                       "buildId":  "MUSE",
+                       "platform":  "win64",
+                       "version":  "2017.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "MUSE",
+                       "platform":  "osx10-64",
+                       "version":  "2018.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "MUSE",
+                       "platform":  "win64",
+                       "version":  "2018.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "MUSE",
+                       "platform":  "osx10-64",
+                       "version":  "2017.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Muse CC",
+    "id":  "MUSE"
+}

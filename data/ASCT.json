@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "ASCT",
+                       "platform":  "win64",
+                       "version":  "1.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "ASCT",
+                       "platform":  "osx10",
+                       "version":  "1.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Scout CC",
+    "id":  "ASCT"
+}

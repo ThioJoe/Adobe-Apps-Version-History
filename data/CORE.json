@@ -1,0 +1,27 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "CORE",
+                       "platform":  "winarm64",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1605096488926"
+                   },
+                   {
+                       "buildId":  "CORE",
+                       "platform":  "win32",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "CORE",
+                       "platform":  "osx10",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "STI_Color_HD",
+    "id":  "CORE"
+}

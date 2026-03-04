@@ -1,0 +1,349 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "7.8.10",
+                       "type":  "Desktop",
+                       "goLive":  "1765260053213"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "7.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1721899167737"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "7.8.10",
+                       "type":  "Desktop",
+                       "goLive":  "1765260053213"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "2.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "7.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1721899167737"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "7.8.10",
+                       "type":  "Desktop",
+                       "goLive":  "1765260053213"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "7.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1721899167737"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "7.4.0",
+                       "type":  "Desktop",
+                       "goLive":  "1737457948465"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "7.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1721899167737"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "4.3.56",
+                       "type":  "Desktop",
+                       "goLive":  "1599560069403"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "7.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1702555778212"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "7.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1710405912235"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "2.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "4.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1614685887425"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "7.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1702555778212"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "7.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1754038098052"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "7.4.0",
+                       "type":  "Desktop",
+                       "goLive":  "1737457948465"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "7.8.5",
+                       "type":  "Desktop",
+                       "goLive":  "1763618765450"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "4.3.56",
+                       "type":  "Desktop",
+                       "goLive":  "1599560069403"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "6.6.4",
+                       "type":  "Desktop",
+                       "goLive":  "1696568054797"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "4.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1614685887425"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "7.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1712823407885"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "7.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1710405912235"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "7.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1710405912235"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "7.4.0",
+                       "type":  "Desktop",
+                       "goLive":  "1737457948465"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "7.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1702555778212"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "4.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1614685887425"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "7.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1721044651821"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "7.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1721044651821"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "7.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1712823407885"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "7.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1712823407885"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "7.8.5",
+                       "type":  "Desktop",
+                       "goLive":  "1763618765450"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "6.6.4",
+                       "type":  "Desktop",
+                       "goLive":  "1696568054797"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "7.8.5",
+                       "type":  "Desktop",
+                       "goLive":  "1763618765450"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "7.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1710405912235"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "7.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1754038098052"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "7.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1754038098052"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "4.3.56",
+                       "type":  "Desktop",
+                       "goLive":  "1604657543604"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "7.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1721044651821"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "7.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1702555778212"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "osx10",
+                       "version":  "6.6.4",
+                       "type":  "Desktop",
+                       "goLive":  "1696568054797"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "macarm64",
+                       "version":  "7.8.5",
+                       "type":  "Desktop",
+                       "goLive":  "1763618765450"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "7.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1721044651821"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "7.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1754038098052"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "7.8.10",
+                       "type":  "Desktop",
+                       "goLive":  "1765260053213"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "7.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1712823407885"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "win32",
+                       "version":  "7.4.0",
+                       "type":  "Desktop",
+                       "goLive":  "1737457948465"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "6.6.4",
+                       "type":  "Desktop",
+                       "goLive":  "1696568054797"
+                   },
+                   {
+                       "buildId":  "COSY",
+                       "platform":  "winarm64",
+                       "version":  "4.7.0",
+                       "type":  "Desktop",
+                       "goLive":  "1614685887425"
+                   }
+               ],
+    "displayName":  "CoreSync",
+    "id":  "COSY"
+}

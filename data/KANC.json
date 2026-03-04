@@ -1,0 +1,55 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "KANC",
+                       "platform":  "win32",
+                       "version":  "6.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1716368545548"
+                   },
+                   {
+                       "buildId":  "KANC",
+                       "platform":  "winarm64",
+                       "version":  "2.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1616408459621"
+                   },
+                   {
+                       "buildId":  "KANC",
+                       "platform":  "win32",
+                       "version":  "1.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "KANC",
+                       "platform":  "win32",
+                       "version":  "3.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1650448113078"
+                   },
+                   {
+                       "buildId":  "KANC",
+                       "platform":  "winarm64",
+                       "version":  "6.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1716368545548"
+                   },
+                   {
+                       "buildId":  "KANC",
+                       "platform":  "win32",
+                       "version":  "2.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1594293786053"
+                   },
+                   {
+                       "buildId":  "KANC",
+                       "platform":  "winarm64",
+                       "version":  "3.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1650448379922"
+                   }
+               ],
+    "displayName":  "Adobe Notification Client",
+    "id":  "KANC"
+}

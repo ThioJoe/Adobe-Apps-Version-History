@@ -1,0 +1,202 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "21.1",
+                       "type":  "Desktop",
+                       "goLive":  "1766396447213"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.5.1",
+                       "type":  "Desktop",
+                       "goLive":  "1762248978278"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1746011251789"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.3",
+                       "type":  "Desktop",
+                       "goLive":  "1745474608161"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "21.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769503700964"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.2",
+                       "type":  "Desktop",
+                       "goLive":  "1741340239579"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.5.2",
+                       "type":  "Desktop",
+                       "goLive":  "1770617638027"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728901188922"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "21.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769503741873"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.1",
+                       "type":  "Desktop",
+                       "goLive":  "1737535012051"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "21.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645843512"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.3",
+                       "type":  "Desktop",
+                       "goLive":  "1745474585192"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1732091539005"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.2",
+                       "type":  "Desktop",
+                       "goLive":  "1741340226961"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.5",
+                       "type":  "Desktop",
+                       "goLive":  "1753770994906"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1750757795997"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728901209717"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.1",
+                       "type":  "Desktop",
+                       "goLive":  "1737534991890"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "21.1",
+                       "type":  "Desktop",
+                       "goLive":  "1766396482468"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.4",
+                       "type":  "Desktop",
+                       "goLive":  "1750068528228"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1746011229841"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1750757787470"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.4",
+                       "type":  "Desktop",
+                       "goLive":  "1750068582204"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "21.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645857235"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.5.2",
+                       "type":  "Desktop",
+                       "goLive":  "1770617621068"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1732091548586"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.5.1",
+                       "type":  "Desktop",
+                       "goLive":  "1762248960142"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.5",
+                       "type":  "Desktop",
+                       "goLive":  "1753771004231"
+                   }
+               ],
+    "displayName":  "InCopy",
+    "id":  "AICY"
+}

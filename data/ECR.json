@@ -1,0 +1,76 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "osx10-64",
+                       "version":  "13.0",
+                       "type":  "Desktop",
+                       "goLive":  "1606223420371"
+                   },
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "win64",
+                       "version":  "10.4",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "win64",
+                       "version":  "12.2",
+                       "type":  "Desktop",
+                       "goLive":  "1599121955888"
+                   },
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "osx10-64",
+                       "version":  "12.2",
+                       "type":  "Desktop",
+                       "goLive":  "1599122250743"
+                   },
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "win64",
+                       "version":  "11.1",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "win64",
+                       "version":  "12.3",
+                       "type":  "Desktop",
+                       "goLive":  "1599126560439"
+                   },
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "osx10-64",
+                       "version":  "12.3",
+                       "type":  "Desktop",
+                       "goLive":  "1599126838480"
+                   },
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "osx10-64",
+                       "version":  "10.4",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "win64",
+                       "version":  "13.0",
+                       "type":  "Desktop",
+                       "goLive":  "1606223137042"
+                   },
+                   {
+                       "buildId":  "ECR",
+                       "platform":  "osx10-64",
+                       "version":  "11.1",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Camera Raw Elements 13.0",
+    "id":  "ECR"
+}

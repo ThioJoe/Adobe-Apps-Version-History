@@ -1,0 +1,216 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "macarm64",
+                       "version":  "0.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1673968957618"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1621262054811"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "win64",
+                       "version":  "0.3.3",
+                       "type":  "Desktop",
+                       "goLive":  "1651613479984"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.2.3",
+                       "type":  "Desktop",
+                       "goLive":  "1641402547924"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "win64",
+                       "version":  "0.4.8",
+                       "type":  "Desktop",
+                       "goLive":  "1663019931235"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1634105861492"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1637266434784"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "win64",
+                       "version":  "0.2.3",
+                       "type":  "Desktop",
+                       "goLive":  "1641402547924"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "macarm64",
+                       "version":  "0.4.12",
+                       "type":  "Desktop",
+                       "goLive":  "1665407095410"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1614932422892"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.3.3",
+                       "type":  "Desktop",
+                       "goLive":  "1651613479984"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "macarm64",
+                       "version":  "0.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1650571497382"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "win64",
+                       "version":  "0.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1637266434784"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1673968957618"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1632899102792"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "win64",
+                       "version":  "0.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1634105861492"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.4.12",
+                       "type":  "Desktop",
+                       "goLive":  "1665407095410"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "macarm64",
+                       "version":  "0.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1632899102792"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1612857034918"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "macarm64",
+                       "version":  "0.3.3",
+                       "type":  "Desktop",
+                       "goLive":  "1651613479984"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.4.8",
+                       "type":  "Desktop",
+                       "goLive":  "1663019931235"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "win64",
+                       "version":  "0.4.12",
+                       "type":  "Desktop",
+                       "goLive":  "1665407095410"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "osx10-64",
+                       "version":  "0.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1649736089344"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "win64",
+                       "version":  "0.2.0",
+                       "type":  "Desktop",
+                       "goLive":  "1632899102792"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "win64",
+                       "version":  "0.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1649957092376"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "macarm64",
+                       "version":  "0.2.3",
+                       "type":  "Desktop",
+                       "goLive":  "1641402547924"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "win64",
+                       "version":  "0.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1673968957618"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "macarm64",
+                       "version":  "0.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1634105861492"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "macarm64",
+                       "version":  "0.4.8",
+                       "type":  "Desktop",
+                       "goLive":  "1663019931235"
+                   },
+                   {
+                       "buildId":  "ACAI",
+                       "platform":  "macarm64",
+                       "version":  "0.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1637266434784"
+                   }
+               ],
+    "displayName":  "CAI",
+    "id":  "ACAI"
+}

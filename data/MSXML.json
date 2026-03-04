@@ -1,0 +1,13 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "MSXML",
+                       "platform":  "win32",
+                       "version":  "6.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "MSXML 6 Framework",
+    "id":  "MSXML"
+}

@@ -1,0 +1,27 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "COCM",
+                       "platform":  "osx10",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "COCM",
+                       "platform":  "win32",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "COCM",
+                       "platform":  "winarm64",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1605096453080"
+                   }
+               ],
+    "displayName":  "STI_ColorCommonSet_CMYK_HD",
+    "id":  "COCM"
+}

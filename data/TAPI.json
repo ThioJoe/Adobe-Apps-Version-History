@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "TAPI",
+                       "platform":  "osx10",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "TAPI",
+                       "platform":  "win32",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Touch App Plugins",
+    "id":  "TAPI"
+}

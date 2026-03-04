@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "CPVC",
+                       "platform":  "win64",
+                       "version":  "10.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "CPVC",
+                       "platform":  "osx10",
+                       "version":  "10.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Adobe Captivate Voices 2017",
+    "id":  "CPVC"
+}

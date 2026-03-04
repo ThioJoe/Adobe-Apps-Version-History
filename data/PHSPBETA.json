@@ -1,0 +1,27 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "PHSPBETA",
+                       "platform":  "winarm64",
+                       "version":  "25.9",
+                       "type":  "Desktop",
+                       "goLive":  "1752748983817"
+                   },
+                   {
+                       "buildId":  "PHSPBETA",
+                       "platform":  "win64",
+                       "version":  "25.9",
+                       "type":  "Desktop",
+                       "goLive":  "1752748983817"
+                   },
+                   {
+                       "buildId":  "PHSPBETA",
+                       "platform":  "macuniversal",
+                       "version":  "25.9",
+                       "type":  "Desktop",
+                       "goLive":  "1752748983817"
+                   }
+               ],
+    "displayName":  "Photoshop (Beta)",
+    "id":  "PHSPBETA"
+}

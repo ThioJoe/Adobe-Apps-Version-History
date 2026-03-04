@@ -1,0 +1,90 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "macarm64",
+                       "version":  "2.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1728460535483"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "win64",
+                       "version":  "2.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1695040351456"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "osx10-64",
+                       "version":  "2.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1699362169696"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "macarm64",
+                       "version":  "2.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1733335335383"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "macarm64",
+                       "version":  "2.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1699362169696"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "win64",
+                       "version":  "2.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1699362169696"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "win64",
+                       "version":  "2.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1728460535483"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "win64",
+                       "version":  "2.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1733335335383"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "macarm64",
+                       "version":  "2.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1695040351456"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "osx10-64",
+                       "version":  "2.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1695040351456"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "osx10-64",
+                       "version":  "2.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1733335335383"
+                   },
+                   {
+                       "buildId":  "UXPD",
+                       "platform":  "osx10-64",
+                       "version":  "2.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1728460535483"
+                   }
+               ],
+    "displayName":  "UXP Developer Tools",
+    "id":  "UXPD"
+}

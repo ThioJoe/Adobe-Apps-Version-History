@@ -1,0 +1,48 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "AUDTBETA",
+                       "platform":  "winarm64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1772645018327"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
+                       "platform":  "winarm64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769447858637"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
+                       "platform":  "win64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1772640518112"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
+                       "platform":  "macuniversal",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1772646699272"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
+                       "platform":  "macuniversal",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769449531671"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
+                       "platform":  "win64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769443931292"
+                   }
+               ],
+    "displayName":  "Audition (Beta)",
+    "id":  "AUDTBETA"
+}

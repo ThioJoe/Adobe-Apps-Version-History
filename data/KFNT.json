@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "KFNT",
+                       "platform":  "win32",
+                       "version":  "1.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "KFNT",
+                       "platform":  "osx10-64",
+                       "version":  "1.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Adobe Fonts",
+    "id":  "KFNT"
+}

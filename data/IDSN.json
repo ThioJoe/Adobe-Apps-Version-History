@@ -1,0 +1,300 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.4.2",
+                       "type":  "Desktop",
+                       "goLive":  "1756201019972"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1756115242587"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1746011287112"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.5.1",
+                       "type":  "Desktop",
+                       "goLive":  "1762248930697"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1755510059299"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.5",
+                       "type":  "Desktop",
+                       "goLive":  "1753770984895"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1732091570594"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728901133977"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "21.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1764236073586"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.5.1",
+                       "type":  "Desktop",
+                       "goLive":  "1762248909203"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.2",
+                       "type":  "Desktop",
+                       "goLive":  "1741340193434"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.5.2",
+                       "type":  "Desktop",
+                       "goLive":  "1770617537440"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "21.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769503628421"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "21.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769503656584"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.3",
+                       "type":  "Desktop",
+                       "goLive":  "1745474541310"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.4.2",
+                       "type":  "Desktop",
+                       "goLive":  "1756201066613"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "21.1",
+                       "type":  "Desktop",
+                       "goLive":  "1766396413698"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1755684559386"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.5",
+                       "type":  "Desktop",
+                       "goLive":  "1753770968933"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "21.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645829535"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.4",
+                       "type":  "Desktop",
+                       "goLive":  "1750068646950"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "21.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1763372120302"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.4",
+                       "type":  "Desktop",
+                       "goLive":  "1750068697619"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.3.2",
+                       "type":  "Desktop",
+                       "goLive":  "1754473172942"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1732091581544"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.1",
+                       "type":  "Desktop",
+                       "goLive":  "1737534958512"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.3.2",
+                       "type":  "Desktop",
+                       "goLive":  "1754473205046"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1746011312300"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "21.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1763372092547"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "21.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1764236102859"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.3",
+                       "type":  "Desktop",
+                       "goLive":  "1745474563283"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1750757777030"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "21.1",
+                       "type":  "Desktop",
+                       "goLive":  "1766396305633"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1756115211999"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "21.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645816384"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.1",
+                       "type":  "Desktop",
+                       "goLive":  "1737534938063"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.5.2",
+                       "type":  "Desktop",
+                       "goLive":  "1770617573798"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.2",
+                       "type":  "Desktop",
+                       "goLive":  "1741340210146"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728901164409"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1755510038806"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1750757765432"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1755684531788"
+                   }
+               ],
+    "displayName":  "InDesign",
+    "id":  "IDSN"
+}

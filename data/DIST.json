@@ -1,0 +1,13 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "DIST",
+                       "platform":  "win32",
+                       "version":  "15.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Adobe Acrobat Distiller DC",
+    "id":  "DIST"
+}

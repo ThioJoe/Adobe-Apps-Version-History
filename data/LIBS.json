@@ -1,0 +1,104 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "osx10-64",
+                       "version":  "3.7.4",
+                       "type":  "Desktop",
+                       "goLive":  "1581053490949"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "win32",
+                       "version":  "3.6.1",
+                       "type":  "Desktop",
+                       "goLive":  "1572164479248"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "win32",
+                       "version":  "4.14.2",
+                       "type":  "Desktop",
+                       "goLive":  "1771914157755"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "win32",
+                       "version":  "3.7.4",
+                       "type":  "Desktop",
+                       "goLive":  "1581053490949"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "win32",
+                       "version":  "3.8.27",
+                       "type":  "Desktop",
+                       "goLive":  "1593573470034"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "osx10-64",
+                       "version":  "3.4.3",
+                       "type":  "Desktop",
+                       "goLive":  "1567141048078"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "osx10-64",
+                       "version":  "3.9.27",
+                       "type":  "Desktop",
+                       "goLive":  "1605768882776"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "win32",
+                       "version":  "3.9.27",
+                       "type":  "Desktop",
+                       "goLive":  "1605768882776"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "winarm64",
+                       "version":  "4.14.2",
+                       "type":  "Desktop",
+                       "goLive":  "1771914157755"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "macarm64",
+                       "version":  "4.14.2",
+                       "type":  "Desktop",
+                       "goLive":  "1771914157755"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "osx10-64",
+                       "version":  "3.6.1",
+                       "type":  "Desktop",
+                       "goLive":  "1572164891854"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "win32",
+                       "version":  "3.4.3",
+                       "type":  "Desktop",
+                       "goLive":  "1567140792861"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "osx10-64",
+                       "version":  "4.14.2",
+                       "type":  "Desktop",
+                       "goLive":  "1771914157755"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "osx10-64",
+                       "version":  "3.8.27",
+                       "type":  "Desktop",
+                       "goLive":  "1593573470034"
+                   }
+               ],
+    "displayName":  "CC Library",
+    "id":  "LIBS"
+}

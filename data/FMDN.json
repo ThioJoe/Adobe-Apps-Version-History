@@ -1,0 +1,13 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "FMDN",
+                       "platform":  "win32",
+                       "version":  "4.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Microsoft Dot Net Framework",
+    "id":  "FMDN"
+}

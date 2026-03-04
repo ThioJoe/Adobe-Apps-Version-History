@@ -1,0 +1,34 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "CHARBETA",
+                       "platform":  "win64",
+                       "version":  "25.4",
+                       "type":  "Desktop",
+                       "goLive":  "1747441418779"
+                   },
+                   {
+                       "buildId":  "CHARBETA",
+                       "platform":  "macuniversal",
+                       "version":  "25.4",
+                       "type":  "Desktop",
+                       "goLive":  "1747442040163"
+                   },
+                   {
+                       "buildId":  "CHARBETA",
+                       "platform":  "win64",
+                       "version":  "25.6",
+                       "type":  "Desktop",
+                       "goLive":  "1754356704296"
+                   },
+                   {
+                       "buildId":  "CHARBETA",
+                       "platform":  "macuniversal",
+                       "version":  "25.6",
+                       "type":  "Desktop",
+                       "goLive":  "1754357297791"
+                   }
+               ],
+    "displayName":  "Character Animator (Beta)",
+    "id":  "CHARBETA"
+}

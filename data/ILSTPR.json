@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "ILSTPR",
+                       "platform":  "win64",
+                       "version":  "27.7",
+                       "type":  "Desktop",
+                       "goLive":  "1688454091134"
+                   },
+                   {
+                       "buildId":  "ILSTPR",
+                       "platform":  "macuniversal",
+                       "version":  "27.7",
+                       "type":  "Desktop",
+                       "goLive":  "1688454091134"
+                   }
+               ],
+    "displayName":  "Illustrator (Prerelease)",
+    "id":  "ILSTPR"
+}

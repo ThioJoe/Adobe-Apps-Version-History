@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "ANML",
+                       "platform":  "osx10-64",
+                       "version":  "1.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "ANML",
+                       "platform":  "win64",
+                       "version":  "1.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Adobe Character Animator (Preview 4)",
+    "id":  "ANML"
+}

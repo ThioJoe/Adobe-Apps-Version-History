@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "KEMN",
+                       "platform":  "osx10",
+                       "version":  "7.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "KEMN",
+                       "platform":  "win32",
+                       "version":  "7.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Extension Manager CC",
+    "id":  "KEMN"
+}

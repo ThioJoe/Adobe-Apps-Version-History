@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "AAM",
+                       "platform":  "osx10",
+                       "version":  "6.2.10",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "AAM",
+                       "platform":  "win32",
+                       "version":  "6.2.10",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Adobe Application Manager",
+    "id":  "AAM"
+}

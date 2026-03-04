@@ -1,0 +1,41 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "CORG",
+                       "platform":  "winarm64",
+                       "version":  "1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1605099283984"
+                   },
+                   {
+                       "buildId":  "CORG",
+                       "platform":  "osx10",
+                       "version":  "1.1",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "CORG",
+                       "platform":  "win32",
+                       "version":  "1.1",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "CORG",
+                       "platform":  "osx10",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "CORG",
+                       "platform":  "win32",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "STI_ColorCommonSet_RGB_HD",
+    "id":  "CORG"
+}

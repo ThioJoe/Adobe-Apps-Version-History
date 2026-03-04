@@ -1,0 +1,27 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "APRO",
+                       "platform":  "win64",
+                       "version":  "25.1",
+                       "type":  "Desktop",
+                       "goLive":  "1741684456641"
+                   },
+                   {
+                       "buildId":  "APRO",
+                       "platform":  "macuniversal",
+                       "version":  "25.1",
+                       "type":  "Desktop",
+                       "goLive":  "1741684868101"
+                   },
+                   {
+                       "buildId":  "APRO",
+                       "platform":  "win32",
+                       "version":  "25.1",
+                       "type":  "Desktop",
+                       "goLive":  "1741684671076"
+                   }
+               ],
+    "displayName":  "Acrobat",
+    "id":  "APRO"
+}

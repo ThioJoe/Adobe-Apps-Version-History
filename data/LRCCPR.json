@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "LRCCPR",
+                       "platform":  "winarm64",
+                       "version":  "4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1617136367602"
+                   },
+                   {
+                       "buildId":  "LRCCPR",
+                       "platform":  "winarm64",
+                       "version":  "4.0",
+                       "type":  "Desktop",
+                       "goLive":  "1617136367602"
+                   }
+               ],
+    "displayName":  "Lightroom (Prerelease)",
+    "id":  "LRCCPR"
+}

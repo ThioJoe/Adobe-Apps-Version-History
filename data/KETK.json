@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "KETK",
+                       "platform":  "osx10",
+                       "version":  "4.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "KETK",
+                       "platform":  "win32",
+                       "version":  "4.0",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Extendscript Toolkit CC",
+    "id":  "KETK"
+}

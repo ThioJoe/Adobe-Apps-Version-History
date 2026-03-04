@@ -1,0 +1,20 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "DOTN",
+                       "platform":  "win64",
+                       "version":  "4.5.2",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   },
+                   {
+                       "buildId":  "DOTN",
+                       "platform":  "win32",
+                       "version":  "4.5.2",
+                       "type":  "Desktop",
+                       "goLive":  "0"
+                   }
+               ],
+    "displayName":  "Microsoft Dot Net Framework",
+    "id":  "DOTN"
+}
