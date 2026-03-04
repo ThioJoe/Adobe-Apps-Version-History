@@ -150,7 +150,7 @@
         #content {
             flex: 1;
             padding: 2rem;
-            overflow-y: auto;
+            overflow-y: scroll;
             position: relative;
         }
 
@@ -166,6 +166,7 @@
 
         table {
             width: 100%;
+            table-layout: fixed;
             border-collapse: collapse;
             margin-top: 1.5rem;
             background: var(--bg-card);
@@ -187,6 +188,8 @@
             padding: 0.75rem 1rem;
             border-bottom: 1px solid var(--border);
             font-size: 0.85rem;
+            overflow: hidden;
+            word-break: break-word;
         }
 
         .badge {
@@ -480,7 +483,7 @@
                 </div>
                 <table>
                     <thead>
-                        <tr><th>App</th><th>Version</th><th>Release Date</th><th>Platform</th><th>Type</th></tr>
+                        <tr><th style="width:22%">App</th><th style="width:15%">Version</th><th style="width:22%">Release Date</th><th style="width:26%">Platform</th><th style="width:15%">Type</th></tr>
                     </thead>
                     <tbody>
                         ${tableRows}
@@ -577,7 +580,7 @@
                 </div>
                 <table>
                     <thead>
-                        <tr><th>Version</th><th>Release Date</th><th>Platform</th><th>Type</th><th>Build ID</th></tr>
+                        <tr><th style="width:15%">Version</th><th style="width:22%">Release Date</th><th style="width:28%">Platform</th><th style="width:13%">Type</th><th style="width:22%">Build ID</th></tr>
                     </thead>
                     <tbody>
                         ${tableRows}
