@@ -655,15 +655,13 @@
             majorVersionOrder.sort((a, b) => b - a); // highest major version = index 0 (purple)
             const majorVersionIndex = new Map(majorVersionOrder.map((mv, i) => [mv, i]));
 
-            const legendHtml = majorVersionOrder.length > 1 ? `
-                <div class="version-legend">
-                    ${majorVersionOrder.map((mv, i) => {
-                        const c = getMajorVersionColors(i);
-                        const label = i === 0 ? `v ${mv} (Latest Major)` : `v ${mv}`;
-                        const divider = i === 1 ? `<span style="color: var(--border); user-select:none;">|</span>` : '';
-                        return `${divider}<span class="version-legend-item"><span class="version-legend-swatch" style="background:${c.badge}"></span>${label}</span>`;
-                    }).join('')}
-                </div>` : '';
+            const legendItems = majorVersionOrder.length > 1 ? majorVersionOrder.map((mv, i) => {
+                    const c = getMajorVersionColors(i);
+                    const label = i === 0 ? `v ${mv} (Latest Major)` : `v ${mv}`;
+                    const divider = i === 1 ? `<span style="color: var(--border); user-select:none;">|</span>` : '';
+                    return `${divider}<span class="version-legend-item"><span class="version-legend-swatch" style="background:${c.badge}"></span>${label}</span>`;
+                }).join('') : '';
+            const legendHtml = `<div class="version-legend" style="${majorVersionOrder.length <= 1 ? 'visibility:hidden' : ''}">${legendItems}&nbsp;</div>`;
 
             const tableRows = builds.map(b => {
                 const displayDate = formatDate(b.goLive);
