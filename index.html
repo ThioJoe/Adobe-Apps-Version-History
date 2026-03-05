@@ -354,6 +354,206 @@
             border-radius: 3px;
             flex-shrink: 0;
         }
+
+        .time-part {
+            display: block;
+            font-size: 0.75rem;
+            color: var(--text-secondary);
+            margin-top: 1px;
+            text-align: right;
+        }
+
+        /* ── Mobile back button (hidden on desktop) ── */
+        .mobile-back-btn {
+            display: none;
+            align-items: center;
+            gap: 6px;
+            background: var(--bg-hover);
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            font-size: 0.85rem;
+            font-weight: 600;
+            padding: 0.5rem 0.75rem;
+            border-radius: 6px;
+            cursor: pointer;
+            margin-bottom: 1rem;
+        }
+
+        /* ── Mobile hamburger button (hidden on desktop) ── */
+        .mobile-menu-btn {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            background: none;
+            border: 1px solid var(--border);
+            color: var(--text-primary);
+            border-radius: 6px;
+            padding: 0.35rem 0.5rem;
+            cursor: pointer;
+        }
+
+        /* ── Responsive: ≤ 768px ── */
+        @media (max-width: 768px) {
+            body {
+                overflow: auto;
+                height: auto;
+                min-height: 100vh;
+            }
+
+            header {
+                padding: 0.5rem 0.75rem;
+                flex-wrap: wrap;
+                gap: 0.4rem;
+            }
+
+            .header-left {
+                flex: 1;
+                min-width: 0;
+            }
+
+            .header-left h2 {
+                font-size: 0.95rem;
+                white-space: nowrap;
+            }
+
+            .disclaimer {
+                display: none;
+            }
+
+            .github-link {
+                font-size: 0;
+                padding: 0.35rem;
+                gap: 0;
+            }
+            .github-link svg {
+                width: 20px;
+                height: 20px;
+            }
+
+            .mobile-menu-btn {
+                display: flex;
+            }
+
+            .main-container {
+                flex-direction: column;
+                overflow: visible;
+            }
+
+            #sidebar {
+                width: 100%;
+                border-right: none;
+                border-bottom: 1px solid var(--border);
+                max-height: none;
+            }
+
+            /* When sidebar is hidden on mobile */
+            #sidebar.mobile-hidden {
+                display: none;
+            }
+
+            /* When content should be hidden on mobile (no product selected yet) */
+            #content.mobile-hidden {
+                display: none;
+            }
+
+            #content {
+                padding: 1rem;
+                overflow-y: visible;
+            }
+
+            .mobile-back-btn {
+                display: flex;
+            }
+
+            /* ── Mobile card layout for tables ── */
+            table {
+                display: block;
+                overflow: visible;
+                white-space: normal;
+                background: transparent;
+                margin-top: 1rem;
+            }
+            table thead {
+                display: none;
+            }
+            table tbody {
+                display: flex;
+                flex-direction: column;
+                gap: 0.75rem;
+            }
+            table tbody tr,
+            table tbody tr.major-version-row {
+                display: flex !important;
+                flex-direction: column;
+                width: auto !important;
+                background: var(--bg-card);
+                border: 1px solid var(--border);
+                border-radius: 10px;
+                padding: 0.85rem;
+                gap: 0.35rem;
+                white-space: normal;
+            }
+            table tbody tr.major-version-row {
+                border-left: 3px solid var(--mv-color, var(--border));
+            }
+            table tbody tr td {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: baseline;
+                gap: 0.15rem 0.5rem;
+                border-bottom: none;
+                padding: 0.15rem 0;
+                font-size: 0.85rem;
+                overflow: visible;
+                word-break: normal;
+            }
+            table tbody tr td::before {
+                content: attr(data-label);
+                display: inline;
+                font-size: 0.65rem;
+                color: var(--text-secondary);
+                text-transform: uppercase;
+                letter-spacing: 0.05em;
+                font-weight: 600;
+                min-width: fit-content;
+                flex-shrink: 0;
+            }
+            td[data-label="App"] {
+                border-bottom: 1px solid var(--border) !important;
+                padding-bottom: 0.5rem;
+                margin-bottom: 0.15rem;
+            }
+            .time-part {
+                text-align: left;
+            }
+            .btn-copy {
+                opacity: 0.7;
+            }
+
+            .detail-header h1 {
+                font-size: 1.3rem;
+            }
+
+            .stats-bar {
+                font-size: 0.8rem;
+                gap: 0.75rem;
+            }
+
+            .version-legend {
+                justify-content: flex-start;
+            }
+
+            .btn-latest {
+                font-size: 0.8rem;
+                padding: 0.5rem;
+            }
+
+            #product-list {
+                max-height: 60vh;
+                overflow-y: auto;
+            }
+
+        }
     </style>
 </head>
 
@@ -369,6 +569,9 @@
             <h2 style="font-size: 1.1rem; font-weight: 700;">Adobe Release Browser</h2>
             <span class="disclaimer">&#9432; Unofficial Community Project &mdash; Though this project uses release data directly from Adobe's API, it is NOT affiliated with or endorsed by <a href="https://www.adobe.com" target="_blank" rel="noopener">Adobe</a></span>
         </div>
+        <button class="mobile-menu-btn" id="mobile-menu-btn" aria-label="Toggle sidebar">
+            <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><line x1="3" y1="6" x2="21" y2="6"/><line x1="3" y1="12" x2="21" y2="12"/><line x1="3" y1="18" x2="21" y2="18"/></svg>
+        </button>
         <a class="github-link" href="https://github.com/ThioJoe/Adobe-Apps-Version-History" target="_blank" rel="noopener">
             <svg width="16" height="16" viewBox="0 0 24 24" fill="currentColor" aria-hidden="true"><path d="M12 2C6.477 2 2 6.477 2 12c0 4.418 2.865 8.166 6.839 9.489.5.092.682-.217.682-.482 0-.237-.009-.868-.013-1.703-2.782.604-3.369-1.342-3.369-1.342-.454-1.154-1.11-1.462-1.11-1.462-.908-.62.069-.608.069-.608 1.003.07 1.531 1.03 1.531 1.03.892 1.529 2.341 1.087 2.91.831.092-.646.35-1.086.636-1.336-2.22-.253-4.555-1.11-4.555-4.943 0-1.091.39-1.984 1.029-2.683-.103-.253-.446-1.27.098-2.647 0 0 .84-.269 2.75 1.025A9.578 9.578 0 0 1 12 6.836a9.59 9.59 0 0 1 2.504.337c1.909-1.294 2.747-1.025 2.747-1.025.546 1.377.202 2.394.1 2.647.64.699 1.028 1.592 1.028 2.683 0 3.842-2.339 4.687-4.566 4.935.359.309.678.919.678 1.852 0 1.336-.012 2.415-.012 2.744 0 .267.18.579.688.481C19.138 20.163 22 16.418 22 12c0-5.523-4.477-10-10-10z"/></svg>
             GitHub Repo
@@ -397,7 +600,13 @@
             <div id="product-list"></div>
         </aside>
 
-        <main id="content">
+        <main id="content" class="mobile-hidden">
+            <div id="mobile-back-container">
+                <button class="mobile-back-btn" id="mobile-back-btn">
+                    <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"><line x1="19" y1="12" x2="5" y2="12"/><polyline points="12 19 5 12 12 5"/></svg>
+                    Back to app list
+                </button>
+            </div>
             <div id="initial-view" class="empty-state">
                 <svg width="48" height="48" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2"
                     stroke-linecap="round" stroke-linejoin="round" style="margin-bottom: 1rem; opacity: 0.5;">
@@ -420,8 +629,49 @@
         const initialView = document.getElementById('initial-view');
         const latestReleasesView = document.getElementById('latest-releases-view');
         const btnShowLatest = document.getElementById('btn-show-latest');
+        const mobileBackBtn = document.getElementById('mobile-back-btn');
+        const mobileMenuBtn = document.getElementById('mobile-menu-btn');
+        const sidebar = document.getElementById('sidebar');
+        const contentArea = document.getElementById('content');
 
         let allProducts = [];
+
+        /* ── Mobile navigation helpers ── */
+        function isMobile() {
+            return window.matchMedia('(max-width: 768px)').matches;
+        }
+
+        function mobileShowContent() {
+            if (!isMobile()) return;
+            sidebar.classList.add('mobile-hidden');
+            contentArea.classList.remove('mobile-hidden');
+        }
+
+        function mobileShowSidebar() {
+            if (!isMobile()) return;
+            contentArea.classList.add('mobile-hidden');
+            sidebar.classList.remove('mobile-hidden');
+        }
+
+        mobileBackBtn.addEventListener('click', mobileShowSidebar);
+
+        mobileMenuBtn.addEventListener('click', () => {
+            if (sidebar.classList.contains('mobile-hidden')) {
+                mobileShowSidebar();
+            } else if (isMobile()) {
+                // If sidebar is visible and content has something, show content
+                sidebar.classList.add('mobile-hidden');
+                contentArea.classList.remove('mobile-hidden');
+            }
+        });
+
+        // Fix layout when resizing between mobile/desktop
+        window.addEventListener('resize', () => {
+            if (!isMobile()) {
+                sidebar.classList.remove('mobile-hidden');
+                contentArea.classList.remove('mobile-hidden');
+            }
+        });
 
         window.addEventListener('load', async () => {
             try {
@@ -448,7 +698,10 @@
 
         searchInput.addEventListener('input', (e) => filterProducts(e.target.value));
         showEmptyCheckbox.addEventListener('change', () => filterProducts(searchInput.value));
-        btnShowLatest.addEventListener('click', showLatestGlobalReleases);
+        btnShowLatest.addEventListener('click', () => {
+            showLatestGlobalReleases();
+            mobileShowContent();
+        });
 
         function renderProductList(list) {
             productList.innerHTML = '';
@@ -466,7 +719,10 @@
                     <span class="product-name">${p.displayName}</span>
                     <span class="product-family">${p.id}</span>
                 `;
-                div.onclick = () => fetchAndShowProductDetails(p);
+                div.onclick = () => {
+                    fetchAndShowProductDetails(p);
+                    mobileShowContent();
+                };
                 productList.appendChild(div);
             });
         }
@@ -555,9 +811,9 @@
 
                 return `
                     <tr>
-                        <td><strong>${b.appName}</strong><br><span style="font-size: 0.75rem; color: var(--text-secondary);">${b.appId}</span></td>
-                        <td><span class="badge version" onclick="copyToClipboard('${b.version}', this)" title="Click to copy version">${b.version}</span></td>
-                        <td>
+                        <td data-label="App"><strong>${b.appName}</strong><br><span style="font-size: 0.75rem; color: var(--text-secondary);">${b.appId}</span></td>
+                        <td data-label="Version"><span class="badge version" onclick="copyToClipboard('${b.version}', this)" title="Click to copy version">${b.version}</span></td>
+                        <td data-label="Release Date">
                             <div class="date-container">
                                 <span>${displayDate}</span>
                                 <button class="btn-copy" onclick="copyToClipboard('${copyValue}', this)" title="Copy Date as +ISO">
@@ -565,8 +821,8 @@
                                 </button>
                             </div>
                         </td>
-                        <td><div style="display:flex;flex-wrap:wrap;gap:4px;">${platformBadges}</div></td>
-                        <td style="color: var(--text-secondary)">${b.type}</td>
+                        <td data-label="Platform"><div style="display:flex;flex-wrap:wrap;gap:4px;">${platformBadges}</div></td>
+                        <td data-label="Type" style="color: var(--text-secondary)">${b.type}</td>
                     </tr>
                 `;
             }).join('');
@@ -675,9 +931,9 @@
                 const mvColors = getMajorVersionColors(mvIdx);
 
                 return `
-                    <tr class="major-version-row" style="background: ${mvColors.row}">
-                        <td><span class="badge version" style="background: ${mvColors.badge}" onclick="copyToClipboard('${b.version}', this)" title="Click to copy version">${b.version}</span></td>
-                        <td>
+                    <tr class="major-version-row" style="background: ${mvColors.row}; --mv-color: ${mvColors.badge}">
+                        <td data-label="Version"><span class="badge version" style="background: ${mvColors.badge}" onclick="copyToClipboard('${b.version}', this)" title="Click to copy version">${b.version}</span></td>
+                        <td data-label="Release Date">
                             <div class="date-container">
                                 <span>${displayDate}</span>
                                 <button class="btn-copy" onclick="copyToClipboard('${copyValue}', this)" title="Copy Date as +ISO">
@@ -685,9 +941,8 @@
                                 </button>
                             </div>
                         </td>
-                        <td><div style="display:flex;flex-wrap:wrap;gap:4px;">${platformBadges}</div></td>
-                        <td style="color: var(--text-secondary)">${b.type}</td>
-                        <td style="font-family: monospace; font-size: 0.75rem; color: var(--text-secondary)">${b.ids.join(', ')}</td>
+                        <td data-label="Platform"><div style="display:flex;flex-wrap:wrap;gap:4px;">${platformBadges}</div></td>
+                        <td data-label="Type" style="color: var(--text-secondary)">${b.type}</td>
                     </tr>
                 `;
             }).join('');
@@ -703,7 +958,7 @@
                 ${legendHtml}
                 <table>
                     <thead>
-                        <tr><th style="width:15%">Version</th><th style="width:22%">Release Date</th><th style="width:28%">Platform</th><th style="width:13%">Type</th><th style="width:22%">Build ID</th></tr>
+                        <tr><th style="width:18%">Version</th><th style="width:25%">Release Date</th><th style="width:32%">Platform</th><th style="width:20%">Type</th></tr>
                     </thead>
                     <tbody>
                         ${tableRows}
@@ -762,10 +1017,9 @@
             if (!val) return '<span style="opacity: 0.3">No Date</span>';
             let date = /^\d+$/.test(val) ? new Date(parseInt(val)) : new Date(val);
             if (isNaN(date.getTime())) return val;
-            return date.toLocaleDateString(undefined, {
-                year: 'numeric', month: 'short', day: 'numeric',
-                hour: '2-digit', minute: '2-digit'
-            });
+            const datePart = date.toLocaleDateString(undefined, { year: 'numeric', month: 'short', day: 'numeric' });
+            const timePart = date.toLocaleTimeString(undefined, { hour: '2-digit', minute: '2-digit' });
+            return `<span class="date-part">${datePart}</span><span class="time-part">${timePart}</span>`;
         }
 
         function formatDateForCopy(val) {
