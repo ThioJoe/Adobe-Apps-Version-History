@@ -2,17 +2,17 @@
     "builds":  [
                    {
                        "buildId":  "PPROBETA",
-                       "platform":  "macuniversal",
-                       "version":  "26.3",
-                       "type":  "Desktop",
-                       "goLive":  "1772652644305"
-                   },
-                   {
-                       "buildId":  "PPROBETA",
                        "platform":  "win64",
                        "version":  "26.1.1",
                        "type":  "Desktop",
                        "goLive":  "1766006741973"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
+                       "platform":  "winarm64",
+                       "version":  "26.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1766093862325"
                    },
                    {
                        "buildId":  "PPROBETA",
@@ -31,16 +31,23 @@
                    {
                        "buildId":  "PPROBETA",
                        "platform":  "winarm64",
-                       "version":  "26.1.1",
-                       "type":  "Desktop",
-                       "goLive":  "1766093862325"
-                   },
-                   {
-                       "buildId":  "PPROBETA",
-                       "platform":  "winarm64",
                        "version":  "26.2",
                        "type":  "Desktop",
                        "goLive":  "1772612262348"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
+                       "platform":  "macuniversal",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1772652644305"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
+                       "platform":  "win64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1772727916643"
                    }
                ],
     "displayName":  "Premiere (Beta)",

@@ -2,98 +2,7 @@
     "builds":  [
                    {
                        "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.1.1",
-                       "type":  "Desktop",
-                       "goLive":  "1580759274322"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "4.1.3",
-                       "type":  "Desktop",
-                       "goLive":  "1750327248859"
-                   },
-                   {
-                       "buildId":  "ESHR",
                        "platform":  "osx10-64",
-                       "version":  "3.4",
-                       "type":  "Desktop",
-                       "goLive":  "1601352159009"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.2.1",
-                       "type":  "Desktop",
-                       "goLive":  "1588037305246"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.2",
-                       "type":  "Desktop",
-                       "goLive":  "1586221018806"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.4.8",
-                       "type":  "Desktop",
-                       "goLive":  "1678356292178"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.0",
-                       "type":  "Desktop",
-                       "goLive":  "1571932945952"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "4.1.2",
-                       "type":  "Desktop",
-                       "goLive":  "1747130388662"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.4.8",
-                       "type":  "Desktop",
-                       "goLive":  "1678356292178"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "4.0.4",
-                       "type":  "Desktop",
-                       "goLive":  "1727949659379"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.4.4",
-                       "type":  "Desktop",
-                       "goLive":  "1632837882807"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "4.1.1",
-                       "type":  "Desktop",
-                       "goLive":  "1738058498052"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "4.1.7",
-                       "type":  "Desktop",
-                       "goLive":  "1769075595690"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
                        "version":  "2.3.1",
                        "type":  "Desktop",
                        "goLive":  "0"
@@ -101,23 +10,9 @@
                    {
                        "buildId":  "ESHR",
                        "platform":  "win64",
-                       "version":  "3.4.6",
+                       "version":  "2.3.1",
                        "type":  "Desktop",
-                       "goLive":  "1665050838870"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.4.9",
-                       "type":  "Desktop",
-                       "goLive":  "1680601905064"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.4.3",
-                       "type":  "Desktop",
-                       "goLive":  "1624453696454"
+                       "goLive":  "0"
                    },
                    {
                        "buildId":  "ESHR",
@@ -128,94 +23,10 @@
                    },
                    {
                        "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "4.1.0",
-                       "type":  "Desktop",
-                       "goLive":  "1734084005183"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "4.1.5",
-                       "type":  "Desktop",
-                       "goLive":  "1760004138735"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.4.3",
-                       "type":  "Desktop",
-                       "goLive":  "1624453696454"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "4.1.4",
-                       "type":  "Desktop",
-                       "goLive":  "1754992795228"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.2",
-                       "type":  "Desktop",
-                       "goLive":  "1586221480243"
-                   },
-                   {
-                       "buildId":  "ESHR",
                        "platform":  "win64",
-                       "version":  "3.4.1",
+                       "version":  "3.0",
                        "type":  "Desktop",
-                       "goLive":  "1610423744749"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.4.2",
-                       "type":  "Desktop",
-                       "goLive":  "1620705851405"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "2.3.1",
-                       "type":  "Desktop",
-                       "goLive":  "0"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.4.10",
-                       "type":  "Desktop",
-                       "goLive":  "1691489237927"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "4.1.3",
-                       "type":  "Desktop",
-                       "goLive":  "1750327248859"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "4.1.6",
-                       "type":  "Desktop",
-                       "goLive":  "1762855178412"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "4.0.3",
-                       "type":  "Desktop",
-                       "goLive":  "1723543320938"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "4.1.1",
-                       "type":  "Desktop",
-                       "goLive":  "1738058498052"
+                       "goLive":  "1571932945952"
                    },
                    {
                        "buildId":  "ESHR",
@@ -223,27 +34,6 @@
                        "version":  "3.1",
                        "type":  "Desktop",
                        "goLive":  "1575427238917"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.4.5",
-                       "type":  "Desktop",
-                       "goLive":  "1637746405802"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.1.1",
-                       "type":  "Desktop",
-                       "goLive":  "1580759875680"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "4.0.3",
-                       "type":  "Desktop",
-                       "goLive":  "1723543320938"
                    },
                    {
                        "buildId":  "ESHR",
@@ -255,93 +45,37 @@
                    {
                        "buildId":  "ESHR",
                        "platform":  "osx10-64",
-                       "version":  "4.1.2",
+                       "version":  "3.1.1",
                        "type":  "Desktop",
-                       "goLive":  "1747130388662"
+                       "goLive":  "1580759875680"
                    },
                    {
                        "buildId":  "ESHR",
                        "platform":  "win64",
-                       "version":  "3.4.2",
+                       "version":  "3.1.1",
                        "type":  "Desktop",
-                       "goLive":  "1620705851405"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.4.5",
-                       "type":  "Desktop",
-                       "goLive":  "1637746405802"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.4",
-                       "type":  "Desktop",
-                       "goLive":  "1601352159009"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "4.1.5",
-                       "type":  "Desktop",
-                       "goLive":  "1760004138735"
+                       "goLive":  "1580759274322"
                    },
                    {
                        "buildId":  "ESHR",
                        "platform":  "osx10-64",
-                       "version":  "3.4.4",
+                       "version":  "3.2",
                        "type":  "Desktop",
-                       "goLive":  "1632837882807"
+                       "goLive":  "1586221480243"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.2",
+                       "type":  "Desktop",
+                       "goLive":  "1586221018806"
                    },
                    {
                        "buildId":  "ESHR",
                        "platform":  "osx10-64",
-                       "version":  "3.3",
+                       "version":  "3.2.1",
                        "type":  "Desktop",
-                       "goLive":  "1591721421279"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "4.1.4",
-                       "type":  "Desktop",
-                       "goLive":  "1754992795228"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.4.7",
-                       "type":  "Desktop",
-                       "goLive":  "1670992571321"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.4.9",
-                       "type":  "Desktop",
-                       "goLive":  "1680601905064"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "3.4.7",
-                       "type":  "Desktop",
-                       "goLive":  "1670992571321"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "4.1.0",
-                       "type":  "Desktop",
-                       "goLive":  "1734084005183"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "3.4.10",
-                       "type":  "Desktop",
-                       "goLive":  "1691489237927"
+                       "goLive":  "1588037305246"
                    },
                    {
                        "buildId":  "ESHR",
@@ -353,9 +87,30 @@
                    {
                        "buildId":  "ESHR",
                        "platform":  "osx10-64",
-                       "version":  "3.4.11",
+                       "version":  "3.3",
                        "type":  "Desktop",
-                       "goLive":  "1702376001300"
+                       "goLive":  "1591721421279"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.3",
+                       "type":  "Desktop",
+                       "goLive":  "1591721835939"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "3.4",
+                       "type":  "Desktop",
+                       "goLive":  "1601352159009"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4",
+                       "type":  "Desktop",
+                       "goLive":  "1601352159009"
                    },
                    {
                        "buildId":  "ESHR",
@@ -367,23 +122,30 @@
                    {
                        "buildId":  "ESHR",
                        "platform":  "win64",
-                       "version":  "4.1.7",
+                       "version":  "3.4.1",
                        "type":  "Desktop",
-                       "goLive":  "1769075595690"
-                   },
-                   {
-                       "buildId":  "ESHR",
-                       "platform":  "win64",
-                       "version":  "4.0.2",
-                       "type":  "Desktop",
-                       "goLive":  "1721901626019"
+                       "goLive":  "1610423744749"
                    },
                    {
                        "buildId":  "ESHR",
                        "platform":  "osx10-64",
-                       "version":  "3.4.6",
+                       "version":  "3.4.10",
                        "type":  "Desktop",
-                       "goLive":  "1665050838870"
+                       "goLive":  "1691489237927"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4.10",
+                       "type":  "Desktop",
+                       "goLive":  "1691489237927"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "3.4.11",
+                       "type":  "Desktop",
+                       "goLive":  "1702376001300"
                    },
                    {
                        "buildId":  "ESHR",
@@ -395,9 +157,114 @@
                    {
                        "buildId":  "ESHR",
                        "platform":  "osx10-64",
-                       "version":  "4.0.4",
+                       "version":  "3.4.2",
                        "type":  "Desktop",
-                       "goLive":  "1727949659379"
+                       "goLive":  "1620705851405"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4.2",
+                       "type":  "Desktop",
+                       "goLive":  "1620705851405"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "3.4.3",
+                       "type":  "Desktop",
+                       "goLive":  "1624453696454"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4.3",
+                       "type":  "Desktop",
+                       "goLive":  "1624453696454"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "3.4.4",
+                       "type":  "Desktop",
+                       "goLive":  "1632837882807"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4.4",
+                       "type":  "Desktop",
+                       "goLive":  "1632837882807"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "3.4.5",
+                       "type":  "Desktop",
+                       "goLive":  "1637746405802"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4.5",
+                       "type":  "Desktop",
+                       "goLive":  "1637746405802"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "3.4.6",
+                       "type":  "Desktop",
+                       "goLive":  "1665050838870"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4.6",
+                       "type":  "Desktop",
+                       "goLive":  "1665050838870"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "3.4.7",
+                       "type":  "Desktop",
+                       "goLive":  "1670992571321"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4.7",
+                       "type":  "Desktop",
+                       "goLive":  "1670992571321"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "3.4.8",
+                       "type":  "Desktop",
+                       "goLive":  "1678356292178"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4.8",
+                       "type":  "Desktop",
+                       "goLive":  "1678356292178"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "3.4.9",
+                       "type":  "Desktop",
+                       "goLive":  "1680601905064"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "3.4.9",
+                       "type":  "Desktop",
+                       "goLive":  "1680601905064"
                    },
                    {
                        "buildId":  "ESHR",
@@ -409,6 +276,125 @@
                    {
                        "buildId":  "ESHR",
                        "platform":  "win64",
+                       "version":  "4.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1721901626019"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.0.3",
+                       "type":  "Desktop",
+                       "goLive":  "1723543320938"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.0.3",
+                       "type":  "Desktop",
+                       "goLive":  "1723543320938"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1727949659379"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1727949659379"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1734084005183"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1734084005183"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1738058498052"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1738058498052"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1747130388662"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.1.2",
+                       "type":  "Desktop",
+                       "goLive":  "1747130388662"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "1750327248859"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.1.3",
+                       "type":  "Desktop",
+                       "goLive":  "1750327248859"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.4",
+                       "type":  "Desktop",
+                       "goLive":  "1754992795228"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.1.4",
+                       "type":  "Desktop",
+                       "goLive":  "1754992795228"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.5",
+                       "type":  "Desktop",
+                       "goLive":  "1760004138735"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.1.5",
+                       "type":  "Desktop",
+                       "goLive":  "1760004138735"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
                        "version":  "4.1.6",
                        "type":  "Desktop",
                        "goLive":  "1762855178412"
@@ -416,9 +402,37 @@
                    {
                        "buildId":  "ESHR",
                        "platform":  "win64",
-                       "version":  "3.3",
+                       "version":  "4.1.6",
                        "type":  "Desktop",
-                       "goLive":  "1591721835939"
+                       "goLive":  "1762855178412"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.7",
+                       "type":  "Desktop",
+                       "goLive":  "1769075595690"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.1.7",
+                       "type":  "Desktop",
+                       "goLive":  "1769075595690"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "win64",
+                       "version":  "4.1.8",
+                       "type":  "Desktop",
+                       "goLive":  "1772704831145"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.8",
+                       "type":  "Desktop",
+                       "goLive":  "1772704831145"
                    }
                ],
     "displayName":  "Dimension",
