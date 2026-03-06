@@ -8631,6 +8631,13 @@
                            "version":  "26.3",
                            "type":  "Desktop",
                            "goLive":  "1772727916643"
+                       },
+                       {
+                           "buildId":  "PPROBETA",
+                           "platform":  "winarm64",
+                           "version":  "26.3",
+                           "type":  "Desktop",
+                           "goLive":  "1772750191274"
                        }
                    ],
         "displayName":  "Premiere (Beta)",
