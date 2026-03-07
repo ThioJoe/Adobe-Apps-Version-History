@@ -240,128 +240,37 @@
                        {
                            "buildId":  "ACR",
                            "platform":  "osx10-64",
-                           "version":  "10.2",
+                           "version":  "10.0",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "10.0",
                            "type":  "Desktop",
                            "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "osx10-64",
-                           "version":  "9.8",
+                           "version":  "10.1",
                            "type":  "Desktop",
                            "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "17.0",
-                           "type":  "Desktop",
-                           "goLive":  "1728900427502"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.5.1",
-                           "type":  "Desktop",
-                           "goLive":  "1759816687805"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "16.2.1",
-                           "type":  "Desktop",
-                           "goLive":  "1712055350484"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.5",
-                           "type":  "Desktop",
-                           "goLive":  "1723644217848"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.3",
-                           "type":  "Desktop",
-                           "goLive":  "1745475044038"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "14.4",
-                           "type":  "Desktop",
-                           "goLive":  "1655179607679"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.4.2",
-                           "type":  "Desktop",
-                           "goLive":  "1753957792230"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.3.1",
-                           "type":  "Desktop",
-                           "goLive":  "1717155146402"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "12.0",
-                           "type":  "Desktop",
-                           "goLive":  "1571085603295"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "9.7",
+                           "version":  "10.1",
                            "type":  "Desktop",
                            "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.5",
+                           "platform":  "osx10-64",
+                           "version":  "10.2",
                            "type":  "Desktop",
-                           "goLive":  "1691664720296"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "14.2",
-                           "type":  "Desktop",
-                           "goLive":  "1644292455095"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "12.4",
-                           "type":  "Desktop",
-                           "goLive":  "1597722753164"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "12.2",
-                           "type":  "Desktop",
-                           "goLive":  "1580858294901"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.1",
-                           "type":  "Desktop",
-                           "goLive":  "1733980198271"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.1.1",
-                           "type":  "Desktop",
-                           "goLive":  "1706022480593"
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
@@ -372,164 +281,10 @@
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "12.2",
-                           "type":  "Desktop",
-                           "goLive":  "1580887745887"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "14.3",
-                           "type":  "Desktop",
-                           "goLive":  "1650462685181"
-                       },
-                       {
-                           "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "15.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1688375553618"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "14.2",
-                           "type":  "Desktop",
-                           "goLive":  "1644292455095"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1731407584950"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "11.0",
+                           "version":  "10.2.1",
                            "type":  "Desktop",
                            "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "14.5",
-                           "type":  "Desktop",
-                           "goLive":  "1660795375302"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "11.0",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "12.4",
-                           "type":  "Desktop",
-                           "goLive":  "1597722753164"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "16.5.1",
-                           "type":  "Desktop",
-                           "goLive":  "1724256084406"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "14.3",
-                           "type":  "Desktop",
-                           "goLive":  "1650462685181"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.5.1",
-                           "type":  "Desktop",
-                           "goLive":  "1724256084406"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.5",
-                           "type":  "Desktop",
-                           "goLive":  "1755054261980"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "9.7",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "14.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1636649043268"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.3.1",
-                           "type":  "Desktop",
-                           "goLive":  "1717155146402"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.0",
-                           "type":  "Desktop",
-                           "goLive":  "1664365543094"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "15.4",
-                           "type":  "Desktop",
-                           "goLive":  "1686629083867"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.0",
-                           "type":  "Desktop",
-                           "goLive":  "1696952745280"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "12.3",
-                           "type":  "Desktop",
-                           "goLive":  "1591760981215"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.5",
-                           "type":  "Desktop",
-                           "goLive":  "1723644217848"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.1.1",
-                           "type":  "Desktop",
-                           "goLive":  "1706022480593"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "18.1.1",
-                           "type":  "Desktop",
-                           "goLive":  "1765861440714"
                        },
                        {
                            "buildId":  "ACR",
@@ -540,31 +295,52 @@
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.2",
+                           "platform":  "win32",
+                           "version":  "10.3",
                            "type":  "Desktop",
-                           "goLive":  "1676351094039"
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.3.1",
+                           "platform":  "osx10-64",
+                           "version":  "10.4",
                            "type":  "Desktop",
-                           "goLive":  "1684215876120"
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "13.0.2",
+                           "version":  "10.4",
                            "type":  "Desktop",
-                           "goLive":  "1604464583945"
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "10.5",
+                           "type":  "Desktop",
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "15.2",
+                           "version":  "10.5",
                            "type":  "Desktop",
-                           "goLive":  "1676351094039"
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "11.0",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "11.0",
+                           "type":  "Desktop",
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
@@ -576,16 +352,23 @@
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "13.1.1",
+                           "version":  "11.1",
                            "type":  "Desktop",
-                           "goLive":  "1609919838094"
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "14.4",
+                           "platform":  "osx10-64",
+                           "version":  "11.2",
                            "type":  "Desktop",
-                           "goLive":  "1655179607679"
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "11.2",
+                           "type":  "Desktop",
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
@@ -596,87 +379,45 @@
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.3.1",
+                           "platform":  "win32",
+                           "version":  "11.2.1",
                            "type":  "Desktop",
-                           "goLive":  "1746676977505"
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "osx10-64",
-                           "version":  "9.12.1",
+                           "version":  "11.3",
                            "type":  "Desktop",
                            "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.2",
-                           "type":  "Desktop",
-                           "goLive":  "1739404617257"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.0",
-                           "type":  "Desktop",
-                           "goLive":  "1728900427502"
-                       },
-                       {
-                           "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "10.1",
+                           "version":  "11.3",
                            "type":  "Desktop",
                            "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.4",
-                           "type":  "Desktop",
-                           "goLive":  "1686629083867"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "15.5.1",
-                           "type":  "Desktop",
-                           "goLive":  "1693480156483"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "9.6",
+                           "platform":  "osx10-64",
+                           "version":  "11.3.1",
                            "type":  "Desktop",
                            "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "18.2",
+                           "platform":  "osx10-64",
+                           "version":  "11.4",
                            "type":  "Desktop",
-                           "goLive":  "1771560358682"
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "13.4",
+                           "version":  "11.4",
                            "type":  "Desktop",
-                           "goLive":  "1629172198038"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "16.3",
-                           "type":  "Desktop",
-                           "goLive":  "1716264163648"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.4",
-                           "type":  "Desktop",
-                           "goLive":  "1750129353179"
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
@@ -688,849 +429,9 @@
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "9.6.1",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.4.2",
-                           "type":  "Desktop",
-                           "goLive":  "1753957792230"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.3.1",
-                           "type":  "Desktop",
-                           "goLive":  "1684215876120"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.3",
-                           "type":  "Desktop",
-                           "goLive":  "1681790659733"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "14.1",
-                           "type":  "Desktop",
-                           "goLive":  "1639453937098"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1750921133230"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.5.1",
-                           "type":  "Desktop",
-                           "goLive":  "1693480156483"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "9.10",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "10.0",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "13.3",
-                           "type":  "Desktop",
-                           "goLive":  "1623124245684"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1731407584950"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1688375553618"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "9.9",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "12.2.1",
-                           "type":  "Desktop",
-                           "goLive":  "1586411669650"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.1",
-                           "type":  "Desktop",
-                           "goLive":  "1733980198271"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "11.2",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "13.4",
-                           "type":  "Desktop",
-                           "goLive":  "1629172198038"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.1",
-                           "type":  "Desktop",
-                           "goLive":  "1702526722605"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.4",
-                           "type":  "Desktop",
-                           "goLive":  "1719288317817"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "14.0",
-                           "type":  "Desktop",
-                           "goLive":  "1633667914408"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "16.1.1",
-                           "type":  "Desktop",
-                           "goLive":  "1706022480593"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.5",
-                           "type":  "Desktop",
-                           "goLive":  "1755054261980"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1688375553618"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "18.2",
-                           "type":  "Desktop",
-                           "goLive":  "1771560358682"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "13.2",
-                           "type":  "Desktop",
-                           "goLive":  "1615351831330"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "9.8",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.1",
-                           "type":  "Desktop",
-                           "goLive":  "1702526722605"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "16.2",
-                           "type":  "Desktop",
-                           "goLive":  "1708491757251"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.4",
-                           "type":  "Desktop",
-                           "goLive":  "1686629083867"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "10.4",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.5.1",
-                           "type":  "Desktop",
-                           "goLive":  "1724256084406"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "12.1",
-                           "type":  "Desktop",
-                           "goLive":  "1574839591715"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "18.0",
-                           "type":  "Desktop",
-                           "goLive":  "1761645914081"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "13.3",
-                           "type":  "Desktop",
-                           "goLive":  "1623124245684"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "16.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1699371424292"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.3.1",
-                           "type":  "Desktop",
-                           "goLive":  "1746676977505"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "11.4",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "14.1",
-                           "type":  "Desktop",
-                           "goLive":  "1639453937098"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.2",
-                           "type":  "Desktop",
-                           "goLive":  "1739404617257"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.0",
-                           "type":  "Desktop",
-                           "goLive":  "1728900427502"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "13.1",
-                           "type":  "Desktop",
-                           "goLive":  "1607399694257"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "11.2.1",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.2.1",
-                           "type":  "Desktop",
-                           "goLive":  "1712055350484"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "13.0.2",
-                           "type":  "Desktop",
-                           "goLive":  "1604464583945"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "9.6",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.1.1",
-                           "type":  "Desktop",
-                           "goLive":  "1672917635817"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "13.4",
-                           "type":  "Desktop",
-                           "goLive":  "1629172198038"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "9.10.1",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.3",
-                           "type":  "Desktop",
-                           "goLive":  "1716264163648"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "15.1",
-                           "type":  "Desktop",
-                           "goLive":  "1670903912217"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "10.5",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "11.3",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1731407584950"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "12.3",
-                           "type":  "Desktop",
-                           "goLive":  "1591760646213"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "11.3",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.1",
-                           "type":  "Desktop",
-                           "goLive":  "1733980198271"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "9.10.1",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "9.12",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "14.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1655924352942"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "14.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1636649043268"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.5.1",
-                           "type":  "Desktop",
-                           "goLive":  "1759816687805"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.0",
-                           "type":  "Desktop",
-                           "goLive":  "1664364799432"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "10.5",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.2",
-                           "type":  "Desktop",
-                           "goLive":  "1708491757251"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1750921133230"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.2",
-                           "type":  "Desktop",
-                           "goLive":  "1708491757251"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "15.3.1",
-                           "type":  "Desktop",
-                           "goLive":  "1684215876120"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "16.3.1",
-                           "type":  "Desktop",
-                           "goLive":  "1717155146402"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "11.2",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "10.4",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "14.3",
-                           "type":  "Desktop",
-                           "goLive":  "1650462685181"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "13.1",
-                           "type":  "Desktop",
-                           "goLive":  "1607399694257"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "11.4",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1750921133230"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "13.2",
-                           "type":  "Desktop",
-                           "goLive":  "1615351831330"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "14.5",
-                           "type":  "Desktop",
-                           "goLive":  "1660795375302"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "16.4",
-                           "type":  "Desktop",
-                           "goLive":  "1719288317817"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "12.1",
-                           "type":  "Desktop",
-                           "goLive":  "1574840046750"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "18.0",
-                           "type":  "Desktop",
-                           "goLive":  "1761645914081"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "14.0",
-                           "type":  "Desktop",
-                           "goLive":  "1633668535750"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "9.12",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.1.1",
-                           "type":  "Desktop",
-                           "goLive":  "1672917635817"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.4.2",
-                           "type":  "Desktop",
-                           "goLive":  "1753957792230"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.3",
-                           "type":  "Desktop",
-                           "goLive":  "1681790659733"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "12.2.1",
-                           "type":  "Desktop",
-                           "goLive":  "1586412043948"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.4",
-                           "type":  "Desktop",
-                           "goLive":  "1750129353179"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.4",
-                           "type":  "Desktop",
-                           "goLive":  "1750129353179"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "14.0",
-                           "type":  "Desktop",
-                           "goLive":  "1633668207533"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "15.3",
-                           "type":  "Desktop",
-                           "goLive":  "1681790659733"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.2.1",
-                           "type":  "Desktop",
-                           "goLive":  "1712055350484"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "12.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1573048558668"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.2",
-                           "type":  "Desktop",
-                           "goLive":  "1686046785785"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "18.1.1",
-                           "type":  "Desktop",
-                           "goLive":  "1765861440714"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "13.3",
-                           "type":  "Desktop",
-                           "goLive":  "1623124245684"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "9.6.1",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "16.0",
-                           "type":  "Desktop",
-                           "goLive":  "1696952745280"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.3",
-                           "type":  "Desktop",
-                           "goLive":  "1745475044038"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "14.4",
-                           "type":  "Desktop",
-                           "goLive":  "1655179607679"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "15.1",
-                           "type":  "Desktop",
-                           "goLive":  "1670903912217"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1699371424292"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "17.5.1",
-                           "type":  "Desktop",
-                           "goLive":  "1759816687805"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "10.3",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.5",
-                           "type":  "Desktop",
-                           "goLive":  "1691664720296"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "15.5",
-                           "type":  "Desktop",
-                           "goLive":  "1691664720296"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "14.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1655924352942"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "14.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1636649043268"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "14.2",
-                           "type":  "Desktop",
-                           "goLive":  "1644292455095"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.4",
-                           "type":  "Desktop",
-                           "goLive":  "1719288317817"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "10.0",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "14.5",
-                           "type":  "Desktop",
-                           "goLive":  "1660795375302"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "15.1.1",
-                           "type":  "Desktop",
-                           "goLive":  "1672917635817"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "13.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1603257420867"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
                            "version":  "11.4.1",
                            "type":  "Desktop",
                            "goLive":  "1567660987257"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "15.0",
-                           "type":  "Desktop",
-                           "goLive":  "1664365161148"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.2",
-                           "type":  "Desktop",
-                           "goLive":  "1739404617257"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "17.3.1",
-                           "type":  "Desktop",
-                           "goLive":  "1746676977505"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "osx10-64",
-                           "version":  "11.3.1",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.0",
-                           "type":  "Desktop",
-                           "goLive":  "1696952745280"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "winarm64",
-                           "version":  "16.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1699371424292"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.1",
-                           "type":  "Desktop",
-                           "goLive":  "1670903912217"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "13.0",
-                           "type":  "Desktop",
-                           "goLive":  "1601492358046"
                        },
                        {
                            "buildId":  "ACR",
@@ -1542,37 +443,86 @@
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "18.2",
+                           "version":  "12.0",
                            "type":  "Desktop",
-                           "goLive":  "1771560358682"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "10.2.1",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "15.5.1",
-                           "type":  "Desktop",
-                           "goLive":  "1693480156483"
-                       },
-                       {
-                           "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "17.5",
-                           "type":  "Desktop",
-                           "goLive":  "1755054261980"
+                           "goLive":  "1571085603295"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "osx10-64",
-                           "version":  "9.9",
+                           "version":  "12.0.1",
                            "type":  "Desktop",
-                           "goLive":  "0"
+                           "goLive":  "1573048558668"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "12.1",
+                           "type":  "Desktop",
+                           "goLive":  "1574840046750"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "12.1",
+                           "type":  "Desktop",
+                           "goLive":  "1574839591715"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "12.2",
+                           "type":  "Desktop",
+                           "goLive":  "1580887745887"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "12.2",
+                           "type":  "Desktop",
+                           "goLive":  "1580858294901"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "12.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "1586411669650"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "12.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "1586412043948"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "12.3",
+                           "type":  "Desktop",
+                           "goLive":  "1591760646213"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "12.3",
+                           "type":  "Desktop",
+                           "goLive":  "1591760981215"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "12.4",
+                           "type":  "Desktop",
+                           "goLive":  "1597722753164"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "12.4",
+                           "type":  "Desktop",
+                           "goLive":  "1597722753164"
                        },
                        {
                            "buildId":  "ACR",
@@ -1583,10 +533,164 @@
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "macuniversal",
-                           "version":  "16.3",
+                           "platform":  "win32",
+                           "version":  "13.0",
                            "type":  "Desktop",
-                           "goLive":  "1716264163648"
+                           "goLive":  "1601492358046"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "13.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1603257420867"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "13.0.2",
+                           "type":  "Desktop",
+                           "goLive":  "1604464583945"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "13.0.2",
+                           "type":  "Desktop",
+                           "goLive":  "1604464583945"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "13.1",
+                           "type":  "Desktop",
+                           "goLive":  "1607399694257"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "13.1",
+                           "type":  "Desktop",
+                           "goLive":  "1607399694257"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "13.1.1",
+                           "type":  "Desktop",
+                           "goLive":  "1609919838094"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "13.2",
+                           "type":  "Desktop",
+                           "goLive":  "1615351831330"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "13.2",
+                           "type":  "Desktop",
+                           "goLive":  "1615351831330"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "13.2",
+                           "type":  "Desktop",
+                           "goLive":  "1615351831330"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "13.3",
+                           "type":  "Desktop",
+                           "goLive":  "1623124245684"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "13.3",
+                           "type":  "Desktop",
+                           "goLive":  "1623124245684"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "13.3",
+                           "type":  "Desktop",
+                           "goLive":  "1623124245684"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "13.4",
+                           "type":  "Desktop",
+                           "goLive":  "1629172198038"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "13.4",
+                           "type":  "Desktop",
+                           "goLive":  "1629172198038"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "13.4",
+                           "type":  "Desktop",
+                           "goLive":  "1629172198038"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "14.0",
+                           "type":  "Desktop",
+                           "goLive":  "1633668535750"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "14.0",
+                           "type":  "Desktop",
+                           "goLive":  "1633668207533"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "14.0",
+                           "type":  "Desktop",
+                           "goLive":  "1633667914408"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "14.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1636649043268"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "14.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1636649043268"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "14.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1636649043268"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "14.1",
+                           "type":  "Desktop",
+                           "goLive":  "1639453937098"
                        },
                        {
                            "buildId":  "ACR",
@@ -1594,6 +698,370 @@
                            "version":  "14.1",
                            "type":  "Desktop",
                            "goLive":  "1639453937098"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "14.1",
+                           "type":  "Desktop",
+                           "goLive":  "1639453937098"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "14.2",
+                           "type":  "Desktop",
+                           "goLive":  "1644292455095"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "14.2",
+                           "type":  "Desktop",
+                           "goLive":  "1644292455095"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "14.2",
+                           "type":  "Desktop",
+                           "goLive":  "1644292455095"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "14.3",
+                           "type":  "Desktop",
+                           "goLive":  "1650462685181"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "14.3",
+                           "type":  "Desktop",
+                           "goLive":  "1650462685181"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "14.3",
+                           "type":  "Desktop",
+                           "goLive":  "1650462685181"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "14.4",
+                           "type":  "Desktop",
+                           "goLive":  "1655179607679"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "14.4",
+                           "type":  "Desktop",
+                           "goLive":  "1655179607679"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "14.4",
+                           "type":  "Desktop",
+                           "goLive":  "1655179607679"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "14.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1655924352942"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "14.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1655924352942"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "14.5",
+                           "type":  "Desktop",
+                           "goLive":  "1660795375302"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "14.5",
+                           "type":  "Desktop",
+                           "goLive":  "1660795375302"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "14.5",
+                           "type":  "Desktop",
+                           "goLive":  "1660795375302"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.0",
+                           "type":  "Desktop",
+                           "goLive":  "1664365543094"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.0",
+                           "type":  "Desktop",
+                           "goLive":  "1664365161148"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.0",
+                           "type":  "Desktop",
+                           "goLive":  "1664364799432"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.1",
+                           "type":  "Desktop",
+                           "goLive":  "1670903912217"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.1",
+                           "type":  "Desktop",
+                           "goLive":  "1670903912217"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.1",
+                           "type":  "Desktop",
+                           "goLive":  "1670903912217"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.1.1",
+                           "type":  "Desktop",
+                           "goLive":  "1672917635817"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.1.1",
+                           "type":  "Desktop",
+                           "goLive":  "1672917635817"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.1.1",
+                           "type":  "Desktop",
+                           "goLive":  "1672917635817"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.2",
+                           "type":  "Desktop",
+                           "goLive":  "1686046785785"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.2",
+                           "type":  "Desktop",
+                           "goLive":  "1676351094039"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.2",
+                           "type":  "Desktop",
+                           "goLive":  "1676351094039"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.3",
+                           "type":  "Desktop",
+                           "goLive":  "1681790659733"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.3",
+                           "type":  "Desktop",
+                           "goLive":  "1681790659733"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.3",
+                           "type":  "Desktop",
+                           "goLive":  "1681790659733"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1684215876120"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1684215876120"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1684215876120"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.4",
+                           "type":  "Desktop",
+                           "goLive":  "1686629083867"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.4",
+                           "type":  "Desktop",
+                           "goLive":  "1686629083867"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.4",
+                           "type":  "Desktop",
+                           "goLive":  "1686629083867"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1688375553618"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1688375553618"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1688375553618"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.5",
+                           "type":  "Desktop",
+                           "goLive":  "1691664720296"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.5",
+                           "type":  "Desktop",
+                           "goLive":  "1691664720296"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.5",
+                           "type":  "Desktop",
+                           "goLive":  "1691664720296"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "15.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1693480156483"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "15.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1693480156483"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "15.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1693480156483"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.0",
+                           "type":  "Desktop",
+                           "goLive":  "1696952745280"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.0",
+                           "type":  "Desktop",
+                           "goLive":  "1696952745280"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.0",
+                           "type":  "Desktop",
+                           "goLive":  "1696952745280"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1699371424292"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1699371424292"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1699371424292"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.1",
+                           "type":  "Desktop",
+                           "goLive":  "1702526722605"
                        },
                        {
                            "buildId":  "ACR",
@@ -1605,6 +1073,272 @@
                        {
                            "buildId":  "ACR",
                            "platform":  "winarm64",
+                           "version":  "16.1",
+                           "type":  "Desktop",
+                           "goLive":  "1702526722605"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.1.1",
+                           "type":  "Desktop",
+                           "goLive":  "1706022480593"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.1.1",
+                           "type":  "Desktop",
+                           "goLive":  "1706022480593"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.1.1",
+                           "type":  "Desktop",
+                           "goLive":  "1706022480593"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.2",
+                           "type":  "Desktop",
+                           "goLive":  "1708491757251"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.2",
+                           "type":  "Desktop",
+                           "goLive":  "1708491757251"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.2",
+                           "type":  "Desktop",
+                           "goLive":  "1708491757251"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "1712055350484"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "1712055350484"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "1712055350484"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.3",
+                           "type":  "Desktop",
+                           "goLive":  "1716264163648"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.3",
+                           "type":  "Desktop",
+                           "goLive":  "1716264163648"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.3",
+                           "type":  "Desktop",
+                           "goLive":  "1716264163648"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1717155146402"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1717155146402"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1717155146402"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.4",
+                           "type":  "Desktop",
+                           "goLive":  "1719288317817"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.4",
+                           "type":  "Desktop",
+                           "goLive":  "1719288317817"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.4",
+                           "type":  "Desktop",
+                           "goLive":  "1719288317817"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.5",
+                           "type":  "Desktop",
+                           "goLive":  "1723644217848"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.5",
+                           "type":  "Desktop",
+                           "goLive":  "1723644217848"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.5",
+                           "type":  "Desktop",
+                           "goLive":  "1723644217848"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "16.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1724256084406"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "16.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1724256084406"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "16.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1724256084406"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.0",
+                           "type":  "Desktop",
+                           "goLive":  "1728900427502"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "17.0",
+                           "type":  "Desktop",
+                           "goLive":  "1728900427502"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.0",
+                           "type":  "Desktop",
+                           "goLive":  "1728900427502"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1731407584950"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "17.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1731407584950"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1731407584950"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.1",
+                           "type":  "Desktop",
+                           "goLive":  "1733980198271"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "17.1",
+                           "type":  "Desktop",
+                           "goLive":  "1733980198271"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.1",
+                           "type":  "Desktop",
+                           "goLive":  "1733980198271"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.2",
+                           "type":  "Desktop",
+                           "goLive":  "1739404617257"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "17.2",
+                           "type":  "Desktop",
+                           "goLive":  "1739404617257"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.2",
+                           "type":  "Desktop",
+                           "goLive":  "1739404617257"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.3",
+                           "type":  "Desktop",
+                           "goLive":  "1745475044038"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
                            "version":  "17.3",
                            "type":  "Desktop",
                            "goLive":  "1745475044038"
@@ -1612,16 +1346,156 @@
                        {
                            "buildId":  "ACR",
                            "platform":  "winarm64",
-                           "version":  "13.2",
+                           "version":  "17.3",
                            "type":  "Desktop",
-                           "goLive":  "1615351831330"
+                           "goLive":  "1745475044038"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1746676977505"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "9.12.1",
+                           "version":  "17.3.1",
                            "type":  "Desktop",
-                           "goLive":  "0"
+                           "goLive":  "1746676977505"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1746676977505"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.4",
+                           "type":  "Desktop",
+                           "goLive":  "1750129353179"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "17.4",
+                           "type":  "Desktop",
+                           "goLive":  "1750129353179"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.4",
+                           "type":  "Desktop",
+                           "goLive":  "1750129353179"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1750921133230"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "17.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1750921133230"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1750921133230"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.4.2",
+                           "type":  "Desktop",
+                           "goLive":  "1753957792230"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "17.4.2",
+                           "type":  "Desktop",
+                           "goLive":  "1753957792230"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.4.2",
+                           "type":  "Desktop",
+                           "goLive":  "1753957792230"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.5",
+                           "type":  "Desktop",
+                           "goLive":  "1755054261980"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "17.5",
+                           "type":  "Desktop",
+                           "goLive":  "1755054261980"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.5",
+                           "type":  "Desktop",
+                           "goLive":  "1755054261980"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "17.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1759816687805"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "17.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1759816687805"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "17.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1759816687805"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "18.0",
+                           "type":  "Desktop",
+                           "goLive":  "1761645914081"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "18.0",
+                           "type":  "Desktop",
+                           "goLive":  "1761645914081"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "18.0",
+                           "type":  "Desktop",
+                           "goLive":  "1761645914081"
                        },
                        {
                            "buildId":  "ACR",
@@ -1633,14 +1507,42 @@
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "16.5",
+                           "version":  "18.1.1",
                            "type":  "Desktop",
-                           "goLive":  "1723644217848"
+                           "goLive":  "1765861440714"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "18.1.1",
+                           "type":  "Desktop",
+                           "goLive":  "1765861440714"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "18.2",
+                           "type":  "Desktop",
+                           "goLive":  "1771560358682"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "11.1",
+                           "version":  "18.2",
+                           "type":  "Desktop",
+                           "goLive":  "1771560358682"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "18.2",
+                           "type":  "Desktop",
+                           "goLive":  "1771560358682"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "9.10",
                            "type":  "Desktop",
                            "goLive":  "0"
                        },
@@ -1653,17 +1555,136 @@
                        },
                        {
                            "buildId":  "ACR",
-                           "platform":  "win32",
-                           "version":  "18.0",
+                           "platform":  "osx10-64",
+                           "version":  "9.10.1",
                            "type":  "Desktop",
-                           "goLive":  "1761645914081"
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "9.10.1",
+                           "type":  "Desktop",
+                           "goLive":  "0"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "osx10-64",
-                           "version":  "10.1",
+                           "version":  "9.12",
                            "type":  "Desktop",
                            "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "9.12",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "9.12.1",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "9.12.1",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "9.6",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "9.6",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "9.6.1",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "9.6.1",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "9.7",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "9.7",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "9.8",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "9.8",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "osx10-64",
+                           "version":  "9.9",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "9.9",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "18.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "1772818810565"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "18.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "1772818810565"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "18.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "1772818810565"
                        }
                    ],
         "displayName":  "Camera Raw",
