@@ -37,7 +37,8 @@ If you want to use the raw data yourself, you can grab the master JSON file here
 
 ## FAQs
 #### Is the history complete? What about older versions?
-* The API only provides a rolling window of recent updates. However, this repo archives all previously fetched versions and seamlessly appends new ones as they are discovered.
+* The API only provides a rolling window of recent updates. Therefore, the earliest records here are limited to the historical backlog the API provided when tracking began.
+* Specifically, the version history of most apps starts in late 2024.
 #### Does this let me download specific versions of an app?
 * No, this is literally just a history of release version numbers and dates.
 
