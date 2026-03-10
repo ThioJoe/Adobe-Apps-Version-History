@@ -2,10 +2,10 @@
     "builds":  [
                    {
                        "buildId":  "AEFTBETA",
-                       "platform":  "win64",
-                       "version":  "26.2",
+                       "platform":  "macuniversal",
+                       "version":  "26.1.1",
                        "type":  "Desktop",
-                       "goLive":  "1769627735997"
+                       "goLive":  "1766014286523"
                    },
                    {
                        "buildId":  "AEFTBETA",
@@ -16,10 +16,24 @@
                    },
                    {
                        "buildId":  "AEFTBETA",
+                       "platform":  "winarm64",
+                       "version":  "26.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1766011577197"
+                   },
+                   {
+                       "buildId":  "AEFTBETA",
                        "platform":  "macuniversal",
                        "version":  "26.2",
                        "type":  "Desktop",
                        "goLive":  "1769631784458"
+                   },
+                   {
+                       "buildId":  "AEFTBETA",
+                       "platform":  "win64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769627735997"
                    },
                    {
                        "buildId":  "AEFTBETA",
@@ -30,17 +44,24 @@
                    },
                    {
                        "buildId":  "AEFTBETA",
-                       "platform":  "macuniversal",
-                       "version":  "26.1.1",
+                       "platform":  "winarm64",
+                       "version":  "26.3",
                        "type":  "Desktop",
-                       "goLive":  "1766014286523"
+                       "goLive":  "1773081016513"
                    },
                    {
                        "buildId":  "AEFTBETA",
-                       "platform":  "winarm64",
-                       "version":  "26.1.1",
+                       "platform":  "macuniversal",
+                       "version":  "26.3",
                        "type":  "Desktop",
-                       "goLive":  "1766011577197"
+                       "goLive":  "1773085786358"
+                   },
+                   {
+                       "buildId":  "AEFTBETA",
+                       "platform":  "win64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1773082482350"
                    }
                ],
     "displayName":  "After Effects (Beta)",
