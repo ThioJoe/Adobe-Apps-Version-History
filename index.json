@@ -120,7 +120,7 @@
         "id":  "SEPS"
     },
     {
-        "buildCount":  104,
+        "buildCount":  106,
         "displayName":  "Substance 3D Designer",
         "id":  "SBSTD"
     },
@@ -205,7 +205,7 @@
         "id":  "PSTI"
     },
     {
-        "buildCount":  34,
+        "buildCount":  38,
         "displayName":  "Premiere",
         "id":  "PPRO"
     },
@@ -320,12 +320,12 @@
         "id":  "ANML"
     },
     {
-        "buildCount":  22,
+        "buildCount":  26,
         "displayName":  "Media Encoder",
         "id":  "AME"
     },
     {
-        "buildCount":  6,
+        "buildCount":  8,
         "displayName":  "Media Encoder (Beta)",
         "id":  "AMEBETA"
     },

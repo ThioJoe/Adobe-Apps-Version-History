@@ -2,10 +2,38 @@
     "builds":  [
                    {
                        "buildId":  "AMEBETA",
+                       "platform":  "winarm64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761676339555"
+                   },
+                   {
+                       "buildId":  "AMEBETA",
+                       "platform":  "macuniversal",
+                       "version":  "26.1.1",
+                       "type":  "Desktop",
+                       "goLive":  "1767784427944"
+                   },
+                   {
+                       "buildId":  "AMEBETA",
                        "platform":  "win64",
                        "version":  "26.1.1",
                        "type":  "Desktop",
                        "goLive":  "1768576434382"
+                   },
+                   {
+                       "buildId":  "AMEBETA",
+                       "platform":  "macuniversal",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769533655189"
+                   },
+                   {
+                       "buildId":  "AMEBETA",
+                       "platform":  "win64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1769850182639"
                    },
                    {
                        "buildId":  "AMEBETA",
@@ -17,30 +45,16 @@
                    {
                        "buildId":  "AMEBETA",
                        "platform":  "macuniversal",
-                       "version":  "26.2",
+                       "version":  "26.3",
                        "type":  "Desktop",
-                       "goLive":  "1769533655189"
-                   },
-                   {
-                       "buildId":  "AMEBETA",
-                       "platform":  "macuniversal",
-                       "version":  "26.1.1",
-                       "type":  "Desktop",
-                       "goLive":  "1767784427944"
-                   },
-                   {
-                       "buildId":  "AMEBETA",
-                       "platform":  "winarm64",
-                       "version":  "26.0",
-                       "type":  "Desktop",
-                       "goLive":  "1761676339555"
+                       "goLive":  "1773143739478"
                    },
                    {
                        "buildId":  "AMEBETA",
                        "platform":  "win64",
-                       "version":  "26.2",
+                       "version":  "26.3",
                        "type":  "Desktop",
-                       "goLive":  "1769850182639"
+                       "goLive":  "1773141120674"
                    }
                ],
     "displayName":  "Media Encoder (Beta)",
