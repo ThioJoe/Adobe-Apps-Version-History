@@ -2,69 +2,6 @@
     "builds":  [
                    {
                        "buildId":  "IDSNBETA",
-                       "platform":  "macuniversal",
-                       "version":  "20.4",
-                       "type":  "Desktop",
-                       "goLive":  "1751458430687"
-                   },
-                   {
-                       "buildId":  "IDSNBETA",
-                       "platform":  "win64",
-                       "version":  "21.2",
-                       "type":  "Desktop",
-                       "goLive":  "1772181679560"
-                   },
-                   {
-                       "buildId":  "IDSNBETA",
-                       "platform":  "macuniversal",
-                       "version":  "20.3",
-                       "type":  "Desktop",
-                       "goLive":  "1745477609614"
-                   },
-                   {
-                       "buildId":  "IDSNBETA",
-                       "platform":  "win64",
-                       "version":  "21.0.3",
-                       "type":  "Desktop",
-                       "goLive":  "1772182295152"
-                   },
-                   {
-                       "buildId":  "IDSNBETA",
-                       "platform":  "macuniversal",
-                       "version":  "20.1",
-                       "type":  "Desktop",
-                       "goLive":  "1728901452643"
-                   },
-                   {
-                       "buildId":  "IDSNBETA",
-                       "platform":  "win64",
-                       "version":  "20.6",
-                       "type":  "Desktop",
-                       "goLive":  "1757610070031"
-                   },
-                   {
-                       "buildId":  "IDSNBETA",
-                       "platform":  "win64",
-                       "version":  "20.1",
-                       "type":  "Desktop",
-                       "goLive":  "1728901452643"
-                   },
-                   {
-                       "buildId":  "IDSNBETA",
-                       "platform":  "macuniversal",
-                       "version":  "21.2",
-                       "type":  "Desktop",
-                       "goLive":  "1772181679560"
-                   },
-                   {
-                       "buildId":  "IDSNBETA",
-                       "platform":  "macuniversal",
-                       "version":  "20.6",
-                       "type":  "Desktop",
-                       "goLive":  "1757610070031"
-                   },
-                   {
-                       "buildId":  "IDSNBETA",
                        "platform":  "macarm64",
                        "version":  "16.3",
                        "type":  "Desktop",
@@ -72,10 +9,59 @@
                    },
                    {
                        "buildId":  "IDSNBETA",
+                       "platform":  "macuniversal",
+                       "version":  "20.1",
+                       "type":  "Desktop",
+                       "goLive":  "1728901452643"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "win64",
+                       "version":  "20.1",
+                       "type":  "Desktop",
+                       "goLive":  "1728901452643"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "macuniversal",
+                       "version":  "20.3",
+                       "type":  "Desktop",
+                       "goLive":  "1745477609614"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
                        "platform":  "win64",
                        "version":  "20.3",
                        "type":  "Desktop",
                        "goLive":  "1745477609614"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "macuniversal",
+                       "version":  "20.4",
+                       "type":  "Desktop",
+                       "goLive":  "1751458430687"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "win64",
+                       "version":  "20.4",
+                       "type":  "Desktop",
+                       "goLive":  "1751458430687"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "macuniversal",
+                       "version":  "20.6",
+                       "type":  "Desktop",
+                       "goLive":  "1757610070031"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "win64",
+                       "version":  "20.6",
+                       "type":  "Desktop",
+                       "goLive":  "1757610070031"
                    },
                    {
                        "buildId":  "IDSNBETA",
@@ -87,9 +73,37 @@
                    {
                        "buildId":  "IDSNBETA",
                        "platform":  "win64",
-                       "version":  "20.4",
+                       "version":  "21.0.3",
                        "type":  "Desktop",
-                       "goLive":  "1751458430687"
+                       "goLive":  "1772182295152"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "macuniversal",
+                       "version":  "21.2",
+                       "type":  "Desktop",
+                       "goLive":  "1772181679560"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "win64",
+                       "version":  "21.2",
+                       "type":  "Desktop",
+                       "goLive":  "1772181679560"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "macuniversal",
+                       "version":  "21.3",
+                       "type":  "Desktop",
+                       "goLive":  "1773218213284"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "win64",
+                       "version":  "21.3",
+                       "type":  "Desktop",
+                       "goLive":  "1773218213284"
                    }
                ],
     "displayName":  "InDesign (Beta)",
