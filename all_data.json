@@ -6504,115 +6504,10 @@
         "builds":  [
                        {
                            "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.0.0",
-                           "type":  "Desktop",
-                           "goLive":  "1694686884718"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.5.0",
-                           "type":  "Desktop",
-                           "goLive":  "1623761553916"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.1.0",
-                           "type":  "Desktop",
-                           "goLive":  "1585305503979"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.3.0",
-                           "type":  "Desktop",
-                           "goLive":  "1718710160833"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.2.1",
+                           "platform":  "win32",
+                           "version":  "4.9",
                            "type":  "Desktop",
                            "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.4.5",
-                           "type":  "Desktop",
-                           "goLive":  "1619511634451"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.4.0",
-                           "type":  "Desktop",
-                           "goLive":  "1725612673354"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.7.1",
-                           "type":  "Desktop",
-                           "goLive":  "1651136842524"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.6.5",
-                           "type":  "Desktop",
-                           "goLive":  "1643016707197"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.7.0",
-                           "type":  "Desktop",
-                           "goLive":  "1748852981941"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1614590414742"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.5.0",
-                           "type":  "Desktop",
-                           "goLive":  "1736755249832"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "6.1.0",
-                           "type":  "Desktop",
-                           "goLive":  "1701940781832"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "5.5.0",
-                           "type":  "Desktop",
-                           "goLive":  "1623761991519"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.2.0",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.1.0",
-                           "type":  "Desktop",
-                           "goLive":  "1701941211768"
                        },
                        {
                            "buildId":  "KCCC",
@@ -6620,76 +6515,6 @@
                            "version":  "5.0",
                            "type":  "Desktop",
                            "goLive":  "1571046508294"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "5.8.0",
-                           "type":  "Desktop",
-                           "goLive":  "1658131443938"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.0.0",
-                           "type":  "Desktop",
-                           "goLive":  "1694687292337"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "6.7.0",
-                           "type":  "Desktop",
-                           "goLive":  "1748852495206"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.9.0",
-                           "type":  "Desktop",
-                           "goLive":  "1664090643755"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.8.0",
-                           "type":  "Desktop",
-                           "goLive":  "1758273689741"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "6.0.0",
-                           "type":  "Desktop",
-                           "goLive":  "1694687823580"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.1.0",
-                           "type":  "Desktop",
-                           "goLive":  "1701941610917"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "6.3.0",
-                           "type":  "Desktop",
-                           "goLive":  "1718710676337"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.10.0",
-                           "type":  "Desktop",
-                           "goLive":  "1677833305593"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.2.0",
-                           "type":  "Desktop",
-                           "goLive":  "1714465935899"
                        },
                        {
                            "buildId":  "KCCC",
@@ -6701,100 +6526,30 @@
                        {
                            "buildId":  "KCCC",
                            "platform":  "osx10",
-                           "version":  "5.7.0",
+                           "version":  "5.1.0",
                            "type":  "Desktop",
-                           "goLive":  "1649158398055"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.8.1",
-                           "type":  "Desktop",
-                           "goLive":  "1764678587429"
+                           "goLive":  "1585305503979"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "win64",
-                           "version":  "5.11.0",
+                           "version":  "5.1.0",
                            "type":  "Desktop",
-                           "goLive":  "1686821253210"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.7.0",
-                           "type":  "Desktop",
-                           "goLive":  "1748852015256"
+                           "goLive":  "1585305504482"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "macarm64",
-                           "version":  "6.5.0",
+                           "version":  "5.10.0",
                            "type":  "Desktop",
-                           "goLive":  "1736754004194"
+                           "goLive":  "1677833339780"
                        },
                        {
                            "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "5.4.3",
+                           "platform":  "osx10",
+                           "version":  "5.10.0",
                            "type":  "Desktop",
-                           "goLive":  "1617792990466"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.8.1",
-                           "type":  "Desktop",
-                           "goLive":  "1764679763804"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.2.0",
-                           "type":  "Desktop",
-                           "goLive":  "1714466381430"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.5.0",
-                           "type":  "Desktop",
-                           "goLive":  "1623761118505"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "6.2.0",
-                           "type":  "Desktop",
-                           "goLive":  "1714464855265"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win32",
-                           "version":  "4.9",
-                           "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "6.8.1",
-                           "type":  "Desktop",
-                           "goLive":  "1764679399754"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.4.0",
-                           "type":  "Desktop",
-                           "goLive":  "1725613726029"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "6.8.0",
-                           "type":  "Desktop",
-                           "goLive":  "1758274147661"
+                           "goLive":  "1677833305593"
                        },
                        {
                            "buildId":  "KCCC",
@@ -6805,31 +6560,80 @@
                        },
                        {
                            "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.5.0",
+                           "platform":  "winarm64",
+                           "version":  "5.10.0",
                            "type":  "Desktop",
-                           "goLive":  "1736754413909"
+                           "goLive":  "1677833278599"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "macarm64",
-                           "version":  "5.7.0",
+                           "version":  "5.11.0",
                            "type":  "Desktop",
-                           "goLive":  "1649159139102"
+                           "goLive":  "1686824221860"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "osx10",
-                           "version":  "5.8.0",
+                           "version":  "5.11.0",
                            "type":  "Desktop",
-                           "goLive":  "1658132142281"
+                           "goLive":  "1686821641859"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "win64",
-                           "version":  "5.8.0",
+                           "version":  "5.11.0",
                            "type":  "Desktop",
-                           "goLive":  "1658130882370"
+                           "goLive":  "1686821253210"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "5.11.0",
+                           "type":  "Desktop",
+                           "goLive":  "1686822142402"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.2.0",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "5.2.0",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "1595487110377"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "5.2.1",
+                           "type":  "Desktop",
+                           "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1601881196742"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "5.3.1",
+                           "type":  "Desktop",
+                           "goLive":  "1601880685381"
                        },
                        {
                            "buildId":  "KCCC",
@@ -6837,6 +6641,62 @@
                            "version":  "5.4.1",
                            "type":  "Desktop",
                            "goLive":  "0"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1614590414742"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "5.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1614589954430"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "5.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1614590861267"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "5.4.2",
+                           "type":  "Desktop",
+                           "goLive":  "1615457712116"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.4.2",
+                           "type":  "Desktop",
+                           "goLive":  "1615457248503"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "5.4.2",
+                           "type":  "Desktop",
+                           "goLive":  "1615534129134"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "5.4.3",
+                           "type":  "Desktop",
+                           "goLive":  "1617792990466"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.4.3",
+                           "type":  "Desktop",
+                           "goLive":  "1617792127290"
                        },
                        {
                            "buildId":  "KCCC",
@@ -6855,16 +6715,72 @@
                        {
                            "buildId":  "KCCC",
                            "platform":  "macarm64",
-                           "version":  "5.7.1",
+                           "version":  "5.4.5",
                            "type":  "Desktop",
-                           "goLive":  "1651137503949"
+                           "goLive":  "1619512905205"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.4.5",
+                           "type":  "Desktop",
+                           "goLive":  "1619512481789"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "5.4.5",
+                           "type":  "Desktop",
+                           "goLive":  "1619511634451"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "5.4.5",
+                           "type":  "Desktop",
+                           "goLive":  "1619512054393"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "macarm64",
-                           "version":  "6.8.1",
+                           "version":  "5.5.0",
                            "type":  "Desktop",
-                           "goLive":  "1764679044413"
+                           "goLive":  "1623762431160"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.5.0",
+                           "type":  "Desktop",
+                           "goLive":  "1623761553916"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "5.5.0",
+                           "type":  "Desktop",
+                           "goLive":  "1623761118505"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "5.5.0",
+                           "type":  "Desktop",
+                           "goLive":  "1623761991519"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "5.6.0",
+                           "type":  "Desktop",
+                           "goLive":  "1632991471284"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.6.0",
+                           "type":  "Desktop",
+                           "goLive":  "1632990552927"
                        },
                        {
                            "buildId":  "KCCC",
@@ -6876,65 +6792,58 @@
                        {
                            "buildId":  "KCCC",
                            "platform":  "winarm64",
+                           "version":  "5.6.0",
+                           "type":  "Desktop",
+                           "goLive":  "1632991000740"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "5.6.5",
+                           "type":  "Desktop",
+                           "goLive":  "1643017398573"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "5.6.5",
+                           "type":  "Desktop",
+                           "goLive":  "1643016707197"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "5.6.5",
+                           "type":  "Desktop",
+                           "goLive":  "1643016316518"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
                            "version":  "5.6.5",
                            "type":  "Desktop",
                            "goLive":  "1643017052669"
                        },
                        {
                            "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "5.7.0",
+                           "type":  "Desktop",
+                           "goLive":  "1649159139102"
+                       },
+                       {
+                           "buildId":  "KCCC",
                            "platform":  "osx10",
-                           "version":  "5.4.5",
+                           "version":  "5.7.0",
                            "type":  "Desktop",
-                           "goLive":  "1619512481789"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "5.9.0",
-                           "type":  "Desktop",
-                           "goLive":  "1664091942764"
+                           "goLive":  "1649158398055"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "win64",
-                           "version":  "6.6.0",
+                           "version":  "5.7.0",
                            "type":  "Desktop",
-                           "goLive":  "1744020234157"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "6.4.0",
-                           "type":  "Desktop",
-                           "goLive":  "1725613193715"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "5.7.1",
-                           "type":  "Desktop",
-                           "goLive":  "1651137818940"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1614589954430"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "6.8.0",
-                           "type":  "Desktop",
-                           "goLive":  "1758272849031"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "6.7.0",
-                           "type":  "Desktop",
-                           "goLive":  "1748853445945"
+                           "goLive":  "1649158005409"
                        },
                        {
                            "buildId":  "KCCC",
@@ -6946,156 +6855,9 @@
                        {
                            "buildId":  "KCCC",
                            "platform":  "macarm64",
-                           "version":  "5.11.0",
+                           "version":  "5.7.1",
                            "type":  "Desktop",
-                           "goLive":  "1686824221860"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.4.3",
-                           "type":  "Desktop",
-                           "goLive":  "1617792127290"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "5.6.0",
-                           "type":  "Desktop",
-                           "goLive":  "1632991471284"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "6.6.0",
-                           "type":  "Desktop",
-                           "goLive":  "1744018838208"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "5.4.2",
-                           "type":  "Desktop",
-                           "goLive":  "1615457712116"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.11.0",
-                           "type":  "Desktop",
-                           "goLive":  "1686821641859"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.4.2",
-                           "type":  "Desktop",
-                           "goLive":  "1615457248503"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.8.0",
-                           "type":  "Desktop",
-                           "goLive":  "1758273283486"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "6.5.0",
-                           "type":  "Desktop",
-                           "goLive":  "1736754824670"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.4.2",
-                           "type":  "Desktop",
-                           "goLive":  "1615534129134"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.9.0",
-                           "type":  "Desktop",
-                           "goLive":  "1664091107569"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "6.2.0",
-                           "type":  "Desktop",
-                           "goLive":  "1714465478796"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "6.3.0",
-                           "type":  "Desktop",
-                           "goLive":  "1718709671045"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.3.0",
-                           "type":  "Desktop",
-                           "goLive":  "1718711199938"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "5.10.0",
-                           "type":  "Desktop",
-                           "goLive":  "1677833339780"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "6.4.0",
-                           "type":  "Desktop",
-                           "goLive":  "1725612132923"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "5.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1614590861267"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "6.1.0",
-                           "type":  "Desktop",
-                           "goLive":  "1701942000520"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.6.5",
-                           "type":  "Desktop",
-                           "goLive":  "1643016316518"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.7.0",
-                           "type":  "Desktop",
-                           "goLive":  "1649158005409"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "5.5.0",
-                           "type":  "Desktop",
-                           "goLive":  "1623762431160"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "5.4.5",
-                           "type":  "Desktop",
-                           "goLive":  "1619512054393"
+                           "goLive":  "1651137503949"
                        },
                        {
                            "buildId":  "KCCC",
@@ -7106,17 +6868,17 @@
                        },
                        {
                            "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "6.6.0",
+                           "platform":  "win64",
+                           "version":  "5.7.1",
                            "type":  "Desktop",
-                           "goLive":  "1744020903036"
+                           "goLive":  "1651136842524"
                        },
                        {
                            "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "5.6.5",
+                           "platform":  "winarm64",
+                           "version":  "5.7.1",
                            "type":  "Desktop",
-                           "goLive":  "1643017398573"
+                           "goLive":  "1651137818940"
                        },
                        {
                            "buildId":  "KCCC",
@@ -7128,65 +6890,44 @@
                        {
                            "buildId":  "KCCC",
                            "platform":  "osx10",
-                           "version":  "5.2.1",
+                           "version":  "5.8.0",
                            "type":  "Desktop",
-                           "goLive":  "1595487110377"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "macarm64",
-                           "version":  "5.4.5",
-                           "type":  "Desktop",
-                           "goLive":  "1619512905205"
+                           "goLive":  "1658132142281"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "win64",
-                           "version":  "5.1.0",
+                           "version":  "5.8.0",
                            "type":  "Desktop",
-                           "goLive":  "1585305504482"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "6.6.0",
-                           "type":  "Desktop",
-                           "goLive":  "1744019789430"
+                           "goLive":  "1658130882370"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "winarm64",
-                           "version":  "5.6.0",
+                           "version":  "5.8.0",
                            "type":  "Desktop",
-                           "goLive":  "1632991000740"
+                           "goLive":  "1658131443938"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "5.9.0",
+                           "type":  "Desktop",
+                           "goLive":  "1664091942764"
                        },
                        {
                            "buildId":  "KCCC",
                            "platform":  "osx10",
-                           "version":  "5.6.0",
+                           "version":  "5.9.0",
                            "type":  "Desktop",
-                           "goLive":  "1632990552927"
+                           "goLive":  "1664091107569"
                        },
                        {
                            "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.2.0",
+                           "platform":  "win64",
+                           "version":  "5.9.0",
                            "type":  "Desktop",
-                           "goLive":  "0"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "osx10",
-                           "version":  "5.3.1",
-                           "type":  "Desktop",
-                           "goLive":  "1601881196742"
-                       },
-                       {
-                           "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "5.10.0",
-                           "type":  "Desktop",
-                           "goLive":  "1677833278599"
+                           "goLive":  "1664090643755"
                        },
                        {
                            "buildId":  "KCCC",
@@ -7197,10 +6938,17 @@
                        },
                        {
                            "buildId":  "KCCC",
-                           "platform":  "winarm64",
-                           "version":  "5.11.0",
+                           "platform":  "macarm64",
+                           "version":  "6.0.0",
                            "type":  "Desktop",
-                           "goLive":  "1686822142402"
+                           "goLive":  "1694687823580"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.0.0",
+                           "type":  "Desktop",
+                           "goLive":  "1694687292337"
                        },
                        {
                            "buildId":  "KCCC",
@@ -7211,10 +6959,290 @@
                        },
                        {
                            "buildId":  "KCCC",
-                           "platform":  "win64",
-                           "version":  "5.3.1",
+                           "platform":  "winarm64",
+                           "version":  "6.0.0",
                            "type":  "Desktop",
-                           "goLive":  "1601880685381"
+                           "goLive":  "1694686884718"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.1.0",
+                           "type":  "Desktop",
+                           "goLive":  "1701942000520"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.1.0",
+                           "type":  "Desktop",
+                           "goLive":  "1701941610917"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.1.0",
+                           "type":  "Desktop",
+                           "goLive":  "1701940781832"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.1.0",
+                           "type":  "Desktop",
+                           "goLive":  "1701941211768"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.2.0",
+                           "type":  "Desktop",
+                           "goLive":  "1714465478796"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.2.0",
+                           "type":  "Desktop",
+                           "goLive":  "1714465935899"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.2.0",
+                           "type":  "Desktop",
+                           "goLive":  "1714464855265"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.2.0",
+                           "type":  "Desktop",
+                           "goLive":  "1714466381430"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.3.0",
+                           "type":  "Desktop",
+                           "goLive":  "1718709671045"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.3.0",
+                           "type":  "Desktop",
+                           "goLive":  "1718710160833"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.3.0",
+                           "type":  "Desktop",
+                           "goLive":  "1718710676337"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.3.0",
+                           "type":  "Desktop",
+                           "goLive":  "1718711199938"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.4.0",
+                           "type":  "Desktop",
+                           "goLive":  "1725612132923"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.4.0",
+                           "type":  "Desktop",
+                           "goLive":  "1725612673354"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.4.0",
+                           "type":  "Desktop",
+                           "goLive":  "1725613193715"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.4.0",
+                           "type":  "Desktop",
+                           "goLive":  "1725613726029"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.5.0",
+                           "type":  "Desktop",
+                           "goLive":  "1736754004194"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.5.0",
+                           "type":  "Desktop",
+                           "goLive":  "1736754413909"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.5.0",
+                           "type":  "Desktop",
+                           "goLive":  "1736754824670"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.5.0",
+                           "type":  "Desktop",
+                           "goLive":  "1736755249832"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.6.0",
+                           "type":  "Desktop",
+                           "goLive":  "1744018838208"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.6.0",
+                           "type":  "Desktop",
+                           "goLive":  "1744019789430"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.6.0",
+                           "type":  "Desktop",
+                           "goLive":  "1744020234157"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.6.0",
+                           "type":  "Desktop",
+                           "goLive":  "1744020903036"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.7.0",
+                           "type":  "Desktop",
+                           "goLive":  "1748852495206"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.7.0",
+                           "type":  "Desktop",
+                           "goLive":  "1748852015256"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.7.0",
+                           "type":  "Desktop",
+                           "goLive":  "1748853445945"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.7.0",
+                           "type":  "Desktop",
+                           "goLive":  "1748852981941"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.8.0",
+                           "type":  "Desktop",
+                           "goLive":  "1758272849031"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.8.0",
+                           "type":  "Desktop",
+                           "goLive":  "1758273283486"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.8.0",
+                           "type":  "Desktop",
+                           "goLive":  "1758274147661"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.8.0",
+                           "type":  "Desktop",
+                           "goLive":  "1758273689741"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.8.1",
+                           "type":  "Desktop",
+                           "goLive":  "1764679044413"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.8.1",
+                           "type":  "Desktop",
+                           "goLive":  "1764678587429"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.8.1",
+                           "type":  "Desktop",
+                           "goLive":  "1764679399754"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.8.1",
+                           "type":  "Desktop",
+                           "goLive":  "1764679763804"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "winarm64",
+                           "version":  "6.9.0",
+                           "type":  "Desktop",
+                           "goLive":  "1773061377213"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "win64",
+                           "version":  "6.9.0",
+                           "type":  "Desktop",
+                           "goLive":  "1773060925896"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "osx10",
+                           "version":  "6.9.0",
+                           "type":  "Desktop",
+                           "goLive":  "1773060051239"
+                       },
+                       {
+                           "buildId":  "KCCC",
+                           "platform":  "macarm64",
+                           "version":  "6.9.0",
+                           "type":  "Desktop",
+                           "goLive":  "1773060497077"
                        }
                    ],
         "displayName":  "Creative Cloud",
