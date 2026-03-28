@@ -3,9 +3,9 @@
                    {
                        "buildId":  "CCXP",
                        "platform":  "osx10-64",
-                       "version":  "7.1.7",
+                       "version":  "3.4.0",
                        "type":  "Desktop",
-                       "goLive":  "1770193650001"
+                       "goLive":  "1575956509719"
                    },
                    {
                        "buildId":  "CCXP",
@@ -16,17 +16,17 @@
                    },
                    {
                        "buildId":  "CCXP",
-                       "platform":  "macarm64",
-                       "version":  "7.2.2",
+                       "platform":  "osx10-64",
+                       "version":  "3.8.1",
                        "type":  "Desktop",
-                       "goLive":  "1771944566204"
+                       "goLive":  "1599628073207"
                    },
                    {
                        "buildId":  "CCXP",
                        "platform":  "win32",
-                       "version":  "7.1.7",
+                       "version":  "3.8.1",
                        "type":  "Desktop",
-                       "goLive":  "1770193650001"
+                       "goLive":  "1599628073207"
                    },
                    {
                        "buildId":  "CCXP",
@@ -38,23 +38,16 @@
                    {
                        "buildId":  "CCXP",
                        "platform":  "osx10-64",
-                       "version":  "3.4.0",
+                       "version":  "7.1.7",
                        "type":  "Desktop",
-                       "goLive":  "1575956509719"
+                       "goLive":  "1770193650001"
                    },
                    {
                        "buildId":  "CCXP",
                        "platform":  "win32",
-                       "version":  "7.2.2",
+                       "version":  "7.1.7",
                        "type":  "Desktop",
-                       "goLive":  "1771944566204"
-                   },
-                   {
-                       "buildId":  "CCXP",
-                       "platform":  "osx10-64",
-                       "version":  "7.2.2",
-                       "type":  "Desktop",
-                       "goLive":  "1771944566204"
+                       "goLive":  "1770193650001"
                    },
                    {
                        "buildId":  "CCXP",
@@ -65,10 +58,24 @@
                    },
                    {
                        "buildId":  "CCXP",
-                       "platform":  "osx10-64",
-                       "version":  "3.8.1",
+                       "platform":  "macarm64",
+                       "version":  "7.2.2",
                        "type":  "Desktop",
-                       "goLive":  "1599628073207"
+                       "goLive":  "1771944566204"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "osx10-64",
+                       "version":  "7.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1771944566204"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "win32",
+                       "version":  "7.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1771944566204"
                    },
                    {
                        "buildId":  "CCXP",
@@ -79,10 +86,59 @@
                    },
                    {
                        "buildId":  "CCXP",
-                       "platform":  "win32",
-                       "version":  "3.8.1",
+                       "platform":  "osx10-64",
+                       "version":  "7.3.0",
                        "type":  "Desktop",
-                       "goLive":  "1599628073207"
+                       "goLive":  "1774599414822"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "osx10-64",
+                       "version":  "7.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1774606248566"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "winarm64",
+                       "version":  "7.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1774606248566"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "macarm64",
+                       "version":  "7.3.0",
+                       "type":  "Desktop",
+                       "goLive":  "1774599414822"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "macarm64",
+                       "version":  "7.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1774606248566"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "winarm64",
+                       "version":  "7.3.0",
+                       "type":  "Desktop",
+                       "goLive":  "1774599414822"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "win32",
+                       "version":  "7.3.0",
+                       "type":  "Desktop",
+                       "goLive":  "1774599414822"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "win32",
+                       "version":  "7.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1774606248566"
                    }
                ],
     "displayName":  "CCX Process",
