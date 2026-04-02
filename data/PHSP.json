@@ -2,80 +2,10 @@
     "builds":  [
                    {
                        "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "27.4",
-                       "type":  "Desktop",
-                       "goLive":  "1771605858704"
-                   },
-                   {
-                       "buildId":  "PHSP",
                        "platform":  "macuniversal",
-                       "version":  "26.11.3",
+                       "version":  "26.0",
                        "type":  "Desktop",
-                       "goLive":  "1771605858704"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.3",
-                       "type":  "Desktop",
-                       "goLive":  "1738127184839"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "27.3.1",
-                       "type":  "Desktop",
-                       "goLive":  "1770181358051"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.5",
-                       "type":  "Desktop",
-                       "goLive":  "1743048244684"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "27.3.1",
-                       "type":  "Desktop",
-                       "goLive":  "1770181358051"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.9",
-                       "type":  "Desktop",
-                       "goLive":  "1753761775130"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "27.1",
-                       "type":  "Desktop",
-                       "goLive":  "1763651128836"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "27.3",
-                       "type":  "Desktop",
-                       "goLive":  "1769522564796"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.3",
-                       "type":  "Desktop",
-                       "goLive":  "1738127184839"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "27.3.1",
-                       "type":  "Desktop",
-                       "goLive":  "1770181358051"
+                       "goLive":  "1728900357027"
                    },
                    {
                        "buildId":  "PHSP",
@@ -87,35 +17,119 @@
                    {
                        "buildId":  "PHSP",
                        "platform":  "winarm64",
-                       "version":  "26.2",
+                       "version":  "26.0",
                        "type":  "Desktop",
-                       "goLive":  "1734498219754"
+                       "goLive":  "1728900357027"
                    },
                    {
                        "buildId":  "PHSP",
                        "platform":  "macuniversal",
-                       "version":  "27.0",
+                       "version":  "26.1",
                        "type":  "Desktop",
-                       "goLive":  "1761645865174"
+                       "goLive":  "1732078779836"
                    },
                    {
                        "buildId":  "PHSP",
                        "platform":  "win64",
-                       "version":  "26.2",
+                       "version":  "26.1",
                        "type":  "Desktop",
-                       "goLive":  "1734498219754"
+                       "goLive":  "1732078779836"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.1",
+                       "type":  "Desktop",
+                       "goLive":  "1732078779836"
                    },
                    {
                        "buildId":  "PHSP",
                        "platform":  "macuniversal",
-                       "version":  "26.4.1",
+                       "version":  "26.10",
                        "type":  "Desktop",
-                       "goLive":  "1740636837470"
+                       "goLive":  "1755662604849"
                    },
                    {
                        "buildId":  "PHSP",
                        "platform":  "win64",
-                       "version":  "27.4",
+                       "version":  "26.10",
+                       "type":  "Desktop",
+                       "goLive":  "1755662604849"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.10",
+                       "type":  "Desktop",
+                       "goLive":  "1755662604849"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.11",
+                       "type":  "Desktop",
+                       "goLive":  "1758686783063"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.11",
+                       "type":  "Desktop",
+                       "goLive":  "1758686783063"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.11",
+                       "type":  "Desktop",
+                       "goLive":  "1758686783063"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.11.1",
+                       "type":  "Desktop",
+                       "goLive":  "1761645885180"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.11.1",
+                       "type":  "Desktop",
+                       "goLive":  "1761645885180"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.11.1",
+                       "type":  "Desktop",
+                       "goLive":  "1761645885180"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.11.2",
+                       "type":  "Desktop",
+                       "goLive":  "1763651175813"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.11.2",
+                       "type":  "Desktop",
+                       "goLive":  "1763651175813"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.11.2",
+                       "type":  "Desktop",
+                       "goLive":  "1763651175813"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.11.3",
                        "type":  "Desktop",
                        "goLive":  "1771605858704"
                    },
@@ -128,10 +142,262 @@
                    },
                    {
                        "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.11.3",
+                       "type":  "Desktop",
+                       "goLive":  "1771605858704"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1734498219754"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1734498219754"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1734498219754"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1738127184839"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1738127184839"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1738127184839"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1740636837470"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1740636837470"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1740636837470"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1743048244684"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1743048244684"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1743048244684"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.6",
+                       "type":  "Desktop",
+                       "goLive":  "1745474768449"
+                   },
+                   {
+                       "buildId":  "PHSP",
                        "platform":  "win64",
                        "version":  "26.6",
                        "type":  "Desktop",
                        "goLive":  "1745474768449"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.6",
+                       "type":  "Desktop",
+                       "goLive":  "1745474768449"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.6.1",
+                       "type":  "Desktop",
+                       "goLive":  "1746763435392"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.6.1",
+                       "type":  "Desktop",
+                       "goLive":  "1746763435392"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.6.1",
+                       "type":  "Desktop",
+                       "goLive":  "1746763435392"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.7",
+                       "type":  "Desktop",
+                       "goLive":  "1747800172492"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.7",
+                       "type":  "Desktop",
+                       "goLive":  "1747800172492"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.7",
+                       "type":  "Desktop",
+                       "goLive":  "1747800172492"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.8",
+                       "type":  "Desktop",
+                       "goLive":  "1750152832166"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.8",
+                       "type":  "Desktop",
+                       "goLive":  "1750152832166"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.8",
+                       "type":  "Desktop",
+                       "goLive":  "1750152832166"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.8.1",
+                       "type":  "Desktop",
+                       "goLive":  "1750910691262"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.8.1",
+                       "type":  "Desktop",
+                       "goLive":  "1750910691262"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.8.1",
+                       "type":  "Desktop",
+                       "goLive":  "1750910691262"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.9",
+                       "type":  "Desktop",
+                       "goLive":  "1753761775130"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.9",
+                       "type":  "Desktop",
+                       "goLive":  "1753761775130"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.9",
+                       "type":  "Desktop",
+                       "goLive":  "1753761775130"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645865174"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645865174"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645865174"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "27.1",
+                       "type":  "Desktop",
+                       "goLive":  "1763651128836"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "27.1",
+                       "type":  "Desktop",
+                       "goLive":  "1763651128836"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "27.1",
+                       "type":  "Desktop",
+                       "goLive":  "1763651128836"
                    },
                    {
                        "buildId":  "PHSP",
@@ -142,160 +408,6 @@
                    },
                    {
                        "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.7",
-                       "type":  "Desktop",
-                       "goLive":  "1747800172492"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.8",
-                       "type":  "Desktop",
-                       "goLive":  "1750152832166"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.0",
-                       "type":  "Desktop",
-                       "goLive":  "1728900357027"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.0",
-                       "type":  "Desktop",
-                       "goLive":  "1728900357027"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "27.1",
-                       "type":  "Desktop",
-                       "goLive":  "1763651128836"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.11.2",
-                       "type":  "Desktop",
-                       "goLive":  "1763651175813"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.10",
-                       "type":  "Desktop",
-                       "goLive":  "1755662604849"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.9",
-                       "type":  "Desktop",
-                       "goLive":  "1753761775130"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.4.1",
-                       "type":  "Desktop",
-                       "goLive":  "1740636837470"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.11.1",
-                       "type":  "Desktop",
-                       "goLive":  "1761645885180"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.6.1",
-                       "type":  "Desktop",
-                       "goLive":  "1746763435392"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.6",
-                       "type":  "Desktop",
-                       "goLive":  "1745474768449"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.1",
-                       "type":  "Desktop",
-                       "goLive":  "1732078779836"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.10",
-                       "type":  "Desktop",
-                       "goLive":  "1755662604849"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.10",
-                       "type":  "Desktop",
-                       "goLive":  "1755662604849"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "27.3",
-                       "type":  "Desktop",
-                       "goLive":  "1769522564796"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "27.0",
-                       "type":  "Desktop",
-                       "goLive":  "1761645865174"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.7",
-                       "type":  "Desktop",
-                       "goLive":  "1747800172492"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.9",
-                       "type":  "Desktop",
-                       "goLive":  "1753761775130"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.2",
-                       "type":  "Desktop",
-                       "goLive":  "1734498219754"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.11",
-                       "type":  "Desktop",
-                       "goLive":  "1758686783063"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.5",
-                       "type":  "Desktop",
-                       "goLive":  "1743048244684"
-                   },
-                   {
-                       "buildId":  "PHSP",
                        "platform":  "win64",
                        "version":  "27.2",
                        "type":  "Desktop",
@@ -310,6 +422,41 @@
                    },
                    {
                        "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "27.3",
+                       "type":  "Desktop",
+                       "goLive":  "1769522564796"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "27.3",
+                       "type":  "Desktop",
+                       "goLive":  "1769522564796"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "27.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1770181358051"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "27.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1770181358051"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "27.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1770181358051"
+                   },
+                   {
+                       "buildId":  "PHSP",
                        "platform":  "macuniversal",
                        "version":  "27.4",
                        "type":  "Desktop",
@@ -317,164 +464,59 @@
                    },
                    {
                        "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.1",
-                       "type":  "Desktop",
-                       "goLive":  "1732078779836"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.11",
-                       "type":  "Desktop",
-                       "goLive":  "1758686783063"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.3",
-                       "type":  "Desktop",
-                       "goLive":  "1738127184839"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.8.1",
-                       "type":  "Desktop",
-                       "goLive":  "1750910691262"
-                   },
-                   {
-                       "buildId":  "PHSP",
                        "platform":  "win64",
-                       "version":  "26.11.2",
-                       "type":  "Desktop",
-                       "goLive":  "1763651175813"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.6.1",
-                       "type":  "Desktop",
-                       "goLive":  "1746763435392"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.8",
-                       "type":  "Desktop",
-                       "goLive":  "1750152832166"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "27.0",
-                       "type":  "Desktop",
-                       "goLive":  "1761645865174"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.6",
-                       "type":  "Desktop",
-                       "goLive":  "1745474768449"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "26.11.3",
+                       "version":  "27.4",
                        "type":  "Desktop",
                        "goLive":  "1771605858704"
                    },
                    {
                        "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.11.2",
+                       "platform":  "winarm64",
+                       "version":  "27.4",
                        "type":  "Desktop",
-                       "goLive":  "1763651175813"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.11.1",
-                       "type":  "Desktop",
-                       "goLive":  "1761645885180"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.8.1",
-                       "type":  "Desktop",
-                       "goLive":  "1750910691262"
+                       "goLive":  "1771605858704"
                    },
                    {
                        "buildId":  "PHSP",
                        "platform":  "win64",
-                       "version":  "26.4.1",
+                       "version":  "26.11.4",
                        "type":  "Desktop",
-                       "goLive":  "1740636837470"
+                       "goLive":  "1775024373698"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "27.5",
+                       "type":  "Desktop",
+                       "goLive":  "1775016243818"
                    },
                    {
                        "buildId":  "PHSP",
                        "platform":  "winarm64",
-                       "version":  "26.1",
+                       "version":  "27.5",
                        "type":  "Desktop",
-                       "goLive":  "1732078779836"
+                       "goLive":  "1775016243818"
                    },
                    {
                        "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.11.1",
+                       "platform":  "macuniversal",
+                       "version":  "26.11.4",
                        "type":  "Desktop",
-                       "goLive":  "1761645885180"
+                       "goLive":  "1775024373698"
                    },
                    {
                        "buildId":  "PHSP",
                        "platform":  "winarm64",
-                       "version":  "26.5",
+                       "version":  "26.11.4",
                        "type":  "Desktop",
-                       "goLive":  "1743048244684"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.7",
-                       "type":  "Desktop",
-                       "goLive":  "1747800172492"
+                       "goLive":  "1775024373698"
                    },
                    {
                        "buildId":  "PHSP",
                        "platform":  "macuniversal",
-                       "version":  "26.11",
+                       "version":  "27.5",
                        "type":  "Desktop",
-                       "goLive":  "1758686783063"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "winarm64",
-                       "version":  "27.1",
-                       "type":  "Desktop",
-                       "goLive":  "1763651128836"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "win64",
-                       "version":  "26.8.1",
-                       "type":  "Desktop",
-                       "goLive":  "1750910691262"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.6.1",
-                       "type":  "Desktop",
-                       "goLive":  "1746763435392"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.8",
-                       "type":  "Desktop",
-                       "goLive":  "1750152832166"
+                       "goLive":  "1775016243818"
                    }
                ],
     "displayName":  "Photoshop",
