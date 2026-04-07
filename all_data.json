@@ -2493,13 +2493,6 @@
         "builds":  [
                        {
                            "buildId":  "APRO",
-                           "platform":  "win64",
-                           "version":  "25.1",
-                           "type":  "Desktop",
-                           "goLive":  "1741684456641"
-                       },
-                       {
-                           "buildId":  "APRO",
                            "platform":  "macuniversal",
                            "version":  "25.1",
                            "type":  "Desktop",
@@ -2511,6 +2504,34 @@
                            "version":  "25.1",
                            "type":  "Desktop",
                            "goLive":  "1741684671076"
+                       },
+                       {
+                           "buildId":  "APRO",
+                           "platform":  "win64",
+                           "version":  "25.1",
+                           "type":  "Desktop",
+                           "goLive":  "1741684456641"
+                       },
+                       {
+                           "buildId":  "APRO",
+                           "platform":  "win64",
+                           "version":  "26.1",
+                           "type":  "Desktop",
+                           "goLive":  "1775456430285"
+                       },
+                       {
+                           "buildId":  "APRO",
+                           "platform":  "win32",
+                           "version":  "26.1",
+                           "type":  "Desktop",
+                           "goLive":  "1775456201951"
+                       },
+                       {
+                           "buildId":  "APRO",
+                           "platform":  "macuniversal",
+                           "version":  "26.1",
+                           "type":  "Desktop",
+                           "goLive":  "1775456693544"
                        }
                    ],
         "displayName":  "Acrobat",
