@@ -6307,6 +6307,13 @@
                        },
                        {
                            "buildId":  "ILST",
+                           "platform":  "macuniversal",
+                           "version":  "30.3",
+                           "type":  "Desktop",
+                           "goLive":  "1774873581325"
+                       },
+                       {
+                           "buildId":  "ILST",
                            "platform":  "win64",
                            "version":  "30.3",
                            "type":  "Desktop",
@@ -6314,10 +6321,17 @@
                        },
                        {
                            "buildId":  "ILST",
-                           "platform":  "macuniversal",
-                           "version":  "30.3",
+                           "platform":  "win64",
+                           "version":  "29.8.6",
                            "type":  "Desktop",
-                           "goLive":  "1774873581325"
+                           "goLive":  "1775545723054"
+                       },
+                       {
+                           "buildId":  "ILST",
+                           "platform":  "macuniversal",
+                           "version":  "29.8.6",
+                           "type":  "Desktop",
+                           "goLive":  "1775545723054"
                        }
                    ],
         "displayName":  "Illustrator",
@@ -10960,6 +10974,20 @@
                        },
                        {
                            "buildId":  "SBSTP",
+                           "platform":  "macarm64",
+                           "version":  "12.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1773827865158"
+                       },
+                       {
+                           "buildId":  "SBSTP",
+                           "platform":  "win64",
+                           "version":  "12.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1773827865158"
+                       },
+                       {
+                           "buildId":  "SBSTP",
                            "platform":  "osx10-64",
                            "version":  "5.3.2",
                            "type":  "Desktop",
@@ -11465,16 +11493,16 @@
                        {
                            "buildId":  "SBSTP",
                            "platform":  "win64",
-                           "version":  "12.0.1",
+                           "version":  "12.0.2",
                            "type":  "Desktop",
-                           "goLive":  "1773827865158"
+                           "goLive":  "1775555846688"
                        },
                        {
                            "buildId":  "SBSTP",
                            "platform":  "macarm64",
-                           "version":  "12.0.1",
+                           "version":  "12.0.2",
                            "type":  "Desktop",
-                           "goLive":  "1773827865158"
+                           "goLive":  "1775555846688"
                        }
                    ],
         "displayName":  "Substance 3D Painter",
