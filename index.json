@@ -15,7 +15,7 @@
         "id":  "ILST"
     },
     {
-        "buildCount":  44,
+        "buildCount":  46,
         "displayName":  "InDesign",
         "id":  "IDSN"
     },
@@ -90,7 +90,7 @@
         "id":  "GSDK"
     },
     {
-        "buildCount":  58,
+        "buildCount":  60,
         "displayName":  "Animate HLAN",
         "id":  "HLAN"
     },
@@ -100,7 +100,7 @@
         "id":  "FWKS"
     },
     {
-        "buildCount":  58,
+        "buildCount":  60,
         "displayName":  "Animate",
         "id":  "FLPR"
     },
@@ -300,7 +300,7 @@
         "id":  "ACAI"
     },
     {
-        "buildCount":  30,
+        "buildCount":  32,
         "displayName":  "InCopy",
         "id":  "AICY"
     },

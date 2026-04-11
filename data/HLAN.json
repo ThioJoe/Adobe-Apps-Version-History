@@ -3,121 +3,9 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "osx10-64",
-                       "version":  "23.0.6",
+                       "version":  "23.0.0",
                        "type":  "Desktop",
-                       "goLive":  "1714731581816"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "osx10-64",
-                       "version":  "23.0.8",
-                       "type":  "Desktop",
-                       "goLive":  "1726662668880"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "23.0.2",
-                       "type":  "Desktop",
-                       "goLive":  "1683649540857"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "24.0.4",
-                       "type":  "Desktop",
-                       "goLive":  "1720434434148"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "24.0.12",
-                       "type":  "Desktop",
-                       "goLive":  "1758721587317"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "24.0.0",
-                       "type":  "Desktop",
-                       "goLive":  "1696952738005"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "23.0.11",
-                       "type":  "Desktop",
-                       "goLive":  "1744894456788"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "23.0.12",
-                       "type":  "Desktop",
-                       "goLive":  "1747379648941"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "24.0.4",
-                       "type":  "Desktop",
-                       "goLive":  "1720434434148"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "osx10-64",
-                       "version":  "23.0.9",
-                       "type":  "Desktop",
-                       "goLive":  "1733146837008"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "osx10-64",
-                       "version":  "23.0.4",
-                       "type":  "Desktop",
-                       "goLive":  "1709264192967"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "24.0.2",
-                       "type":  "Desktop",
-                       "goLive":  "1712041201556"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "24.0.12",
-                       "type":  "Desktop",
-                       "goLive":  "1758721587317"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "23.0.5",
-                       "type":  "Desktop",
-                       "goLive":  "1712041201556"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "23.0.7",
-                       "type":  "Desktop",
-                       "goLive":  "1720434434148"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "24.0.9",
-                       "type":  "Desktop",
-                       "goLive":  "1747379648941"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "osx10-64",
-                       "version":  "23.0.12",
-                       "type":  "Desktop",
-                       "goLive":  "1747379648941"
+                       "goLive":  "1664296986684"
                    },
                    {
                        "buildId":  "HLAN",
@@ -129,83 +17,13 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "osx10-64",
-                       "version":  "23.0.5",
+                       "version":  "23.0.1",
                        "type":  "Desktop",
-                       "goLive":  "1712041201556"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "24.0.10",
-                       "type":  "Desktop",
-                       "goLive":  "1751543419263"
+                       "goLive":  "1678256534197"
                    },
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
-                       "version":  "24.0.0",
-                       "type":  "Desktop",
-                       "goLive":  "1696952738005"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "23.0.14",
-                       "type":  "Desktop",
-                       "goLive":  "1757689823708"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "osx10-64",
-                       "version":  "23.0.3",
-                       "type":  "Desktop",
-                       "goLive":  "1697779461205"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "23.0.10",
-                       "type":  "Desktop",
-                       "goLive":  "1734683523403"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "23.0.15",
-                       "type":  "Desktop",
-                       "goLive":  "1758721587317"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "23.0.14",
-                       "type":  "Desktop",
-                       "goLive":  "1757689823708"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "24.0.10",
-                       "type":  "Desktop",
-                       "goLive":  "1751543419263"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "osx10-64",
-                       "version":  "23.0.2",
-                       "type":  "Desktop",
-                       "goLive":  "1683649540857"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "23.0.15",
-                       "type":  "Desktop",
-                       "goLive":  "1758721587317"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "osx10-64",
                        "version":  "23.0.1",
                        "type":  "Desktop",
                        "goLive":  "1678256534197"
@@ -220,9 +38,37 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
-                       "version":  "24.0.8",
+                       "version":  "23.0.10",
+                       "type":  "Desktop",
+                       "goLive":  "1734683523403"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.11",
                        "type":  "Desktop",
                        "goLive":  "1744894456788"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.11",
+                       "type":  "Desktop",
+                       "goLive":  "1744894456788"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.12",
+                       "type":  "Desktop",
+                       "goLive":  "1747379648941"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.12",
+                       "type":  "Desktop",
+                       "goLive":  "1747379648941"
                    },
                    {
                        "buildId":  "HLAN",
@@ -233,6 +79,111 @@
                    },
                    {
                        "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.13",
+                       "type":  "Desktop",
+                       "goLive":  "1751543419263"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "23.0.14",
+                       "type":  "Desktop",
+                       "goLive":  "1757689823708"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.14",
+                       "type":  "Desktop",
+                       "goLive":  "1757689823708"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "23.0.15",
+                       "type":  "Desktop",
+                       "goLive":  "1758721587317"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.15",
+                       "type":  "Desktop",
+                       "goLive":  "1758721587317"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1683649540857"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1683649540857"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.3",
+                       "type":  "Desktop",
+                       "goLive":  "1697779461205"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.3",
+                       "type":  "Desktop",
+                       "goLive":  "1697779461205"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1709264192967"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1709264192967"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.5",
+                       "type":  "Desktop",
+                       "goLive":  "1712041201556"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.5",
+                       "type":  "Desktop",
+                       "goLive":  "1712041201556"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.6",
+                       "type":  "Desktop",
+                       "goLive":  "1714731581816"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.6",
+                       "type":  "Desktop",
+                       "goLive":  "1714731581816"
+                   },
+                   {
+                       "buildId":  "HLAN",
                        "platform":  "osx10-64",
                        "version":  "23.0.7",
                        "type":  "Desktop",
@@ -240,22 +191,29 @@
                    },
                    {
                        "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.7",
+                       "type":  "Desktop",
+                       "goLive":  "1720434434148"
+                   },
+                   {
+                       "buildId":  "HLAN",
                        "platform":  "osx10-64",
-                       "version":  "23.0.0",
+                       "version":  "23.0.8",
                        "type":  "Desktop",
-                       "goLive":  "1664296986684"
+                       "goLive":  "1726662668880"
                    },
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
-                       "version":  "24.0.11",
+                       "version":  "23.0.8",
                        "type":  "Desktop",
-                       "goLive":  "1757689823708"
+                       "goLive":  "1726662668880"
                    },
                    {
                        "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "24.0.6",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.9",
                        "type":  "Desktop",
                        "goLive":  "1733146837008"
                    },
@@ -269,44 +227,23 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "macuniversal",
-                       "version":  "24.0.3",
+                       "version":  "24.0.0",
                        "type":  "Desktop",
-                       "goLive":  "1714731581816"
+                       "goLive":  "1696952738005"
                    },
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
-                       "version":  "23.0.1",
+                       "version":  "24.0.0",
                        "type":  "Desktop",
-                       "goLive":  "1678256534197"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "23.0.4",
-                       "type":  "Desktop",
-                       "goLive":  "1709264192967"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "24.0.7",
-                       "type":  "Desktop",
-                       "goLive":  "1734683523403"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "win64",
-                       "version":  "24.0.9",
-                       "type":  "Desktop",
-                       "goLive":  "1747379648941"
+                       "goLive":  "1696952738005"
                    },
                    {
                        "buildId":  "HLAN",
                        "platform":  "macuniversal",
-                       "version":  "24.0.7",
+                       "version":  "24.0.1",
                        "type":  "Desktop",
-                       "goLive":  "1734683523403"
+                       "goLive":  "1709264192967"
                    },
                    {
                        "buildId":  "HLAN",
@@ -318,42 +255,14 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "macuniversal",
-                       "version":  "24.0.8",
+                       "version":  "24.0.10",
                        "type":  "Desktop",
-                       "goLive":  "1744894456788"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "24.0.6",
-                       "type":  "Desktop",
-                       "goLive":  "1733146837008"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "osx10-64",
-                       "version":  "23.0.11",
-                       "type":  "Desktop",
-                       "goLive":  "1744894456788"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "24.0.1",
-                       "type":  "Desktop",
-                       "goLive":  "1709264192967"
-                   },
-                   {
-                       "buildId":  "HLAN",
-                       "platform":  "macuniversal",
-                       "version":  "24.0.2",
-                       "type":  "Desktop",
-                       "goLive":  "1712041201556"
+                       "goLive":  "1751543419263"
                    },
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
-                       "version":  "23.0.13",
+                       "version":  "24.0.10",
                        "type":  "Desktop",
                        "goLive":  "1751543419263"
                    },
@@ -367,6 +276,41 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
+                       "version":  "24.0.11",
+                       "type":  "Desktop",
+                       "goLive":  "1757689823708"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "24.0.12",
+                       "type":  "Desktop",
+                       "goLive":  "1758721587317"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "24.0.12",
+                       "type":  "Desktop",
+                       "goLive":  "1758721587317"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "24.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1712041201556"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "24.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1712041201556"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
                        "version":  "24.0.3",
                        "type":  "Desktop",
                        "goLive":  "1714731581816"
@@ -374,7 +318,28 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
-                       "version":  "23.0.8",
+                       "version":  "24.0.3",
+                       "type":  "Desktop",
+                       "goLive":  "1714731581816"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "24.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1720434434148"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "24.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1720434434148"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "24.0.5",
                        "type":  "Desktop",
                        "goLive":  "1726662668880"
                    },
@@ -388,23 +353,72 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "macuniversal",
-                       "version":  "24.0.5",
+                       "version":  "24.0.6",
                        "type":  "Desktop",
-                       "goLive":  "1726662668880"
+                       "goLive":  "1733146837008"
                    },
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
-                       "version":  "23.0.6",
+                       "version":  "24.0.6",
                        "type":  "Desktop",
-                       "goLive":  "1714731581816"
+                       "goLive":  "1733146837008"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "24.0.7",
+                       "type":  "Desktop",
+                       "goLive":  "1734683523403"
                    },
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
-                       "version":  "23.0.3",
+                       "version":  "24.0.7",
                        "type":  "Desktop",
-                       "goLive":  "1697779461205"
+                       "goLive":  "1734683523403"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "24.0.8",
+                       "type":  "Desktop",
+                       "goLive":  "1744894456788"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "24.0.8",
+                       "type":  "Desktop",
+                       "goLive":  "1744894456788"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "24.0.9",
+                       "type":  "Desktop",
+                       "goLive":  "1747379648941"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "24.0.9",
+                       "type":  "Desktop",
+                       "goLive":  "1747379648941"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "24.0.13",
+                       "type":  "Desktop",
+                       "goLive":  "1775825563390"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
+                       "version":  "24.0.13",
+                       "type":  "Desktop",
+                       "goLive":  "1775825563390"
                    }
                ],
     "displayName":  "Animate HLAN",

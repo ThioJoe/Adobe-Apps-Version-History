@@ -198,6 +198,13 @@
                    },
                    {
                        "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "21.3",
+                       "type":  "Desktop",
+                       "goLive":  "1774593555664"
+                   },
+                   {
+                       "buildId":  "AICY",
                        "platform":  "win64",
                        "version":  "21.3",
                        "type":  "Desktop",
@@ -206,9 +213,16 @@
                    {
                        "buildId":  "AICY",
                        "platform":  "macuniversal",
-                       "version":  "21.3",
+                       "version":  "20.5.3",
                        "type":  "Desktop",
-                       "goLive":  "1774593555664"
+                       "goLive":  "1775818603330"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1775818579683"
                    }
                ],
     "displayName":  "InCopy",
