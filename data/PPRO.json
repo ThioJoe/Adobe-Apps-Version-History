@@ -247,6 +247,13 @@
                    },
                    {
                        "buildId":  "PPRO",
+                       "platform":  "osx10-64",
+                       "version":  "26.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1773162951947"
+                   },
+                   {
+                       "buildId":  "PPRO",
                        "platform":  "win64",
                        "version":  "26.0.2",
                        "type":  "Desktop",
@@ -261,10 +268,45 @@
                    },
                    {
                        "buildId":  "PPRO",
-                       "platform":  "osx10-64",
-                       "version":  "26.0.2",
+                       "platform":  "winarm64",
+                       "version":  "26.2",
                        "type":  "Desktop",
-                       "goLive":  "1773162951947"
+                       "goLive":  "1776258247964"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "win64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1776258247964"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "macarm64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1776258247964"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "win64",
+                       "version":  "25.6.5",
+                       "type":  "Desktop",
+                       "goLive":  "1776258285334"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "macuniversal",
+                       "version":  "25.6.5",
+                       "type":  "Desktop",
+                       "goLive":  "1776258285334"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "osx10-64",
+                       "version":  "26.2",
+                       "type":  "Desktop",
+                       "goLive":  "1776258247964"
                    }
                ],
     "displayName":  "Premiere",
