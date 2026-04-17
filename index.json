@@ -20,7 +20,7 @@
         "id":  "IDSN"
     },
     {
-        "buildCount":  15,
+        "buildCount":  17,
         "displayName":  "InDesign (Beta)",
         "id":  "IDSNBETA"
     },
@@ -130,7 +130,7 @@
         "id":  "PSXUWP"
     },
     {
-        "buildCount":  116,
+        "buildCount":  118,
         "displayName":  "Substance 3D Sampler",
         "id":  "SBSTA"
     },
@@ -170,12 +170,12 @@
         "id":  "LRCCPR"
     },
     {
-        "buildCount":  34,
+        "buildCount":  36,
         "displayName":  "Lightroom Classic",
         "id":  "LTRM"
     },
     {
-        "buildCount":  36,
+        "buildCount":  39,
         "displayName":  "Lightroom",
         "id":  "LRCC"
     },
@@ -285,7 +285,7 @@
         "id":  "AEFTBETA"
     },
     {
-        "buildCount":  213,
+        "buildCount":  216,
         "displayName":  "Camera Raw",
         "id":  "ACR"
     },

@@ -104,6 +104,20 @@
                        "version":  "21.3",
                        "type":  "Desktop",
                        "goLive":  "1773218213284"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "win64",
+                       "version":  "21.4",
+                       "type":  "Desktop",
+                       "goLive":  "1776336636581"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "macuniversal",
+                       "version":  "21.4",
+                       "type":  "Desktop",
+                       "goLive":  "1776336636581"
                    }
                ],
     "displayName":  "InDesign (Beta)",

@@ -2,10 +2,66 @@
     "builds":  [
                    {
                        "buildId":  "LRCC",
-                       "platform":  "winarm64",
-                       "version":  "9.1",
+                       "platform":  "macuniversal",
+                       "version":  "6.5",
                        "type":  "Desktop",
-                       "goLive":  "1765861440714"
+                       "goLive":  "1692245108650"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "win64",
+                       "version":  "6.5",
+                       "type":  "Desktop",
+                       "goLive":  "1692245108650"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "6.5",
+                       "type":  "Desktop",
+                       "goLive":  "1692245108650"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "macuniversal",
+                       "version":  "8.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728900427502"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "win64",
+                       "version":  "8.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728900427502"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "8.0",
+                       "type":  "Desktop",
+                       "goLive":  "1728900427502"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "macuniversal",
+                       "version":  "8.1",
+                       "type":  "Desktop",
+                       "goLive":  "1733980198271"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "win64",
+                       "version":  "8.1",
+                       "type":  "Desktop",
+                       "goLive":  "1733980198271"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "8.1",
+                       "type":  "Desktop",
+                       "goLive":  "1733980198271"
                    },
                    {
                        "buildId":  "LRCC",
@@ -24,76 +80,27 @@
                    {
                        "buildId":  "LRCC",
                        "platform":  "winarm64",
-                       "version":  "9.0",
-                       "type":  "Desktop",
-                       "goLive":  "1761645914081"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "macuniversal",
-                       "version":  "6.5",
-                       "type":  "Desktop",
-                       "goLive":  "1692245108650"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "winarm64",
-                       "version":  "6.5",
-                       "type":  "Desktop",
-                       "goLive":  "1692245108650"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "winarm64",
-                       "version":  "8.1",
-                       "type":  "Desktop",
-                       "goLive":  "1733980198271"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "winarm64",
-                       "version":  "8.3",
-                       "type":  "Desktop",
-                       "goLive":  "1745475044038"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "winarm64",
                        "version":  "8.2",
                        "type":  "Desktop",
                        "goLive":  "1739404617257"
                    },
                    {
                        "buildId":  "LRCC",
+                       "platform":  "macuniversal",
+                       "version":  "8.3",
+                       "type":  "Desktop",
+                       "goLive":  "1745475044038"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "win64",
+                       "version":  "8.3",
+                       "type":  "Desktop",
+                       "goLive":  "1745475044038"
+                   },
+                   {
+                       "buildId":  "LRCC",
                        "platform":  "winarm64",
-                       "version":  "8.3.1",
-                       "type":  "Desktop",
-                       "goLive":  "1746676977505"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "macuniversal",
-                       "version":  "8.0",
-                       "type":  "Desktop",
-                       "goLive":  "1728900427502"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "win64",
-                       "version":  "8.0",
-                       "type":  "Desktop",
-                       "goLive":  "1728900427502"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "win64",
-                       "version":  "8.3.1",
-                       "type":  "Desktop",
-                       "goLive":  "1746676977505"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "macuniversal",
                        "version":  "8.3",
                        "type":  "Desktop",
                        "goLive":  "1745475044038"
@@ -107,10 +114,24 @@
                    },
                    {
                        "buildId":  "LRCC",
-                       "platform":  "winarm64",
-                       "version":  "8.5.1",
+                       "platform":  "win64",
+                       "version":  "8.3.1",
                        "type":  "Desktop",
-                       "goLive":  "1756263786375"
+                       "goLive":  "1746676977505"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "8.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1746676977505"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "macuniversal",
+                       "version":  "8.4",
+                       "type":  "Desktop",
+                       "goLive":  "1750129353179"
                    },
                    {
                        "buildId":  "LRCC",
@@ -121,10 +142,73 @@
                    },
                    {
                        "buildId":  "LRCC",
-                       "platform":  "macuniversal",
-                       "version":  "8.1",
+                       "platform":  "winarm64",
+                       "version":  "8.4",
                        "type":  "Desktop",
-                       "goLive":  "1733980198271"
+                       "goLive":  "1750129353179"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "macuniversal",
+                       "version":  "8.5",
+                       "type":  "Desktop",
+                       "goLive":  "1755054261980"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "win64",
+                       "version":  "8.5",
+                       "type":  "Desktop",
+                       "goLive":  "1755054261980"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "8.5",
+                       "type":  "Desktop",
+                       "goLive":  "1755054261980"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "macuniversal",
+                       "version":  "8.5.1",
+                       "type":  "Desktop",
+                       "goLive":  "1756263786375"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "win64",
+                       "version":  "8.5.1",
+                       "type":  "Desktop",
+                       "goLive":  "1756263786375"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "8.5.1",
+                       "type":  "Desktop",
+                       "goLive":  "1756263786375"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "macuniversal",
+                       "version":  "9.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645914081"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "win64",
+                       "version":  "9.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645914081"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "9.0",
+                       "type":  "Desktop",
+                       "goLive":  "1761645914081"
                    },
                    {
                        "buildId":  "LRCC",
@@ -136,111 +220,20 @@
                    {
                        "buildId":  "LRCC",
                        "platform":  "win64",
-                       "version":  "8.5.1",
-                       "type":  "Desktop",
-                       "goLive":  "1756263786375"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "winarm64",
-                       "version":  "8.5",
-                       "type":  "Desktop",
-                       "goLive":  "1755054261980"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "winarm64",
-                       "version":  "8.0",
-                       "type":  "Desktop",
-                       "goLive":  "1728900427502"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "macuniversal",
-                       "version":  "8.5",
-                       "type":  "Desktop",
-                       "goLive":  "1755054261980"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "macuniversal",
-                       "version":  "9.2",
-                       "type":  "Desktop",
-                       "goLive":  "1771560358682"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "win64",
-                       "version":  "9.0",
-                       "type":  "Desktop",
-                       "goLive":  "1761645914081"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "macuniversal",
-                       "version":  "9.0",
-                       "type":  "Desktop",
-                       "goLive":  "1761645914081"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "macuniversal",
-                       "version":  "8.5.1",
-                       "type":  "Desktop",
-                       "goLive":  "1756263786375"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "win64",
-                       "version":  "6.5",
-                       "type":  "Desktop",
-                       "goLive":  "1692245108650"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "win64",
-                       "version":  "8.3",
-                       "type":  "Desktop",
-                       "goLive":  "1745475044038"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "macuniversal",
-                       "version":  "8.4",
-                       "type":  "Desktop",
-                       "goLive":  "1750129353179"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "winarm64",
-                       "version":  "9.2",
-                       "type":  "Desktop",
-                       "goLive":  "1771560358682"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "win64",
-                       "version":  "8.1",
-                       "type":  "Desktop",
-                       "goLive":  "1733980198271"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "winarm64",
-                       "version":  "8.4",
-                       "type":  "Desktop",
-                       "goLive":  "1750129353179"
-                   },
-                   {
-                       "buildId":  "LRCC",
-                       "platform":  "win64",
                        "version":  "9.1",
                        "type":  "Desktop",
                        "goLive":  "1765861440714"
                    },
                    {
                        "buildId":  "LRCC",
-                       "platform":  "win64",
+                       "platform":  "winarm64",
+                       "version":  "9.1",
+                       "type":  "Desktop",
+                       "goLive":  "1765861440714"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "macuniversal",
                        "version":  "9.2",
                        "type":  "Desktop",
                        "goLive":  "1771560358682"
@@ -248,9 +241,37 @@
                    {
                        "buildId":  "LRCC",
                        "platform":  "win64",
-                       "version":  "8.5",
+                       "version":  "9.2",
                        "type":  "Desktop",
-                       "goLive":  "1755054261980"
+                       "goLive":  "1771560358682"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "9.2",
+                       "type":  "Desktop",
+                       "goLive":  "1771560358682"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "win64",
+                       "version":  "9.3",
+                       "type":  "Desktop",
+                       "goLive":  "1776308577861"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "9.3",
+                       "type":  "Desktop",
+                       "goLive":  "1776308577861"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "macuniversal",
+                       "version":  "9.3",
+                       "type":  "Desktop",
+                       "goLive":  "1776308577861"
                    }
                ],
     "displayName":  "Lightroom",
