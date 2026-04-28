@@ -1,28 +1,8 @@
 ﻿[
     {
-        "buildCount":  2,
-        "displayName":  "Illustrator (Prerelease)",
-        "id":  "ILSTPR"
-    },
-    {
         "buildCount":  7,
         "displayName":  "Adobe Notification Client",
         "id":  "KANC"
-    },
-    {
-        "buildCount":  46,
-        "displayName":  "Illustrator",
-        "id":  "ILST"
-    },
-    {
-        "buildCount":  46,
-        "displayName":  "InDesign",
-        "id":  "IDSN"
-    },
-    {
-        "buildCount":  17,
-        "displayName":  "InDesign (Beta)",
-        "id":  "IDSNBETA"
     },
     {
         "buildCount":  2,
@@ -31,18 +11,18 @@
     },
     {
         "buildCount":  2,
-        "displayName":  "Extension Manager CC",
-        "id":  "KEMN"
+        "displayName":  "Illustrator (Prerelease)",
+        "id":  "ILSTPR"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Extendscript Toolkit CC",
-        "id":  "KETK"
+        "buildCount":  17,
+        "displayName":  "InDesign (Beta)",
+        "id":  "IDSNBETA"
     },
     {
-        "buildCount":  110,
-        "displayName":  "Creative Cloud",
-        "id":  "KCCC"
+        "buildCount":  46,
+        "displayName":  "Illustrator",
+        "id":  "ILST"
     },
     {
         "buildCount":  30,
@@ -50,9 +30,39 @@
         "id":  "KBRG"
     },
     {
+        "buildCount":  2,
+        "displayName":  "Extendscript Toolkit CC",
+        "id":  "KETK"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Adobe Fonts",
+        "id":  "KFNT"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Extension Manager CC",
+        "id":  "KEMN"
+    },
+    {
         "buildCount":  4,
         "displayName":  "Bridge (Beta)",
         "id":  "KBRGBETA"
+    },
+    {
+        "buildCount":  110,
+        "displayName":  "Creative Cloud",
+        "id":  "KCCC"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Adobe Stock",
+        "id":  "FFC_stock"
+    },
+    {
+        "buildCount":  3,
+        "displayName":  "Flash Builder Premium",
+        "id":  "FLBR"
     },
     {
         "buildCount":  0,
@@ -61,8 +71,8 @@
     },
     {
         "buildCount":  0,
-        "displayName":  "Adobe Stock",
-        "id":  "FFC_stock"
+        "displayName":  "Substance 3D Reviewer",
+        "id":  "FFC_sbstreviewer"
     },
     {
         "buildCount":  0,
@@ -70,24 +80,9 @@
         "id":  "FFC_sbstshare"
     },
     {
-        "buildCount":  0,
-        "displayName":  "Photoshop",
-        "id":  "FFC_psweb"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Substance 3D Reviewer",
-        "id":  "FFC_sbstreviewer"
-    },
-    {
-        "buildCount":  3,
-        "displayName":  "Flash Builder Premium",
-        "id":  "FLBR"
-    },
-    {
-        "buildCount":  6,
-        "displayName":  "Gaming SDK 1.4",
-        "id":  "GSDK"
+        "buildCount":  60,
+        "displayName":  "Animate",
+        "id":  "FLPR"
     },
     {
         "buildCount":  60,
@@ -95,14 +90,14 @@
         "id":  "HLAN"
     },
     {
-        "buildCount":  7,
-        "displayName":  "Fireworks CS6",
-        "id":  "FWKS"
+        "buildCount":  46,
+        "displayName":  "InDesign",
+        "id":  "IDSN"
     },
     {
-        "buildCount":  60,
-        "displayName":  "Animate",
-        "id":  "FLPR"
+        "buildCount":  6,
+        "displayName":  "Gaming SDK 1.4",
+        "id":  "GSDK"
     },
     {
         "buildCount":  5,
@@ -110,9 +105,9 @@
         "id":  "FRSC"
     },
     {
-        "buildCount":  109,
-        "displayName":  "Substance 3D Painter",
-        "id":  "SBSTP"
+        "buildCount":  7,
+        "displayName":  "Fireworks CS6",
+        "id":  "FWKS"
     },
     {
         "buildCount":  22,
@@ -120,14 +115,14 @@
         "id":  "SEPS"
     },
     {
-        "buildCount":  108,
-        "displayName":  "Substance 3D Designer",
-        "id":  "SBSTD"
+        "buildCount":  36,
+        "displayName":  "Substance 3D Modeler",
+        "id":  "SHPR"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Adobe Express Photos",
-        "id":  "PSXUWP"
+        "buildCount":  109,
+        "displayName":  "Substance 3D Painter",
+        "id":  "SBSTP"
     },
     {
         "buildCount":  118,
@@ -135,9 +130,14 @@
         "id":  "SBSTA"
     },
     {
-        "buildCount":  36,
-        "displayName":  "Substance 3D Modeler",
-        "id":  "SHPR"
+        "buildCount":  108,
+        "displayName":  "Substance 3D Designer",
+        "id":  "SBSTD"
+    },
+    {
+        "buildCount":  6,
+        "displayName":  "XD (Beta)",
+        "id":  "SPRKBE"
     },
     {
         "buildCount":  12,
@@ -150,14 +150,9 @@
         "id":  "UXPW"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Touch App Plugins",
-        "id":  "TAPI"
-    },
-    {
-        "buildCount":  6,
-        "displayName":  "XD (Beta)",
-        "id":  "SPRKBE"
+        "buildCount":  4,
+        "displayName":  "Unified Account Menu",
+        "id":  "UAM"
     },
     {
         "buildCount":  66,
@@ -166,8 +161,8 @@
     },
     {
         "buildCount":  2,
-        "displayName":  "Lightroom (Prerelease)",
-        "id":  "LRCCPR"
+        "displayName":  "Touch App Plugins",
+        "id":  "TAPI"
     },
     {
         "buildCount":  36,
@@ -175,14 +170,14 @@
         "id":  "LTRM"
     },
     {
-        "buildCount":  39,
-        "displayName":  "Lightroom",
-        "id":  "LRCC"
+        "buildCount":  8,
+        "displayName":  "Muse CC",
+        "id":  "MUSE"
     },
     {
         "buildCount":  2,
-        "displayName":  "Adobe Fonts",
-        "id":  "KFNT"
+        "displayName":  "Lightroom (Prerelease)",
+        "id":  "LRCCPR"
     },
     {
         "buildCount":  14,
@@ -190,24 +185,9 @@
         "id":  "LIBS"
     },
     {
-        "buildCount":  8,
-        "displayName":  "Muse CC",
-        "id":  "MUSE"
-    },
-    {
-        "buildCount":  8,
-        "displayName":  "Premiere (Beta)",
-        "id":  "PPROBETA"
-    },
-    {
-        "buildCount":  12,
-        "displayName":  "Adobe Preview CC",
-        "id":  "PSTI"
-    },
-    {
-        "buildCount":  44,
-        "displayName":  "Premiere",
-        "id":  "PPRO"
+        "buildCount":  39,
+        "displayName":  "Lightroom",
+        "id":  "LRCC"
     },
     {
         "buildCount":  74,
@@ -215,9 +195,34 @@
         "id":  "PHSP"
     },
     {
+        "buildCount":  12,
+        "displayName":  "Adobe Preview CC",
+        "id":  "PSTI"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Adobe Express Photos",
+        "id":  "PSXUWP"
+    },
+    {
+        "buildCount":  8,
+        "displayName":  "Premiere (Beta)",
+        "id":  "PPROBETA"
+    },
+    {
         "buildCount":  3,
         "displayName":  "Photoshop (Beta)",
         "id":  "PHSPBETA"
+    },
+    {
+        "buildCount":  44,
+        "displayName":  "Premiere",
+        "id":  "PPRO"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Photoshop",
+        "id":  "FFC_psweb"
     },
     {
         "buildCount":  2,
