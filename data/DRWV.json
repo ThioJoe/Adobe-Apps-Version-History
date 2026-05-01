@@ -2,97 +2,6 @@
     "builds":  [
                    {
                        "buildId":  "DRWV",
-                       "platform":  "win64",
-                       "version":  "21.7",
-                       "type":  "Desktop",
-                       "goLive":  "1765210163190"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "win64",
-                       "version":  "20.2.1",
-                       "type":  "Desktop",
-                       "goLive":  "1612516023489"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "win64",
-                       "version":  "21.5",
-                       "type":  "Desktop",
-                       "goLive":  "1747067557218"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "macuniversal",
-                       "version":  "21.7",
-                       "type":  "Desktop",
-                       "goLive":  "1765210163190"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "win64",
-                       "version":  "21.6",
-                       "type":  "Desktop",
-                       "goLive":  "1756224920854"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "win64",
-                       "version":  "21.3",
-                       "type":  "Desktop",
-                       "goLive":  "1656563850502"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "osx10-64",
-                       "version":  "21.1",
-                       "type":  "Desktop",
-                       "goLive":  "1610423744749"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "macuniversal",
-                       "version":  "21.5",
-                       "type":  "Desktop",
-                       "goLive":  "1747067557218"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "win64",
-                       "version":  "21.2",
-                       "type":  "Desktop",
-                       "goLive":  "1634020622889"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "macuniversal",
-                       "version":  "21.2",
-                       "type":  "Desktop",
-                       "goLive":  "1634021015758"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "macuniversal",
-                       "version":  "21.3",
-                       "type":  "Desktop",
-                       "goLive":  "1656563850502"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "win64",
-                       "version":  "21.1",
-                       "type":  "Desktop",
-                       "goLive":  "1610423744749"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "win64",
-                       "version":  "21.0",
-                       "type":  "Desktop",
-                       "goLive":  "1601475208874"
-                   },
-                   {
-                       "buildId":  "DRWV",
                        "platform":  "osx10-64",
                        "version":  "20.2.1",
                        "type":  "Desktop",
@@ -100,17 +9,10 @@
                    },
                    {
                        "buildId":  "DRWV",
-                       "platform":  "macuniversal",
-                       "version":  "21.4",
+                       "platform":  "win64",
+                       "version":  "20.2.1",
                        "type":  "Desktop",
-                       "goLive":  "1714994995751"
-                   },
-                   {
-                       "buildId":  "DRWV",
-                       "platform":  "macuniversal",
-                       "version":  "21.6",
-                       "type":  "Desktop",
-                       "goLive":  "1756224920854"
+                       "goLive":  "1612516023489"
                    },
                    {
                        "buildId":  "DRWV",
@@ -122,9 +24,121 @@
                    {
                        "buildId":  "DRWV",
                        "platform":  "win64",
+                       "version":  "21.0",
+                       "type":  "Desktop",
+                       "goLive":  "1601475208874"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "osx10-64",
+                       "version":  "21.1",
+                       "type":  "Desktop",
+                       "goLive":  "1610423744749"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "win64",
+                       "version":  "21.1",
+                       "type":  "Desktop",
+                       "goLive":  "1610423744749"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "macuniversal",
+                       "version":  "21.2",
+                       "type":  "Desktop",
+                       "goLive":  "1634021015758"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "win64",
+                       "version":  "21.2",
+                       "type":  "Desktop",
+                       "goLive":  "1634020622889"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "macuniversal",
+                       "version":  "21.3",
+                       "type":  "Desktop",
+                       "goLive":  "1656563850502"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "win64",
+                       "version":  "21.3",
+                       "type":  "Desktop",
+                       "goLive":  "1656563850502"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "macuniversal",
                        "version":  "21.4",
                        "type":  "Desktop",
                        "goLive":  "1714994995751"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "win64",
+                       "version":  "21.4",
+                       "type":  "Desktop",
+                       "goLive":  "1714994995751"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "macuniversal",
+                       "version":  "21.5",
+                       "type":  "Desktop",
+                       "goLive":  "1747067557218"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "win64",
+                       "version":  "21.5",
+                       "type":  "Desktop",
+                       "goLive":  "1747067557218"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "macuniversal",
+                       "version":  "21.6",
+                       "type":  "Desktop",
+                       "goLive":  "1756224920854"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "win64",
+                       "version":  "21.6",
+                       "type":  "Desktop",
+                       "goLive":  "1756224920854"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "macuniversal",
+                       "version":  "21.7",
+                       "type":  "Desktop",
+                       "goLive":  "1765210163190"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "win64",
+                       "version":  "21.7",
+                       "type":  "Desktop",
+                       "goLive":  "1765210163190"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "win64",
+                       "version":  "21.8",
+                       "type":  "Desktop",
+                       "goLive":  "1777561938063"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "macuniversal",
+                       "version":  "21.8",
+                       "type":  "Desktop",
+                       "goLive":  "1777561938063"
                    }
                ],
     "displayName":  "Dreamweaver",
