@@ -215,7 +215,7 @@
         "id":  "PHSPBETA"
     },
     {
-        "buildCount":  44,
+        "buildCount":  48,
         "displayName":  "Premiere",
         "id":  "PPRO"
     },
@@ -325,7 +325,7 @@
         "id":  "ANML"
     },
     {
-        "buildCount":  32,
+        "buildCount":  36,
         "displayName":  "Media Encoder",
         "id":  "AME"
     },
