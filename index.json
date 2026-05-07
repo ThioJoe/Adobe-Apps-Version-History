@@ -180,12 +180,12 @@
         "id":  "LRCCPR"
     },
     {
-        "buildCount":  14,
+        "buildCount":  18,
         "displayName":  "CC Library",
         "id":  "LIBS"
     },
     {
-        "buildCount":  39,
+        "buildCount":  42,
         "displayName":  "Lightroom",
         "id":  "LRCC"
     },
