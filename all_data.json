@@ -6553,6 +6553,20 @@
                        {
                            "buildId":  "ILST",
                            "platform":  "macuniversal",
+                           "version":  "29.8.6",
+                           "type":  "Desktop",
+                           "goLive":  "1775545723054"
+                       },
+                       {
+                           "buildId":  "ILST",
+                           "platform":  "win64",
+                           "version":  "29.8.6",
+                           "type":  "Desktop",
+                           "goLive":  "1775545723054"
+                       },
+                       {
+                           "buildId":  "ILST",
+                           "platform":  "macuniversal",
                            "version":  "30.0",
                            "type":  "Desktop",
                            "goLive":  "1761645833993"
@@ -6608,17 +6622,17 @@
                        },
                        {
                            "buildId":  "ILST",
-                           "platform":  "win64",
-                           "version":  "29.8.6",
+                           "platform":  "macuniversal",
+                           "version":  "30.4",
                            "type":  "Desktop",
-                           "goLive":  "1775545723054"
+                           "goLive":  "1778146639106"
                        },
                        {
                            "buildId":  "ILST",
-                           "platform":  "macuniversal",
-                           "version":  "29.8.6",
+                           "platform":  "win64",
+                           "version":  "30.4",
                            "type":  "Desktop",
-                           "goLive":  "1775545723054"
+                           "goLive":  "1778146639106"
                        }
                    ],
         "displayName":  "Illustrator",
