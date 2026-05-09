@@ -9683,6 +9683,13 @@
                        {
                            "buildId":  "PSXUWP",
                            "platform":  "win64",
+                           "version":  "3.25.1",
+                           "type":  "Desktop",
+                           "goLive":  "1770285682978"
+                       },
+                       {
+                           "buildId":  "PSXUWP",
+                           "platform":  "win64",
                            "version":  "3.26.0",
                            "type":  "Desktop",
                            "goLive":  "1770722870155"
@@ -9690,9 +9697,9 @@
                        {
                            "buildId":  "PSXUWP",
                            "platform":  "win64",
-                           "version":  "3.25.1",
+                           "version":  "6.1.4",
                            "type":  "Desktop",
-                           "goLive":  "1770285682978"
+                           "goLive":  "1778241850453"
                        }
                    ],
         "displayName":  "Adobe Express Photos",
