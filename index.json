@@ -115,7 +115,7 @@
         "id":  "SEPS"
     },
     {
-        "buildCount":  36,
+        "buildCount":  37,
         "displayName":  "Substance 3D Modeler",
         "id":  "SHPR"
     },
@@ -245,7 +245,7 @@
         "id":  "AUDT"
     },
     {
-        "buildCount":  6,
+        "buildCount":  8,
         "displayName":  "Audition (Beta)",
         "id":  "AUDTBETA"
     },
@@ -330,7 +330,7 @@
         "id":  "AME"
     },
     {
-        "buildCount":  9,
+        "buildCount":  11,
         "displayName":  "Media Encoder (Beta)",
         "id":  "AMEBETA"
     },
