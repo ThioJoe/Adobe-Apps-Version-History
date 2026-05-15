@@ -2893,6 +2893,13 @@
                            "version":  "26.5",
                            "type":  "Desktop",
                            "goLive":  "1778688856090"
+                       },
+                       {
+                           "buildId":  "AUDTBETA",
+                           "platform":  "winarm64",
+                           "version":  "26.5",
+                           "type":  "Desktop",
+                           "goLive":  "1778734813497"
                        }
                    ],
         "displayName":  "Audition (Beta)",
@@ -9625,6 +9632,20 @@
                            "version":  "26.3",
                            "type":  "Desktop",
                            "goLive":  "1772750191274"
+                       },
+                       {
+                           "buildId":  "PPROBETA",
+                           "platform":  "macuniversal",
+                           "version":  "26.5",
+                           "type":  "Desktop",
+                           "goLive":  "1778774536768"
+                       },
+                       {
+                           "buildId":  "PPROBETA",
+                           "platform":  "win64",
+                           "version":  "26.5",
+                           "type":  "Desktop",
+                           "goLive":  "1778761294646"
                        }
                    ],
         "displayName":  "Premiere (Beta)",
@@ -13103,14 +13124,14 @@
         "builds":  [
                        {
                            "buildId":  "UAM",
-                           "platform":  "winarm64",
+                           "platform":  "macarm64",
                            "version":  "1.48",
                            "type":  "Desktop",
                            "goLive":  "1777306284341"
                        },
                        {
                            "buildId":  "UAM",
-                           "platform":  "macarm64",
+                           "platform":  "osx10-64",
                            "version":  "1.48",
                            "type":  "Desktop",
                            "goLive":  "1777306284341"
@@ -13124,10 +13145,38 @@
                        },
                        {
                            "buildId":  "UAM",
-                           "platform":  "osx10-64",
+                           "platform":  "winarm64",
                            "version":  "1.48",
                            "type":  "Desktop",
                            "goLive":  "1777306284341"
+                       },
+                       {
+                           "buildId":  "UAM",
+                           "platform":  "winarm64",
+                           "version":  "1.50",
+                           "type":  "Desktop",
+                           "goLive":  "1778775794719"
+                       },
+                       {
+                           "buildId":  "UAM",
+                           "platform":  "win64",
+                           "version":  "1.50",
+                           "type":  "Desktop",
+                           "goLive":  "1778775794719"
+                       },
+                       {
+                           "buildId":  "UAM",
+                           "platform":  "osx10-64",
+                           "version":  "1.50",
+                           "type":  "Desktop",
+                           "goLive":  "1778775794719"
+                       },
+                       {
+                           "buildId":  "UAM",
+                           "platform":  "macarm64",
+                           "version":  "1.50",
+                           "type":  "Desktop",
+                           "goLive":  "1778775794719"
                        }
                    ],
         "displayName":  "Unified Account Menu",

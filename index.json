@@ -150,7 +150,7 @@
         "id":  "UXPW"
     },
     {
-        "buildCount":  4,
+        "buildCount":  8,
         "displayName":  "Unified Account Menu",
         "id":  "UAM"
     },
@@ -205,7 +205,7 @@
         "id":  "PSXUWP"
     },
     {
-        "buildCount":  8,
+        "buildCount":  10,
         "displayName":  "Premiere (Beta)",
         "id":  "PPROBETA"
     },
@@ -245,7 +245,7 @@
         "id":  "AUDT"
     },
     {
-        "buildCount":  8,
+        "buildCount":  9,
         "displayName":  "Audition (Beta)",
         "id":  "AUDTBETA"
     },

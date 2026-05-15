@@ -55,6 +55,20 @@
                        "version":  "26.3",
                        "type":  "Desktop",
                        "goLive":  "1772750191274"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
+                       "platform":  "macuniversal",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1778774536768"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
+                       "platform":  "win64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1778761294646"
                    }
                ],
     "displayName":  "Premiere (Beta)",

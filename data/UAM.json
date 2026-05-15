@@ -2,14 +2,14 @@
     "builds":  [
                    {
                        "buildId":  "UAM",
-                       "platform":  "winarm64",
+                       "platform":  "macarm64",
                        "version":  "1.48",
                        "type":  "Desktop",
                        "goLive":  "1777306284341"
                    },
                    {
                        "buildId":  "UAM",
-                       "platform":  "macarm64",
+                       "platform":  "osx10-64",
                        "version":  "1.48",
                        "type":  "Desktop",
                        "goLive":  "1777306284341"
@@ -23,10 +23,38 @@
                    },
                    {
                        "buildId":  "UAM",
-                       "platform":  "osx10-64",
+                       "platform":  "winarm64",
                        "version":  "1.48",
                        "type":  "Desktop",
                        "goLive":  "1777306284341"
+                   },
+                   {
+                       "buildId":  "UAM",
+                       "platform":  "winarm64",
+                       "version":  "1.50",
+                       "type":  "Desktop",
+                       "goLive":  "1778775794719"
+                   },
+                   {
+                       "buildId":  "UAM",
+                       "platform":  "win64",
+                       "version":  "1.50",
+                       "type":  "Desktop",
+                       "goLive":  "1778775794719"
+                   },
+                   {
+                       "buildId":  "UAM",
+                       "platform":  "osx10-64",
+                       "version":  "1.50",
+                       "type":  "Desktop",
+                       "goLive":  "1778775794719"
+                   },
+                   {
+                       "buildId":  "UAM",
+                       "platform":  "macarm64",
+                       "version":  "1.50",
+                       "type":  "Desktop",
+                       "goLive":  "1778775794719"
                    }
                ],
     "displayName":  "Unified Account Menu",
