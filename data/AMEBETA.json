@@ -76,6 +76,13 @@
                        "version":  "26.5",
                        "type":  "Desktop",
                        "goLive":  "1778674069640"
+                   },
+                   {
+                       "buildId":  "AMEBETA",
+                       "platform":  "winarm64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1779206613746"
                    }
                ],
     "displayName":  "Media Encoder (Beta)",
