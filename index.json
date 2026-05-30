@@ -130,7 +130,7 @@
         "id":  "SBSTA"
     },
     {
-        "buildCount":  112,
+        "buildCount":  114,
         "displayName":  "Substance 3D Designer",
         "id":  "SBSTD"
     },
@@ -165,7 +165,7 @@
         "id":  "TAPI"
     },
     {
-        "buildCount":  36,
+        "buildCount":  38,
         "displayName":  "Lightroom Classic",
         "id":  "LTRM"
     },
@@ -185,7 +185,7 @@
         "id":  "LIBS"
     },
     {
-        "buildCount":  42,
+        "buildCount":  45,
         "displayName":  "Lightroom",
         "id":  "LRCC"
     },
@@ -290,7 +290,7 @@
         "id":  "AEFTBETA"
     },
     {
-        "buildCount":  219,
+        "buildCount":  222,
         "displayName":  "Camera Raw",
         "id":  "ACR"
     },
