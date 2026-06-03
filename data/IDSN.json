@@ -227,6 +227,20 @@
                    {
                        "buildId":  "IDSN",
                        "platform":  "macuniversal",
+                       "version":  "20.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1775818618565"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1775818491662"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
                        "version":  "21.0",
                        "type":  "Desktop",
                        "goLive":  "1761645816384"
@@ -311,16 +325,16 @@
                    {
                        "buildId":  "IDSN",
                        "platform":  "macuniversal",
-                       "version":  "20.5.3",
+                       "version":  "21.4",
                        "type":  "Desktop",
-                       "goLive":  "1775818618565"
+                       "goLive":  "1780398246046"
                    },
                    {
                        "buildId":  "IDSN",
                        "platform":  "win64",
-                       "version":  "20.5.3",
+                       "version":  "21.4",
                        "type":  "Desktop",
-                       "goLive":  "1775818491662"
+                       "goLive":  "1780398225602"
                    }
                ],
     "displayName":  "InDesign",
