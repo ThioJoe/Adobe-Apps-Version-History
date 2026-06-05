@@ -8110,14 +8110,7 @@
                        },
                        {
                            "buildId":  "LIBS",
-                           "platform":  "winarm64",
-                           "version":  "4.16.2",
-                           "type":  "Desktop",
-                           "goLive":  "1778046516743"
-                       },
-                       {
-                           "buildId":  "LIBS",
-                           "platform":  "win32",
+                           "platform":  "macarm64",
                            "version":  "4.16.2",
                            "type":  "Desktop",
                            "goLive":  "1778046516743"
@@ -8131,10 +8124,45 @@
                        },
                        {
                            "buildId":  "LIBS",
-                           "platform":  "macarm64",
+                           "platform":  "win32",
                            "version":  "4.16.2",
                            "type":  "Desktop",
                            "goLive":  "1778046516743"
+                       },
+                       {
+                           "buildId":  "LIBS",
+                           "platform":  "winarm64",
+                           "version":  "4.16.2",
+                           "type":  "Desktop",
+                           "goLive":  "1778046516743"
+                       },
+                       {
+                           "buildId":  "LIBS",
+                           "platform":  "win32",
+                           "version":  "4.17.3",
+                           "type":  "Desktop",
+                           "goLive":  "1780574766654"
+                       },
+                       {
+                           "buildId":  "LIBS",
+                           "platform":  "macarm64",
+                           "version":  "4.17.3",
+                           "type":  "Desktop",
+                           "goLive":  "1780574766654"
+                       },
+                       {
+                           "buildId":  "LIBS",
+                           "platform":  "winarm64",
+                           "version":  "4.17.3",
+                           "type":  "Desktop",
+                           "goLive":  "1780574766654"
+                       },
+                       {
+                           "buildId":  "LIBS",
+                           "platform":  "osx10-64",
+                           "version":  "4.17.3",
+                           "type":  "Desktop",
+                           "goLive":  "1780574766654"
                        }
                    ],
         "displayName":  "CC Library",
