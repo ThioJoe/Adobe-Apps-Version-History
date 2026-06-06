@@ -6441,6 +6441,13 @@
                        },
                        {
                            "buildId":  "IDSNBETA",
+                           "platform":  "macuniversal",
+                           "version":  "21.4",
+                           "type":  "Desktop",
+                           "goLive":  "1776336636581"
+                       },
+                       {
+                           "buildId":  "IDSNBETA",
                            "platform":  "win64",
                            "version":  "21.4",
                            "type":  "Desktop",
@@ -6448,10 +6455,10 @@
                        },
                        {
                            "buildId":  "IDSNBETA",
-                           "platform":  "macuniversal",
-                           "version":  "21.4",
+                           "platform":  "winarm64",
+                           "version":  "21.9",
                            "type":  "Desktop",
-                           "goLive":  "1776336636581"
+                           "goLive":  "1780664188600"
                        }
                    ],
         "displayName":  "InDesign (Beta)",
