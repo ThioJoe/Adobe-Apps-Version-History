@@ -335,6 +335,20 @@
                        "version":  "21.4",
                        "type":  "Desktop",
                        "goLive":  "1780398225602"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "macuniversal",
+                       "version":  "20.5.4",
+                       "type":  "Desktop",
+                       "goLive":  "1780986784729"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "20.5.4",
+                       "type":  "Desktop",
+                       "goLive":  "1780986749428"
                    }
                ],
     "displayName":  "InDesign",
