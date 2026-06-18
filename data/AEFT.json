@@ -226,6 +226,13 @@
                    },
                    {
                        "buildId":  "AEFT",
+                       "platform":  "macuniversal",
+                       "version":  "26.2.1",
+                       "type":  "Desktop",
+                       "goLive":  "1776878583805"
+                   },
+                   {
+                       "buildId":  "AEFT",
                        "platform":  "win64",
                        "version":  "26.2.1",
                        "type":  "Desktop",
@@ -240,10 +247,38 @@
                    },
                    {
                        "buildId":  "AEFT",
-                       "platform":  "macuniversal",
-                       "version":  "26.2.1",
+                       "platform":  "win64",
+                       "version":  "25.6.6",
                        "type":  "Desktop",
-                       "goLive":  "1776878583805"
+                       "goLive":  "1781709447630"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "macuniversal",
+                       "version":  "25.6.6",
+                       "type":  "Desktop",
+                       "goLive":  "1781709447630"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "win64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1781711918255"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "macuniversal",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1781711918255"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "winarm64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1781711918255"
                    }
                ],
     "displayName":  "After Effects",

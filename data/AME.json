@@ -226,6 +226,20 @@
                    },
                    {
                        "buildId":  "AME",
+                       "platform":  "macarm64",
+                       "version":  "26.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1777915242762"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "osx10-64",
+                       "version":  "26.2.2",
+                       "type":  "Desktop",
+                       "goLive":  "1777915242762"
+                   },
+                   {
+                       "buildId":  "AME",
                        "platform":  "win64",
                        "version":  "26.2.2",
                        "type":  "Desktop",
@@ -240,17 +254,17 @@
                    },
                    {
                        "buildId":  "AME",
-                       "platform":  "macarm64",
-                       "version":  "26.2.2",
+                       "platform":  "win64",
+                       "version":  "25.6.6",
                        "type":  "Desktop",
-                       "goLive":  "1777915242762"
+                       "goLive":  "1781709447630"
                    },
                    {
                        "buildId":  "AME",
-                       "platform":  "osx10-64",
-                       "version":  "26.2.2",
+                       "platform":  "macuniversal",
+                       "version":  "25.6.6",
                        "type":  "Desktop",
-                       "goLive":  "1777915242762"
+                       "goLive":  "1781709447630"
                    }
                ],
     "displayName":  "Media Encoder",

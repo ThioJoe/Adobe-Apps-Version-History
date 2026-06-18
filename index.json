@@ -215,7 +215,7 @@
         "id":  "PHSPBETA"
     },
     {
-        "buildCount":  48,
+        "buildCount":  54,
         "displayName":  "Premiere",
         "id":  "PPRO"
     },
@@ -240,7 +240,7 @@
         "id":  "CCXP"
     },
     {
-        "buildCount":  14,
+        "buildCount":  20,
         "displayName":  "Audition",
         "id":  "AUDT"
     },
@@ -280,7 +280,7 @@
         "id":  "COMP"
     },
     {
-        "buildCount":  35,
+        "buildCount":  40,
         "displayName":  "After Effects",
         "id":  "AEFT"
     },
@@ -325,7 +325,7 @@
         "id":  "ANML"
     },
     {
-        "buildCount":  36,
+        "buildCount":  38,
         "displayName":  "Media Encoder",
         "id":  "AME"
     },
