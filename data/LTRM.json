@@ -254,6 +254,13 @@
                    },
                    {
                        "buildId":  "LTRM",
+                       "platform":  "macuniversal",
+                       "version":  "15.3.1",
+                       "type":  "Desktop",
+                       "goLive":  "1780063429188"
+                   },
+                   {
+                       "buildId":  "LTRM",
                        "platform":  "win64",
                        "version":  "15.3.1",
                        "type":  "Desktop",
@@ -262,9 +269,16 @@
                    {
                        "buildId":  "LTRM",
                        "platform":  "macuniversal",
-                       "version":  "15.3.1",
+                       "version":  "15.4",
                        "type":  "Desktop",
-                       "goLive":  "1780063429188"
+                       "goLive":  "1781751771998"
+                   },
+                   {
+                       "buildId":  "LTRM",
+                       "platform":  "win64",
+                       "version":  "15.4",
+                       "type":  "Desktop",
+                       "goLive":  "1781751771998"
                    }
                ],
     "displayName":  "Lightroom Classic",

@@ -90,7 +90,7 @@
         "id":  "HLAN"
     },
     {
-        "buildCount":  50,
+        "buildCount":  52,
         "displayName":  "InDesign",
         "id":  "IDSN"
     },
@@ -165,7 +165,7 @@
         "id":  "TAPI"
     },
     {
-        "buildCount":  38,
+        "buildCount":  40,
         "displayName":  "Lightroom Classic",
         "id":  "LTRM"
     },
@@ -185,12 +185,12 @@
         "id":  "LIBS"
     },
     {
-        "buildCount":  45,
+        "buildCount":  48,
         "displayName":  "Lightroom",
         "id":  "LRCC"
     },
     {
-        "buildCount":  83,
+        "buildCount":  89,
         "displayName":  "Photoshop",
         "id":  "PHSP"
     },
@@ -290,7 +290,7 @@
         "id":  "AEFTBETA"
     },
     {
-        "buildCount":  222,
+        "buildCount":  225,
         "displayName":  "Camera Raw",
         "id":  "ACR"
     },
