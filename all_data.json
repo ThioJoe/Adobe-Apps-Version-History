@@ -9028,6 +9028,20 @@
                            "version":  "15.4",
                            "type":  "Desktop",
                            "goLive":  "1781751771998"
+                       },
+                       {
+                           "buildId":  "LTRM",
+                           "platform":  "macuniversal",
+                           "version":  "15.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1782124647713"
+                       },
+                       {
+                           "buildId":  "LTRM",
+                           "platform":  "win64",
+                           "version":  "15.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1782124647713"
                        }
                    ],
         "displayName":  "Lightroom Classic",
