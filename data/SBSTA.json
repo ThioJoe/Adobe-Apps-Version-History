@@ -839,6 +839,20 @@
                        "version":  "6.0.1",
                        "type":  "Desktop",
                        "goLive":  "1779357764065"
+                   },
+                   {
+                       "buildId":  "SBSTA",
+                       "platform":  "macarm64",
+                       "version":  "6.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1782381620873"
+                   },
+                   {
+                       "buildId":  "SBSTA",
+                       "platform":  "win64",
+                       "version":  "6.0.2",
+                       "type":  "Desktop",
+                       "goLive":  "1782381620873"
                    }
                ],
     "displayName":  "Substance 3D Sampler",

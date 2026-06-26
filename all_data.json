@@ -7028,6 +7028,13 @@
                        },
                        {
                            "buildId":  "ILST",
+                           "platform":  "macuniversal",
+                           "version":  "30.5.1",
+                           "type":  "Desktop",
+                           "goLive":  "1780317294468"
+                       },
+                       {
+                           "buildId":  "ILST",
                            "platform":  "win64",
                            "version":  "30.5.1",
                            "type":  "Desktop",
@@ -7036,9 +7043,16 @@
                        {
                            "buildId":  "ILST",
                            "platform":  "macuniversal",
-                           "version":  "30.5.1",
+                           "version":  "30.6",
                            "type":  "Desktop",
-                           "goLive":  "1780317294468"
+                           "goLive":  "1782382076345"
+                       },
+                       {
+                           "buildId":  "ILST",
+                           "platform":  "win64",
+                           "version":  "30.6",
+                           "type":  "Desktop",
+                           "goLive":  "1782382076345"
                        }
                    ],
         "displayName":  "Illustrator",
@@ -11218,6 +11232,20 @@
                            "version":  "6.0.1",
                            "type":  "Desktop",
                            "goLive":  "1779357764065"
+                       },
+                       {
+                           "buildId":  "SBSTA",
+                           "platform":  "macarm64",
+                           "version":  "6.0.2",
+                           "type":  "Desktop",
+                           "goLive":  "1782381620873"
+                       },
+                       {
+                           "buildId":  "SBSTA",
+                           "platform":  "win64",
+                           "version":  "6.0.2",
+                           "type":  "Desktop",
+                           "goLive":  "1782381620873"
                        }
                    ],
         "displayName":  "Substance 3D Sampler",
