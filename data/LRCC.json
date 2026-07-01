@@ -317,7 +317,7 @@
                    },
                    {
                        "buildId":  "LRCC",
-                       "platform":  "winarm64",
+                       "platform":  "macuniversal",
                        "version":  "9.4",
                        "type":  "Desktop",
                        "goLive":  "1781751771998"
@@ -331,10 +331,31 @@
                    },
                    {
                        "buildId":  "LRCC",
-                       "platform":  "macuniversal",
+                       "platform":  "winarm64",
                        "version":  "9.4",
                        "type":  "Desktop",
                        "goLive":  "1781751771998"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "winarm64",
+                       "version":  "9.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1782797547263"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "macuniversal",
+                       "version":  "9.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1782797547263"
+                   },
+                   {
+                       "buildId":  "LRCC",
+                       "platform":  "win64",
+                       "version":  "9.4.1",
+                       "type":  "Desktop",
+                       "goLive":  "1782797547263"
                    }
                ],
     "displayName":  "Lightroom",
