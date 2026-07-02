@@ -143,6 +143,20 @@
                    {
                        "buildId":  "KBRG",
                        "platform":  "macuniversal",
+                       "version":  "15.1.5",
+                       "type":  "Desktop",
+                       "goLive":  "1775039904474"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "win64",
+                       "version":  "15.1.5",
+                       "type":  "Desktop",
+                       "goLive":  "1775039904474"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "macuniversal",
                        "version":  "16.0.0",
                        "type":  "Desktop",
                        "goLive":  "1761645871512"
@@ -184,20 +198,6 @@
                    },
                    {
                        "buildId":  "KBRG",
-                       "platform":  "win64",
-                       "version":  "15.1.5",
-                       "type":  "Desktop",
-                       "goLive":  "1775039904474"
-                   },
-                   {
-                       "buildId":  "KBRG",
-                       "platform":  "macuniversal",
-                       "version":  "15.1.5",
-                       "type":  "Desktop",
-                       "goLive":  "1775039904474"
-                   },
-                   {
-                       "buildId":  "KBRG",
                        "platform":  "macuniversal",
                        "version":  "16.0.3",
                        "type":  "Desktop",
@@ -209,6 +209,34 @@
                        "version":  "16.0.3",
                        "type":  "Desktop",
                        "goLive":  "1775039534625"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "win64",
+                       "version":  "15.1.6",
+                       "type":  "Desktop",
+                       "goLive":  "1782902534583"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "macuniversal",
+                       "version":  "16.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1782902191907"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "win64",
+                       "version":  "16.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1782902191907"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "macuniversal",
+                       "version":  "15.1.6",
+                       "type":  "Desktop",
+                       "goLive":  "1782902534583"
                    }
                ],
     "displayName":  "Bridge",
