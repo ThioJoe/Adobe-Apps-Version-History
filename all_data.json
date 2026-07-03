@@ -7053,6 +7053,20 @@
                            "version":  "30.6",
                            "type":  "Desktop",
                            "goLive":  "1782382076345"
+                       },
+                       {
+                           "buildId":  "ILST",
+                           "platform":  "win64",
+                           "version":  "29.8.9",
+                           "type":  "Desktop",
+                           "goLive":  "1782976418190"
+                       },
+                       {
+                           "buildId":  "ILST",
+                           "platform":  "macuniversal",
+                           "version":  "29.8.9",
+                           "type":  "Desktop",
+                           "goLive":  "1782976418190"
                        }
                    ],
         "displayName":  "Illustrator",
@@ -12074,6 +12088,20 @@
                        },
                        {
                            "buildId":  "SBSTD",
+                           "platform":  "macarm64",
+                           "version":  "16.0.3",
+                           "type":  "Desktop",
+                           "goLive":  "1780063409047"
+                       },
+                       {
+                           "buildId":  "SBSTD",
+                           "platform":  "win64",
+                           "version":  "16.0.3",
+                           "type":  "Desktop",
+                           "goLive":  "1780063409047"
+                       },
+                       {
+                           "buildId":  "SBSTD",
                            "platform":  "osx10-64",
                            "version":  "9.3.0",
                            "type":  "Desktop",
@@ -12088,17 +12116,17 @@
                        },
                        {
                            "buildId":  "SBSTD",
-                           "platform":  "win64",
-                           "version":  "16.0.3",
+                           "platform":  "macarm64",
+                           "version":  "16.0.4",
                            "type":  "Desktop",
-                           "goLive":  "1780063409047"
+                           "goLive":  "1782986373892"
                        },
                        {
                            "buildId":  "SBSTD",
-                           "platform":  "macarm64",
-                           "version":  "16.0.3",
+                           "platform":  "win64",
+                           "version":  "16.0.4",
                            "type":  "Desktop",
-                           "goLive":  "1780063409047"
+                           "goLive":  "1782986373892"
                        }
                    ],
         "displayName":  "Substance 3D Designer",
