@@ -128,14 +128,21 @@
                    },
                    {
                        "buildId":  "LIBS",
-                       "platform":  "win32",
+                       "platform":  "macarm64",
                        "version":  "4.17.3",
                        "type":  "Desktop",
                        "goLive":  "1780574766654"
                    },
                    {
                        "buildId":  "LIBS",
-                       "platform":  "macarm64",
+                       "platform":  "osx10-64",
+                       "version":  "4.17.3",
+                       "type":  "Desktop",
+                       "goLive":  "1780574766654"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "win32",
                        "version":  "4.17.3",
                        "type":  "Desktop",
                        "goLive":  "1780574766654"
@@ -149,10 +156,31 @@
                    },
                    {
                        "buildId":  "LIBS",
-                       "platform":  "osx10-64",
-                       "version":  "4.17.3",
+                       "platform":  "winarm64",
+                       "version":  "4.18.0",
                        "type":  "Desktop",
-                       "goLive":  "1780574766654"
+                       "goLive":  "1783412933862"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "macarm64",
+                       "version":  "4.18.0",
+                       "type":  "Desktop",
+                       "goLive":  "1783412933862"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "win32",
+                       "version":  "4.18.0",
+                       "type":  "Desktop",
+                       "goLive":  "1783412933862"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "osx10-64",
+                       "version":  "4.18.0",
+                       "type":  "Desktop",
+                       "goLive":  "1783412933862"
                    }
                ],
     "displayName":  "CC Library",
