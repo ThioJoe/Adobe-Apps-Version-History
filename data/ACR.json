@@ -1430,6 +1430,27 @@
                    },
                    {
                        "buildId":  "ACR",
+                       "platform":  "macuniversal",
+                       "version":  "18.4",
+                       "type":  "Desktop",
+                       "goLive":  "1781751771998"
+                   },
+                   {
+                       "buildId":  "ACR",
+                       "platform":  "win32",
+                       "version":  "18.4",
+                       "type":  "Desktop",
+                       "goLive":  "1781751771998"
+                   },
+                   {
+                       "buildId":  "ACR",
+                       "platform":  "winarm64",
+                       "version":  "18.4",
+                       "type":  "Desktop",
+                       "goLive":  "1781751771998"
+                   },
+                   {
+                       "buildId":  "ACR",
                        "platform":  "osx10-64",
                        "version":  "9.10",
                        "type":  "Desktop",
@@ -1557,23 +1578,23 @@
                    {
                        "buildId":  "ACR",
                        "platform":  "macuniversal",
-                       "version":  "18.4",
+                       "version":  "18.4.1",
                        "type":  "Desktop",
-                       "goLive":  "1781751771998"
+                       "goLive":  "1783488024558"
                    },
                    {
                        "buildId":  "ACR",
                        "platform":  "winarm64",
-                       "version":  "18.4",
+                       "version":  "18.4.1",
                        "type":  "Desktop",
-                       "goLive":  "1781751771998"
+                       "goLive":  "1783488024558"
                    },
                    {
                        "buildId":  "ACR",
                        "platform":  "win32",
-                       "version":  "18.4",
+                       "version":  "18.4.1",
                        "type":  "Desktop",
-                       "goLive":  "1781751771998"
+                       "goLive":  "1783488024558"
                    }
                ],
     "displayName":  "Camera Raw",
