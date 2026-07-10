@@ -7347,6 +7347,20 @@
                        {
                            "buildId":  "KBRG",
                            "platform":  "macuniversal",
+                           "version":  "15.1.6",
+                           "type":  "Desktop",
+                           "goLive":  "1782902534583"
+                       },
+                       {
+                           "buildId":  "KBRG",
+                           "platform":  "win64",
+                           "version":  "15.1.6",
+                           "type":  "Desktop",
+                           "goLive":  "1782902534583"
+                       },
+                       {
+                           "buildId":  "KBRG",
+                           "platform":  "macuniversal",
                            "version":  "16.0.0",
                            "type":  "Desktop",
                            "goLive":  "1761645871512"
@@ -7402,13 +7416,6 @@
                        },
                        {
                            "buildId":  "KBRG",
-                           "platform":  "win64",
-                           "version":  "15.1.6",
-                           "type":  "Desktop",
-                           "goLive":  "1782902534583"
-                       },
-                       {
-                           "buildId":  "KBRG",
                            "platform":  "macuniversal",
                            "version":  "16.0.4",
                            "type":  "Desktop",
@@ -7424,9 +7431,16 @@
                        {
                            "buildId":  "KBRG",
                            "platform":  "macuniversal",
-                           "version":  "15.1.6",
+                           "version":  "16.0.5",
                            "type":  "Desktop",
-                           "goLive":  "1782902534583"
+                           "goLive":  "1783593256020"
+                       },
+                       {
+                           "buildId":  "KBRG",
+                           "platform":  "win64",
+                           "version":  "16.0.5",
+                           "type":  "Desktop",
+                           "goLive":  "1783593256020"
                        }
                    ],
         "displayName":  "Bridge",
