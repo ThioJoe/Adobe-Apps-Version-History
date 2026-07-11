@@ -297,6 +297,20 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "macuniversal",
+                       "version":  "24.0.13",
+                       "type":  "Desktop",
+                       "goLive":  "1775825563390"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "24.0.13",
+                       "type":  "Desktop",
+                       "goLive":  "1775825563390"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "macuniversal",
                        "version":  "24.0.2",
                        "type":  "Desktop",
                        "goLive":  "1712041201556"
@@ -409,16 +423,30 @@
                    {
                        "buildId":  "HLAN",
                        "platform":  "win64",
-                       "version":  "24.0.13",
+                       "version":  "24.0.14",
                        "type":  "Desktop",
-                       "goLive":  "1775825563390"
+                       "goLive":  "1783674607750"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.16",
+                       "type":  "Desktop",
+                       "goLive":  "1783674607750"
                    },
                    {
                        "buildId":  "HLAN",
                        "platform":  "macuniversal",
-                       "version":  "24.0.13",
+                       "version":  "24.0.14",
                        "type":  "Desktop",
-                       "goLive":  "1775825563390"
+                       "goLive":  "1783674607750"
+                   },
+                   {
+                       "buildId":  "HLAN",
+                       "platform":  "win64",
+                       "version":  "23.0.16",
+                       "type":  "Desktop",
+                       "goLive":  "1783674607750"
                    }
                ],
     "displayName":  "Animate HLAN",

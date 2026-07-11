@@ -297,6 +297,20 @@
                    {
                        "buildId":  "FLPR",
                        "platform":  "macuniversal",
+                       "version":  "24.0.13",
+                       "type":  "Desktop",
+                       "goLive":  "1775825521644"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "win64",
+                       "version":  "24.0.13",
+                       "type":  "Desktop",
+                       "goLive":  "1775825521644"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "macuniversal",
                        "version":  "24.0.2",
                        "type":  "Desktop",
                        "goLive":  "1712041418281"
@@ -409,16 +423,30 @@
                    {
                        "buildId":  "FLPR",
                        "platform":  "win64",
-                       "version":  "24.0.13",
+                       "version":  "23.0.16",
                        "type":  "Desktop",
-                       "goLive":  "1775825521644"
+                       "goLive":  "1783674638741"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "osx10-64",
+                       "version":  "23.0.16",
+                       "type":  "Desktop",
+                       "goLive":  "1783674638741"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "win64",
+                       "version":  "24.0.14",
+                       "type":  "Desktop",
+                       "goLive":  "1783674660894"
                    },
                    {
                        "buildId":  "FLPR",
                        "platform":  "macuniversal",
-                       "version":  "24.0.13",
+                       "version":  "24.0.14",
                        "type":  "Desktop",
-                       "goLive":  "1775825521644"
+                       "goLive":  "1783674660894"
                    }
                ],
     "displayName":  "Animate",
