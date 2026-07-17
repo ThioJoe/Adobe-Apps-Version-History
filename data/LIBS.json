@@ -156,14 +156,14 @@
                    },
                    {
                        "buildId":  "LIBS",
-                       "platform":  "winarm64",
+                       "platform":  "macarm64",
                        "version":  "4.18.0",
                        "type":  "Desktop",
                        "goLive":  "1783412933862"
                    },
                    {
                        "buildId":  "LIBS",
-                       "platform":  "macarm64",
+                       "platform":  "osx10-64",
                        "version":  "4.18.0",
                        "type":  "Desktop",
                        "goLive":  "1783412933862"
@@ -177,10 +177,38 @@
                    },
                    {
                        "buildId":  "LIBS",
-                       "platform":  "osx10-64",
+                       "platform":  "winarm64",
                        "version":  "4.18.0",
                        "type":  "Desktop",
                        "goLive":  "1783412933862"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "win32",
+                       "version":  "4.18.2",
+                       "type":  "Desktop",
+                       "goLive":  "1784191986377"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "osx10-64",
+                       "version":  "4.18.2",
+                       "type":  "Desktop",
+                       "goLive":  "1784191986377"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "winarm64",
+                       "version":  "4.18.2",
+                       "type":  "Desktop",
+                       "goLive":  "1784191986377"
+                   },
+                   {
+                       "buildId":  "LIBS",
+                       "platform":  "macarm64",
+                       "version":  "4.18.2",
+                       "type":  "Desktop",
+                       "goLive":  "1784191986377"
                    }
                ],
     "displayName":  "CC Library",
