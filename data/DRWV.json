@@ -128,6 +128,13 @@
                    },
                    {
                        "buildId":  "DRWV",
+                       "platform":  "macuniversal",
+                       "version":  "21.8",
+                       "type":  "Desktop",
+                       "goLive":  "1777561938063"
+                   },
+                   {
+                       "buildId":  "DRWV",
                        "platform":  "win64",
                        "version":  "21.8",
                        "type":  "Desktop",
@@ -135,10 +142,17 @@
                    },
                    {
                        "buildId":  "DRWV",
-                       "platform":  "macuniversal",
-                       "version":  "21.8",
+                       "platform":  "win64",
+                       "version":  "21.8.1",
                        "type":  "Desktop",
-                       "goLive":  "1777561938063"
+                       "goLive":  "1784909613282"
+                   },
+                   {
+                       "buildId":  "DRWV",
+                       "platform":  "macuniversal",
+                       "version":  "21.8.1",
+                       "type":  "Desktop",
+                       "goLive":  "1784909613282"
                    }
                ],
     "displayName":  "Dreamweaver",
