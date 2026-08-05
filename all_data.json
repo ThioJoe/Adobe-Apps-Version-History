@@ -1688,6 +1688,27 @@
                        },
                        {
                            "buildId":  "ACR",
+                           "platform":  "macuniversal",
+                           "version":  "18.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1783488024558"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "win32",
+                           "version":  "18.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1783488024558"
+                       },
+                       {
+                           "buildId":  "ACR",
+                           "platform":  "winarm64",
+                           "version":  "18.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1783488024558"
+                       },
+                       {
+                           "buildId":  "ACR",
                            "platform":  "osx10-64",
                            "version":  "9.10",
                            "type":  "Desktop",
@@ -1815,23 +1836,23 @@
                        {
                            "buildId":  "ACR",
                            "platform":  "macuniversal",
-                           "version":  "18.4.1",
+                           "version":  "18.5",
                            "type":  "Desktop",
-                           "goLive":  "1783488024558"
+                           "goLive":  "1785812622746"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "winarm64",
-                           "version":  "18.4.1",
+                           "version":  "18.5",
                            "type":  "Desktop",
-                           "goLive":  "1783488024558"
+                           "goLive":  "1785812622746"
                        },
                        {
                            "buildId":  "ACR",
                            "platform":  "win32",
-                           "version":  "18.4.1",
+                           "version":  "18.5",
                            "type":  "Desktop",
-                           "goLive":  "1783488024558"
+                           "goLive":  "1785812622746"
                        }
                    ],
         "displayName":  "Camera Raw",
@@ -2190,10 +2211,10 @@
                        },
                        {
                            "buildId":  "AEFTBETA",
-                           "platform":  "winarm64",
+                           "platform":  "macuniversal",
                            "version":  "26.5",
                            "type":  "Desktop",
-                           "goLive":  "1779132786146"
+                           "goLive":  "1779131001466"
                        },
                        {
                            "buildId":  "AEFTBETA",
@@ -2204,10 +2225,24 @@
                        },
                        {
                            "buildId":  "AEFTBETA",
-                           "platform":  "macuniversal",
+                           "platform":  "winarm64",
                            "version":  "26.5",
                            "type":  "Desktop",
-                           "goLive":  "1779131001466"
+                           "goLive":  "1779132786146"
+                       },
+                       {
+                           "buildId":  "AEFTBETA",
+                           "platform":  "winarm64",
+                           "version":  "27.0",
+                           "type":  "Desktop",
+                           "goLive":  "1785867387473"
+                       },
+                       {
+                           "buildId":  "AEFTBETA",
+                           "platform":  "win64",
+                           "version":  "27.0",
+                           "type":  "Desktop",
+                           "goLive":  "1785867046147"
                        }
                    ],
         "displayName":  "After Effects (Beta)",
@@ -2741,7 +2776,7 @@
                        },
                        {
                            "buildId":  "AME",
-                           "platform":  "winarm64",
+                           "platform":  "macarm64",
                            "version":  "26.3.1",
                            "type":  "Desktop",
                            "goLive":  "1782316137396"
@@ -2755,17 +2790,45 @@
                        },
                        {
                            "buildId":  "AME",
-                           "platform":  "macarm64",
+                           "platform":  "win64",
                            "version":  "26.3.1",
                            "type":  "Desktop",
                            "goLive":  "1782316137396"
                        },
                        {
                            "buildId":  "AME",
-                           "platform":  "win64",
+                           "platform":  "winarm64",
                            "version":  "26.3.1",
                            "type":  "Desktop",
                            "goLive":  "1782316137396"
+                       },
+                       {
+                           "buildId":  "AME",
+                           "platform":  "osx10-64",
+                           "version":  "26.3.2",
+                           "type":  "Desktop",
+                           "goLive":  "1785866758415"
+                       },
+                       {
+                           "buildId":  "AME",
+                           "platform":  "winarm64",
+                           "version":  "26.3.2",
+                           "type":  "Desktop",
+                           "goLive":  "1785866758415"
+                       },
+                       {
+                           "buildId":  "AME",
+                           "platform":  "win64",
+                           "version":  "26.3.2",
+                           "type":  "Desktop",
+                           "goLive":  "1785866758415"
+                       },
+                       {
+                           "buildId":  "AME",
+                           "platform":  "macarm64",
+                           "version":  "26.3.2",
+                           "type":  "Desktop",
+                           "goLive":  "1785866758415"
                        }
                    ],
         "displayName":  "Media Encoder",
@@ -2856,6 +2919,20 @@
                            "version":  "26.5",
                            "type":  "Desktop",
                            "goLive":  "1779206613746"
+                       },
+                       {
+                           "buildId":  "AMEBETA",
+                           "platform":  "win64",
+                           "version":  "27.0",
+                           "type":  "Desktop",
+                           "goLive":  "1785866127314"
+                       },
+                       {
+                           "buildId":  "AMEBETA",
+                           "platform":  "winarm64",
+                           "version":  "27.0",
+                           "type":  "Desktop",
+                           "goLive":  "1785867065697"
                        }
                    ],
         "displayName":  "Media Encoder (Beta)",
@@ -3159,6 +3236,13 @@
                            "version":  "26.5",
                            "type":  "Desktop",
                            "goLive":  "1778734813497"
+                       },
+                       {
+                           "buildId":  "AUDTBETA",
+                           "platform":  "win64",
+                           "version":  "27.0",
+                           "type":  "Desktop",
+                           "goLive":  "1785863699377"
                        }
                    ],
         "displayName":  "Audition (Beta)",
@@ -9040,13 +9124,6 @@
                        },
                        {
                            "buildId":  "LRCC",
-                           "platform":  "winarm64",
-                           "version":  "9.4.1",
-                           "type":  "Desktop",
-                           "goLive":  "1782797547263"
-                       },
-                       {
-                           "buildId":  "LRCC",
                            "platform":  "macuniversal",
                            "version":  "9.4.1",
                            "type":  "Desktop",
@@ -9058,6 +9135,34 @@
                            "version":  "9.4.1",
                            "type":  "Desktop",
                            "goLive":  "1782797547263"
+                       },
+                       {
+                           "buildId":  "LRCC",
+                           "platform":  "winarm64",
+                           "version":  "9.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1782797547263"
+                       },
+                       {
+                           "buildId":  "LRCC",
+                           "platform":  "winarm64",
+                           "version":  "9.5",
+                           "type":  "Desktop",
+                           "goLive":  "1785812622746"
+                       },
+                       {
+                           "buildId":  "LRCC",
+                           "platform":  "macuniversal",
+                           "version":  "9.5",
+                           "type":  "Desktop",
+                           "goLive":  "1785812622746"
+                       },
+                       {
+                           "buildId":  "LRCC",
+                           "platform":  "win64",
+                           "version":  "9.5",
+                           "type":  "Desktop",
+                           "goLive":  "1785812622746"
                        }
                    ],
         "displayName":  "Lightroom",
@@ -9378,6 +9483,20 @@
                            "version":  "15.4.1",
                            "type":  "Desktop",
                            "goLive":  "1782124647713"
+                       },
+                       {
+                           "buildId":  "LTRM",
+                           "platform":  "macuniversal",
+                           "version":  "15.5",
+                           "type":  "Desktop",
+                           "goLive":  "1785812622746"
+                       },
+                       {
+                           "buildId":  "LTRM",
+                           "platform":  "win64",
+                           "version":  "15.5",
+                           "type":  "Desktop",
+                           "goLive":  "1785812622746"
                        }
                    ],
         "displayName":  "Lightroom Classic",
@@ -10301,160 +10420,6 @@
                        },
                        {
                            "buildId":  "PPRO",
-                           "platform":  "macarm64",
-                           "version":  "26.0",
-                           "type":  "Desktop",
-                           "goLive":  "1769104604703"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "osx10-64",
-                           "version":  "26.0",
-                           "type":  "Desktop",
-                           "goLive":  "1769104604703"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "win64",
-                           "version":  "26.0",
-                           "type":  "Desktop",
-                           "goLive":  "1769104604703"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "winarm64",
-                           "version":  "26.0",
-                           "type":  "Desktop",
-                           "goLive":  "1769104604703"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "macarm64",
-                           "version":  "26.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1770918340059"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "osx10-64",
-                           "version":  "26.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1770918340059"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "win64",
-                           "version":  "26.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1770918340059"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "winarm64",
-                           "version":  "26.0.1",
-                           "type":  "Desktop",
-                           "goLive":  "1770918340059"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "macarm64",
-                           "version":  "26.0.2",
-                           "type":  "Desktop",
-                           "goLive":  "1773162951947"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "osx10-64",
-                           "version":  "26.0.2",
-                           "type":  "Desktop",
-                           "goLive":  "1773162951947"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "win64",
-                           "version":  "26.0.2",
-                           "type":  "Desktop",
-                           "goLive":  "1773162951947"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "winarm64",
-                           "version":  "26.0.2",
-                           "type":  "Desktop",
-                           "goLive":  "1773162951947"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "macarm64",
-                           "version":  "26.2",
-                           "type":  "Desktop",
-                           "goLive":  "1776258247964"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "osx10-64",
-                           "version":  "26.2",
-                           "type":  "Desktop",
-                           "goLive":  "1776258247964"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "win64",
-                           "version":  "26.2",
-                           "type":  "Desktop",
-                           "goLive":  "1776258247964"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "winarm64",
-                           "version":  "26.2",
-                           "type":  "Desktop",
-                           "goLive":  "1776258247964"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "macarm64",
-                           "version":  "26.2.2",
-                           "type":  "Desktop",
-                           "goLive":  "1777915242762"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "osx10-64",
-                           "version":  "26.2.2",
-                           "type":  "Desktop",
-                           "goLive":  "1777915242762"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "win64",
-                           "version":  "26.2.2",
-                           "type":  "Desktop",
-                           "goLive":  "1777915242762"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "winarm64",
-                           "version":  "26.2.2",
-                           "type":  "Desktop",
-                           "goLive":  "1777915242762"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "winarm64",
-                           "version":  "26.3",
-                           "type":  "Desktop",
-                           "goLive":  "1781711918255"
-                       },
-                       {
-                           "buildId":  "PPRO",
-                           "platform":  "osx10-64",
-                           "version":  "26.3",
-                           "type":  "Desktop",
-                           "goLive":  "1781711918255"
-                       },
-                       {
-                           "buildId":  "PPRO",
                            "platform":  "macuniversal",
                            "version":  "25.6.6",
                            "type":  "Desktop",
@@ -10469,10 +10434,143 @@
                        },
                        {
                            "buildId":  "PPRO",
-                           "platform":  "win64",
-                           "version":  "26.3",
+                           "platform":  "macarm64",
+                           "version":  "26.0",
                            "type":  "Desktop",
-                           "goLive":  "1781711918255"
+                           "goLive":  "1769104604703"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "osx10-64",
+                           "version":  "26.0",
+                           "type":  "Desktop",
+                           "goLive":  "1769104604703"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "win64",
+                           "version":  "26.0",
+                           "type":  "Desktop",
+                           "goLive":  "1769104604703"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "winarm64",
+                           "version":  "26.0",
+                           "type":  "Desktop",
+                           "goLive":  "1769104604703"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "macarm64",
+                           "version":  "26.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1770918340059"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "osx10-64",
+                           "version":  "26.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1770918340059"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "win64",
+                           "version":  "26.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1770918340059"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "winarm64",
+                           "version":  "26.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1770918340059"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "macarm64",
+                           "version":  "26.0.2",
+                           "type":  "Desktop",
+                           "goLive":  "1773162951947"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "osx10-64",
+                           "version":  "26.0.2",
+                           "type":  "Desktop",
+                           "goLive":  "1773162951947"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "win64",
+                           "version":  "26.0.2",
+                           "type":  "Desktop",
+                           "goLive":  "1773162951947"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "winarm64",
+                           "version":  "26.0.2",
+                           "type":  "Desktop",
+                           "goLive":  "1773162951947"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "macarm64",
+                           "version":  "26.2",
+                           "type":  "Desktop",
+                           "goLive":  "1776258247964"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "osx10-64",
+                           "version":  "26.2",
+                           "type":  "Desktop",
+                           "goLive":  "1776258247964"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "win64",
+                           "version":  "26.2",
+                           "type":  "Desktop",
+                           "goLive":  "1776258247964"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "winarm64",
+                           "version":  "26.2",
+                           "type":  "Desktop",
+                           "goLive":  "1776258247964"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "macarm64",
+                           "version":  "26.2.2",
+                           "type":  "Desktop",
+                           "goLive":  "1777915242762"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "osx10-64",
+                           "version":  "26.2.2",
+                           "type":  "Desktop",
+                           "goLive":  "1777915242762"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "win64",
+                           "version":  "26.2.2",
+                           "type":  "Desktop",
+                           "goLive":  "1777915242762"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "winarm64",
+                           "version":  "26.2.2",
+                           "type":  "Desktop",
+                           "goLive":  "1777915242762"
                        },
                        {
                            "buildId":  "PPRO",
@@ -10480,6 +10578,55 @@
                            "version":  "26.3",
                            "type":  "Desktop",
                            "goLive":  "1781711918255"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "osx10-64",
+                           "version":  "26.3",
+                           "type":  "Desktop",
+                           "goLive":  "1781711918255"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "win64",
+                           "version":  "26.3",
+                           "type":  "Desktop",
+                           "goLive":  "1781711918255"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "winarm64",
+                           "version":  "26.3",
+                           "type":  "Desktop",
+                           "goLive":  "1781711918255"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "osx10-64",
+                           "version":  "26.3.2",
+                           "type":  "Desktop",
+                           "goLive":  "1785866758415"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "win64",
+                           "version":  "26.3.2",
+                           "type":  "Desktop",
+                           "goLive":  "1785866758415"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "winarm64",
+                           "version":  "26.3.2",
+                           "type":  "Desktop",
+                           "goLive":  "1785866758415"
+                       },
+                       {
+                           "buildId":  "PPRO",
+                           "platform":  "macarm64",
+                           "version":  "26.3.2",
+                           "type":  "Desktop",
+                           "goLive":  "1785866758415"
                        }
                    ],
         "displayName":  "Premiere",
@@ -12640,6 +12787,20 @@
                        },
                        {
                            "buildId":  "SBSTP",
+                           "platform":  "macarm64",
+                           "version":  "12.1.0",
+                           "type":  "Desktop",
+                           "goLive":  "1782208862795"
+                       },
+                       {
+                           "buildId":  "SBSTP",
+                           "platform":  "win64",
+                           "version":  "12.1.0",
+                           "type":  "Desktop",
+                           "goLive":  "1782208862795"
+                       },
+                       {
+                           "buildId":  "SBSTP",
                            "platform":  "osx10-64",
                            "version":  "5.3.2",
                            "type":  "Desktop",
@@ -13145,16 +13306,16 @@
                        {
                            "buildId":  "SBSTP",
                            "platform":  "macarm64",
-                           "version":  "12.1.0",
+                           "version":  "12.1.2",
                            "type":  "Desktop",
-                           "goLive":  "1782208862795"
+                           "goLive":  "1785837611475"
                        },
                        {
                            "buildId":  "SBSTP",
                            "platform":  "win64",
-                           "version":  "12.1.0",
+                           "version":  "12.1.2",
                            "type":  "Desktop",
-                           "goLive":  "1782208862795"
+                           "goLive":  "1785837611475"
                        }
                    ],
         "displayName":  "Substance 3D Painter",

@@ -62,6 +62,13 @@
                        "version":  "26.5",
                        "type":  "Desktop",
                        "goLive":  "1778734813497"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
+                       "platform":  "win64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1785863699377"
                    }
                ],
     "displayName":  "Audition (Beta)",

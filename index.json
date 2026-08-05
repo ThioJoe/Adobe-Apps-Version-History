@@ -120,7 +120,7 @@
         "id":  "SHPR"
     },
     {
-        "buildCount":  113,
+        "buildCount":  115,
         "displayName":  "Substance 3D Painter",
         "id":  "SBSTP"
     },
@@ -165,7 +165,7 @@
         "id":  "TAPI"
     },
     {
-        "buildCount":  42,
+        "buildCount":  44,
         "displayName":  "Lightroom Classic",
         "id":  "LTRM"
     },
@@ -185,7 +185,7 @@
         "id":  "LIBS"
     },
     {
-        "buildCount":  51,
+        "buildCount":  54,
         "displayName":  "Lightroom",
         "id":  "LRCC"
     },
@@ -215,7 +215,7 @@
         "id":  "PHSPBETA"
     },
     {
-        "buildCount":  54,
+        "buildCount":  58,
         "displayName":  "Premiere",
         "id":  "PPRO"
     },
@@ -245,7 +245,7 @@
         "id":  "AUDT"
     },
     {
-        "buildCount":  9,
+        "buildCount":  10,
         "displayName":  "Audition (Beta)",
         "id":  "AUDTBETA"
     },
@@ -285,12 +285,12 @@
         "id":  "AEFT"
     },
     {
-        "buildCount":  12,
+        "buildCount":  14,
         "displayName":  "After Effects (Beta)",
         "id":  "AEFTBETA"
     },
     {
-        "buildCount":  228,
+        "buildCount":  231,
         "displayName":  "Camera Raw",
         "id":  "ACR"
     },
@@ -325,12 +325,12 @@
         "id":  "ANML"
     },
     {
-        "buildCount":  42,
+        "buildCount":  46,
         "displayName":  "Media Encoder",
         "id":  "AME"
     },
     {
-        "buildCount":  12,
+        "buildCount":  14,
         "displayName":  "Media Encoder (Beta)",
         "id":  "AMEBETA"
     },
