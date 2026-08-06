@@ -76,6 +76,20 @@
                        "version":  "26.5",
                        "type":  "Desktop",
                        "goLive":  "1779401723881"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
+                       "platform":  "winarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1785954877392"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
+                       "platform":  "win64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1785963789041"
                    }
                ],
     "displayName":  "Premiere (Beta)",
