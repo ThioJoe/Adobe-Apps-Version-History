@@ -79,6 +79,13 @@
                    },
                    {
                        "buildId":  "PPROBETA",
+                       "platform":  "win64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1785963789041"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
                        "platform":  "winarm64",
                        "version":  "27.0",
                        "type":  "Desktop",
@@ -86,10 +93,17 @@
                    },
                    {
                        "buildId":  "PPROBETA",
-                       "platform":  "win64",
+                       "platform":  "macarm64",
+                       "version":  "15.1",
+                       "type":  "Desktop",
+                       "goLive":  "1614737717295"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
+                       "platform":  "macarm64",
                        "version":  "27.0",
                        "type":  "Desktop",
-                       "goLive":  "1785963789041"
+                       "goLive":  "1785923401469"
                    }
                ],
     "displayName":  "Premiere (Beta)",

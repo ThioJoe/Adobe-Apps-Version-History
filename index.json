@@ -190,7 +190,7 @@
         "id":  "LRCC"
     },
     {
-        "buildCount":  89,
+        "buildCount":  92,
         "displayName":  "Photoshop",
         "id":  "PHSP"
     },
@@ -205,7 +205,7 @@
         "id":  "PSXUWP"
     },
     {
-        "buildCount":  13,
+        "buildCount":  15,
         "displayName":  "Premiere (Beta)",
         "id":  "PPROBETA"
     },
@@ -245,7 +245,7 @@
         "id":  "AUDT"
     },
     {
-        "buildCount":  10,
+        "buildCount":  12,
         "displayName":  "Audition (Beta)",
         "id":  "AUDTBETA"
     },
@@ -285,7 +285,7 @@
         "id":  "AEFT"
     },
     {
-        "buildCount":  14,
+        "buildCount":  15,
         "displayName":  "After Effects (Beta)",
         "id":  "AEFTBETA"
     },
@@ -330,7 +330,7 @@
         "id":  "AME"
     },
     {
-        "buildCount":  14,
+        "buildCount":  16,
         "displayName":  "Media Encoder (Beta)",
         "id":  "AMEBETA"
     },

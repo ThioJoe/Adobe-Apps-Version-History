@@ -69,6 +69,20 @@
                        "version":  "27.0",
                        "type":  "Desktop",
                        "goLive":  "1785863699377"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
+                       "platform":  "macarm64",
+                       "version":  "14.1",
+                       "type":  "Desktop",
+                       "goLive":  "1614733326282"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
+                       "platform":  "macarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1786022519641"
                    }
                ],
     "displayName":  "Audition (Beta)",

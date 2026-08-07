@@ -97,6 +97,20 @@
                        "version":  "27.0",
                        "type":  "Desktop",
                        "goLive":  "1785867065697"
+                   },
+                   {
+                       "buildId":  "AMEBETA",
+                       "platform":  "macarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1785862527180"
+                   },
+                   {
+                       "buildId":  "AMEBETA",
+                       "platform":  "macarm64",
+                       "version":  "15.1",
+                       "type":  "Desktop",
+                       "goLive":  "1614741926956"
                    }
                ],
     "displayName":  "Media Encoder (Beta)",
