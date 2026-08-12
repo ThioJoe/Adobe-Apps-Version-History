@@ -254,13 +254,6 @@
                    },
                    {
                        "buildId":  "CCXP",
-                       "platform":  "winarm64",
-                       "version":  "7.9.0",
-                       "type":  "Desktop",
-                       "goLive":  "1784613236157"
-                   },
-                   {
-                       "buildId":  "CCXP",
                        "platform":  "macarm64",
                        "version":  "7.9.0",
                        "type":  "Desktop",
@@ -279,6 +272,41 @@
                        "version":  "7.9.0",
                        "type":  "Desktop",
                        "goLive":  "1784613236157"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "winarm64",
+                       "version":  "7.9.0",
+                       "type":  "Desktop",
+                       "goLive":  "1784613236157"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "osx10-64",
+                       "version":  "7.10.0",
+                       "type":  "Desktop",
+                       "goLive":  "1786429918283"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "win32",
+                       "version":  "7.10.0",
+                       "type":  "Desktop",
+                       "goLive":  "1786429918283"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "winarm64",
+                       "version":  "7.10.0",
+                       "type":  "Desktop",
+                       "goLive":  "1786429918283"
+                   },
+                   {
+                       "buildId":  "CCXP",
+                       "platform":  "macarm64",
+                       "version":  "7.10.0",
+                       "type":  "Desktop",
+                       "goLive":  "1786429918283"
                    }
                ],
     "displayName":  "CCX Process",

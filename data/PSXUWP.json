@@ -20,6 +20,13 @@
                        "version":  "6.1.4",
                        "type":  "Desktop",
                        "goLive":  "1778241850453"
+                   },
+                   {
+                       "buildId":  "PSXUWP",
+                       "platform":  "win64",
+                       "version":  "6.6.2",
+                       "type":  "Desktop",
+                       "goLive":  "1786450122019"
                    }
                ],
     "displayName":  "Adobe Express Photos",
