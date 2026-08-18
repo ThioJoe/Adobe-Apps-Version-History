@@ -90,7 +90,7 @@
         "id":  "HLAN"
     },
     {
-        "buildCount":  54,
+        "buildCount":  56,
         "displayName":  "InDesign",
         "id":  "IDSN"
     },
@@ -245,7 +245,7 @@
         "id":  "AUDT"
     },
     {
-        "buildCount":  12,
+        "buildCount":  13,
         "displayName":  "Audition (Beta)",
         "id":  "AUDTBETA"
     },
@@ -305,7 +305,7 @@
         "id":  "ACAI"
     },
     {
-        "buildCount":  38,
+        "buildCount":  40,
         "displayName":  "InCopy",
         "id":  "AICY"
     },

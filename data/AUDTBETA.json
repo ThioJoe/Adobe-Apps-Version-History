@@ -2,6 +2,13 @@
     "builds":  [
                    {
                        "buildId":  "AUDTBETA",
+                       "platform":  "macarm64",
+                       "version":  "14.1",
+                       "type":  "Desktop",
+                       "goLive":  "1614733326282"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
                        "platform":  "macuniversal",
                        "version":  "26.2",
                        "type":  "Desktop",
@@ -65,6 +72,13 @@
                    },
                    {
                        "buildId":  "AUDTBETA",
+                       "platform":  "macarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1786022519641"
+                   },
+                   {
+                       "buildId":  "AUDTBETA",
                        "platform":  "win64",
                        "version":  "27.0",
                        "type":  "Desktop",
@@ -72,17 +86,10 @@
                    },
                    {
                        "buildId":  "AUDTBETA",
-                       "platform":  "macarm64",
-                       "version":  "14.1",
-                       "type":  "Desktop",
-                       "goLive":  "1614733326282"
-                   },
-                   {
-                       "buildId":  "AUDTBETA",
-                       "platform":  "macarm64",
+                       "platform":  "winarm64",
                        "version":  "27.0",
                        "type":  "Desktop",
-                       "goLive":  "1786022519641"
+                       "goLive":  "1786943553190"
                    }
                ],
     "displayName":  "Audition (Beta)",

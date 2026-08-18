@@ -265,6 +265,20 @@
                        "version":  "21.5.1",
                        "type":  "Desktop",
                        "goLive":  "1786357399429"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "macuniversal",
+                       "version":  "20.5.5",
+                       "type":  "Desktop",
+                       "goLive":  "1786959456638"
+                   },
+                   {
+                       "buildId":  "AICY",
+                       "platform":  "win64",
+                       "version":  "20.5.5",
+                       "type":  "Desktop",
+                       "goLive":  "1786959431902"
                    }
                ],
     "displayName":  "InCopy",
