@@ -6476,6 +6476,33 @@
     {
         "builds":  [
                        {
+                           "buildId":  "IDAA",
+                           "platform":  "macuniversal",
+                           "version":  "1.0",
+                           "type":  "Desktop",
+                           "goLive":  "1787222321075"
+                       },
+                       {
+                           "buildId":  "IDAA",
+                           "platform":  "win64",
+                           "version":  "1.0",
+                           "type":  "Desktop",
+                           "goLive":  "1787222321075"
+                       },
+                       {
+                           "buildId":  "IDAA",
+                           "platform":  "winarm64",
+                           "version":  "1.0",
+                           "type":  "Desktop",
+                           "goLive":  "1787222418746"
+                       }
+                   ],
+        "displayName":  "InDesignAIAssistant",
+        "id":  "IDAA"
+    },
+    {
+        "builds":  [
+                       {
                            "buildId":  "IDSN",
                            "platform":  "macuniversal",
                            "version":  "20.0",
@@ -6998,6 +7025,20 @@
                            "version":  "21.9",
                            "type":  "Desktop",
                            "goLive":  "1780664188600"
+                       },
+                       {
+                           "buildId":  "IDSNBETA",
+                           "platform":  "win64",
+                           "version":  "21.6",
+                           "type":  "Desktop",
+                           "goLive":  "1787222680893"
+                       },
+                       {
+                           "buildId":  "IDSNBETA",
+                           "platform":  "macuniversal",
+                           "version":  "21.6",
+                           "type":  "Desktop",
+                           "goLive":  "1787222680893"
                        }
                    ],
         "displayName":  "InDesign (Beta)",
@@ -10331,7 +10372,7 @@
                        },
                        {
                            "buildId":  "PHSP",
-                           "platform":  "winarm64",
+                           "platform":  "macuniversal",
                            "version":  "27.9.1",
                            "type":  "Desktop",
                            "goLive":  "1786001328818"
@@ -10345,10 +10386,31 @@
                        },
                        {
                            "buildId":  "PHSP",
-                           "platform":  "macuniversal",
+                           "platform":  "winarm64",
                            "version":  "27.9.1",
                            "type":  "Desktop",
                            "goLive":  "1786001328818"
+                       },
+                       {
+                           "buildId":  "PHSP",
+                           "platform":  "win64",
+                           "version":  "26.11.7",
+                           "type":  "Desktop",
+                           "goLive":  "1787198556633"
+                       },
+                       {
+                           "buildId":  "PHSP",
+                           "platform":  "macuniversal",
+                           "version":  "26.11.7",
+                           "type":  "Desktop",
+                           "goLive":  "1787198556633"
+                       },
+                       {
+                           "buildId":  "PHSP",
+                           "platform":  "winarm64",
+                           "version":  "26.11.7",
+                           "type":  "Desktop",
+                           "goLive":  "1787198556633"
                        }
                    ],
         "displayName":  "Photoshop",

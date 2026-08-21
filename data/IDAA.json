@@ -1,0 +1,27 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "IDAA",
+                       "platform":  "macuniversal",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1787222321075"
+                   },
+                   {
+                       "buildId":  "IDAA",
+                       "platform":  "win64",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1787222321075"
+                   },
+                   {
+                       "buildId":  "IDAA",
+                       "platform":  "winarm64",
+                       "version":  "1.0",
+                       "type":  "Desktop",
+                       "goLive":  "1787222418746"
+                   }
+               ],
+    "displayName":  "InDesignAIAssistant",
+    "id":  "IDAA"
+}

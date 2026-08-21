@@ -625,7 +625,7 @@
                    },
                    {
                        "buildId":  "PHSP",
-                       "platform":  "winarm64",
+                       "platform":  "macuniversal",
                        "version":  "27.9.1",
                        "type":  "Desktop",
                        "goLive":  "1786001328818"
@@ -639,10 +639,31 @@
                    },
                    {
                        "buildId":  "PHSP",
-                       "platform":  "macuniversal",
+                       "platform":  "winarm64",
                        "version":  "27.9.1",
                        "type":  "Desktop",
                        "goLive":  "1786001328818"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.11.7",
+                       "type":  "Desktop",
+                       "goLive":  "1787198556633"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "26.11.7",
+                       "type":  "Desktop",
+                       "goLive":  "1787198556633"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.11.7",
+                       "type":  "Desktop",
+                       "goLive":  "1787198556633"
                    }
                ],
     "displayName":  "Photoshop",

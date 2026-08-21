@@ -1,8 +1,28 @@
 ﻿[
     {
+        "buildCount":  2,
+        "displayName":  "Illustrator (Prerelease)",
+        "id":  "ILSTPR"
+    },
+    {
         "buildCount":  7,
         "displayName":  "Adobe Notification Client",
         "id":  "KANC"
+    },
+    {
+        "buildCount":  60,
+        "displayName":  "Illustrator",
+        "id":  "ILST"
+    },
+    {
+        "buildCount":  56,
+        "displayName":  "InDesign",
+        "id":  "IDSN"
+    },
+    {
+        "buildCount":  20,
+        "displayName":  "InDesign (Beta)",
+        "id":  "IDSNBETA"
     },
     {
         "buildCount":  2,
@@ -11,23 +31,8 @@
     },
     {
         "buildCount":  2,
-        "displayName":  "Illustrator (Prerelease)",
-        "id":  "ILSTPR"
-    },
-    {
-        "buildCount":  18,
-        "displayName":  "InDesign (Beta)",
-        "id":  "IDSNBETA"
-    },
-    {
-        "buildCount":  60,
-        "displayName":  "Illustrator",
-        "id":  "ILST"
-    },
-    {
-        "buildCount":  40,
-        "displayName":  "Bridge",
-        "id":  "KBRG"
+        "displayName":  "Extension Manager CC",
+        "id":  "KEMN"
     },
     {
         "buildCount":  2,
@@ -35,24 +40,19 @@
         "id":  "KETK"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Adobe Fonts",
-        "id":  "KFNT"
+        "buildCount":  114,
+        "displayName":  "Creative Cloud",
+        "id":  "KCCC"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Extension Manager CC",
-        "id":  "KEMN"
+        "buildCount":  40,
+        "displayName":  "Bridge",
+        "id":  "KBRG"
     },
     {
         "buildCount":  4,
         "displayName":  "Bridge (Beta)",
         "id":  "KBRGBETA"
-    },
-    {
-        "buildCount":  114,
-        "displayName":  "Creative Cloud",
-        "id":  "KCCC"
     },
     {
         "buildCount":  0,
@@ -90,9 +90,9 @@
         "id":  "HLAN"
     },
     {
-        "buildCount":  56,
-        "displayName":  "InDesign",
-        "id":  "IDSN"
+        "buildCount":  3,
+        "displayName":  "InDesignAIAssistant",
+        "id":  "IDAA"
     },
     {
         "buildCount":  6,
@@ -108,6 +108,11 @@
         "buildCount":  7,
         "displayName":  "Fireworks CS6",
         "id":  "FWKS"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Adobe Fonts",
+        "id":  "KFNT"
     },
     {
         "buildCount":  22,
@@ -190,7 +195,7 @@
         "id":  "LRCC"
     },
     {
-        "buildCount":  92,
+        "buildCount":  95,
         "displayName":  "Photoshop",
         "id":  "PHSP"
     },
@@ -218,11 +223,6 @@
         "buildCount":  58,
         "displayName":  "Premiere",
         "id":  "PPRO"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Photoshop",
-        "id":  "FFC_psweb"
     },
     {
         "buildCount":  2,
@@ -335,9 +335,9 @@
         "id":  "AMEBETA"
     },
     {
-        "buildCount":  0,
-        "displayName":  "Adobe Fonts",
-        "id":  "FFC_fonts"
+        "buildCount":  49,
+        "displayName":  "CoreSync",
+        "id":  "COSY"
     },
     {
         "buildCount":  0,
@@ -346,13 +346,13 @@
     },
     {
         "buildCount":  0,
-        "displayName":  "Adobe Firefly",
-        "id":  "FFC_firefly"
+        "displayName":  "Lightroom",
+        "id":  "FFC_lightroomweb"
     },
     {
         "buildCount":  0,
-        "displayName":  "Adobe Content Authenticity",
-        "id":  "FFC_contentauth"
+        "displayName":  "Adobe Fonts",
+        "id":  "FFC_fonts"
     },
     {
         "buildCount":  0,
@@ -361,23 +361,8 @@
     },
     {
         "buildCount":  0,
-        "displayName":  "Lightroom",
-        "id":  "FFC_lightroomweb"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Adobe Podcast",
-        "id":  "FFC_podcast"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Portfolio",
-        "id":  "FFC_portfolio"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Project Neo (Beta)",
-        "id":  "FFC_neo"
+        "displayName":  "Adobe Firefly",
+        "id":  "FFC_firefly"
     },
     {
         "buildCount":  0,
@@ -386,13 +371,28 @@
     },
     {
         "buildCount":  0,
+        "displayName":  "Portfolio",
+        "id":  "FFC_portfolio"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Photoshop",
+        "id":  "FFC_psweb"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Adobe Podcast",
+        "id":  "FFC_podcast"
+    },
+    {
+        "buildCount":  0,
         "displayName":  "Mixamo",
         "id":  "FFC_mixamo"
     },
     {
-        "buildCount":  1,
-        "displayName":  "Adobe Acrobat Distiller DC",
-        "id":  "DIST"
+        "buildCount":  0,
+        "displayName":  "Project Neo (Beta)",
+        "id":  "FFC_neo"
     },
     {
         "buildCount":  22,
@@ -400,14 +400,14 @@
         "id":  "DRWV"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Adobe Captivate Voices 2017",
-        "id":  "CPVC"
+        "buildCount":  10,
+        "displayName":  "Camera Raw Elements 13.0",
+        "id":  "ECR"
     },
     {
-        "buildCount":  49,
-        "displayName":  "CoreSync",
-        "id":  "COSY"
+        "buildCount":  1,
+        "displayName":  "Adobe Acrobat Distiller DC",
+        "id":  "DIST"
     },
     {
         "buildCount":  2,
@@ -415,14 +415,14 @@
         "id":  "CPAS"
     },
     {
-        "buildCount":  10,
-        "displayName":  "Camera Raw Elements 13.0",
-        "id":  "ECR"
+        "buildCount":  2,
+        "displayName":  "Adobe Captivate Voices 2017",
+        "id":  "CPVC"
     },
     {
-        "buildCount":  0,
-        "displayName":  "Behance",
-        "id":  "FFC_behance"
+        "buildCount":  62,
+        "displayName":  "Dimension",
+        "id":  "ESHR"
     },
     {
         "buildCount":  0,
@@ -431,17 +431,22 @@
     },
     {
         "buildCount":  0,
-        "displayName":  "Adobe Express",
-        "id":  "FFC_adobeexpress"
+        "displayName":  "Adobe Content Authenticity",
+        "id":  "FFC_contentauth"
     },
     {
-        "buildCount":  62,
-        "displayName":  "Dimension",
-        "id":  "ESHR"
+        "buildCount":  0,
+        "displayName":  "Behance",
+        "id":  "FFC_behance"
     },
     {
         "buildCount":  33,
         "displayName":  "FFC",
         "id":  "FFC"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Adobe Express",
+        "id":  "FFC_adobeexpress"
     }
 ]
