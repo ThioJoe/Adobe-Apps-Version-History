@@ -170,7 +170,7 @@
         "id":  "TAPI"
     },
     {
-        "buildCount":  44,
+        "buildCount":  46,
         "displayName":  "Lightroom Classic",
         "id":  "LTRM"
     },
@@ -190,7 +190,7 @@
         "id":  "LIBS"
     },
     {
-        "buildCount":  54,
+        "buildCount":  57,
         "displayName":  "Lightroom",
         "id":  "LRCC"
     },
@@ -235,7 +235,7 @@
         "id":  "CHAR"
     },
     {
-        "buildCount":  44,
+        "buildCount":  48,
         "displayName":  "CCX Process",
         "id":  "CCXP"
     },
@@ -290,7 +290,7 @@
         "id":  "AEFTBETA"
     },
     {
-        "buildCount":  231,
+        "buildCount":  234,
         "displayName":  "Camera Raw",
         "id":  "ACR"
     },
