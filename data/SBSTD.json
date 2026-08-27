@@ -786,6 +786,20 @@
                    },
                    {
                        "buildId":  "SBSTD",
+                       "platform":  "macarm64",
+                       "version":  "16.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1782986373892"
+                   },
+                   {
+                       "buildId":  "SBSTD",
+                       "platform":  "win64",
+                       "version":  "16.0.4",
+                       "type":  "Desktop",
+                       "goLive":  "1782986373892"
+                   },
+                   {
+                       "buildId":  "SBSTD",
                        "platform":  "osx10-64",
                        "version":  "9.3.0",
                        "type":  "Desktop",
@@ -800,17 +814,17 @@
                    },
                    {
                        "buildId":  "SBSTD",
-                       "platform":  "macarm64",
-                       "version":  "16.0.4",
+                       "platform":  "win64",
+                       "version":  "16.0.5",
                        "type":  "Desktop",
-                       "goLive":  "1782986373892"
+                       "goLive":  "1787753462394"
                    },
                    {
                        "buildId":  "SBSTD",
-                       "platform":  "win64",
-                       "version":  "16.0.4",
+                       "platform":  "macarm64",
+                       "version":  "16.0.5",
                        "type":  "Desktop",
-                       "goLive":  "1782986373892"
+                       "goLive":  "1787753462394"
                    }
                ],
     "displayName":  "Substance 3D Designer",
