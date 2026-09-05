@@ -80,12 +80,12 @@
         "id":  "FFC_sbstshare"
     },
     {
-        "buildCount":  64,
+        "buildCount":  68,
         "displayName":  "Animate",
         "id":  "FLPR"
     },
     {
-        "buildCount":  64,
+        "buildCount":  68,
         "displayName":  "Animate HLAN",
         "id":  "HLAN"
     },
@@ -125,7 +125,7 @@
         "id":  "SHPR"
     },
     {
-        "buildCount":  117,
+        "buildCount":  119,
         "displayName":  "Substance 3D Painter",
         "id":  "SBSTP"
     },
@@ -135,7 +135,7 @@
         "id":  "SBSTA"
     },
     {
-        "buildCount":  118,
+        "buildCount":  120,
         "displayName":  "Substance 3D Designer",
         "id":  "SBSTD"
     },
