@@ -7612,6 +7612,20 @@
                            "version":  "30.8.1",
                            "type":  "Desktop",
                            "goLive":  "1788170588221"
+                       },
+                       {
+                           "buildId":  "ILST",
+                           "platform":  "macuniversal",
+                           "version":  "29.8.11",
+                           "type":  "Desktop",
+                           "goLive":  "1788854783263"
+                       },
+                       {
+                           "buildId":  "ILST",
+                           "platform":  "win64",
+                           "version":  "29.8.11",
+                           "type":  "Desktop",
+                           "goLive":  "1788854783263"
                        }
                    ],
         "displayName":  "Illustrator",
