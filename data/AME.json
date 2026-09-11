@@ -296,7 +296,21 @@
                    },
                    {
                        "buildId":  "AME",
+                       "platform":  "macarm64",
+                       "version":  "26.3.2",
+                       "type":  "Desktop",
+                       "goLive":  "1785866758415"
+                   },
+                   {
+                       "buildId":  "AME",
                        "platform":  "osx10-64",
+                       "version":  "26.3.2",
+                       "type":  "Desktop",
+                       "goLive":  "1785866758415"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "win64",
                        "version":  "26.3.2",
                        "type":  "Desktop",
                        "goLive":  "1785866758415"
@@ -311,16 +325,30 @@
                    {
                        "buildId":  "AME",
                        "platform":  "win64",
-                       "version":  "26.3.2",
+                       "version":  "26.5",
                        "type":  "Desktop",
-                       "goLive":  "1785866758415"
+                       "goLive":  "1789056151564"
                    },
                    {
                        "buildId":  "AME",
                        "platform":  "macarm64",
-                       "version":  "26.3.2",
+                       "version":  "26.5",
                        "type":  "Desktop",
-                       "goLive":  "1785866758415"
+                       "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "winarm64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "osx10-64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1789056151564"
                    }
                ],
     "displayName":  "Media Encoder",

@@ -145,7 +145,7 @@
         "id":  "SPRKBE"
     },
     {
-        "buildCount":  12,
+        "buildCount":  15,
         "displayName":  "UXP Developer Tools",
         "id":  "UXPD"
     },
@@ -220,7 +220,7 @@
         "id":  "PHSPBETA"
     },
     {
-        "buildCount":  58,
+        "buildCount":  62,
         "displayName":  "Premiere",
         "id":  "PPRO"
     },
@@ -240,7 +240,7 @@
         "id":  "CCXP"
     },
     {
-        "buildCount":  20,
+        "buildCount":  24,
         "displayName":  "Audition",
         "id":  "AUDT"
     },
@@ -280,7 +280,7 @@
         "id":  "COMP"
     },
     {
-        "buildCount":  40,
+        "buildCount":  43,
         "displayName":  "After Effects",
         "id":  "AEFT"
     },
@@ -325,7 +325,7 @@
         "id":  "ANML"
     },
     {
-        "buildCount":  46,
+        "buildCount":  50,
         "displayName":  "Media Encoder",
         "id":  "AME"
     },

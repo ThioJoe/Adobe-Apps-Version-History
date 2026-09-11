@@ -72,55 +72,6 @@
                    },
                    {
                        "buildId":  "AUDT",
-                       "platform":  "macarm64",
-                       "version":  "26.0",
-                       "type":  "Desktop",
-                       "goLive":  "1769104604703"
-                   },
-                   {
-                       "buildId":  "AUDT",
-                       "platform":  "osx10-64",
-                       "version":  "26.0",
-                       "type":  "Desktop",
-                       "goLive":  "1769104604703"
-                   },
-                   {
-                       "buildId":  "AUDT",
-                       "platform":  "win64",
-                       "version":  "26.0",
-                       "type":  "Desktop",
-                       "goLive":  "1769104604703"
-                   },
-                   {
-                       "buildId":  "AUDT",
-                       "platform":  "winarm64",
-                       "version":  "26.0",
-                       "type":  "Desktop",
-                       "goLive":  "1769104604703"
-                   },
-                   {
-                       "buildId":  "AUDT",
-                       "platform":  "win64",
-                       "version":  "25.6.6",
-                       "type":  "Desktop",
-                       "goLive":  "1781709447630"
-                   },
-                   {
-                       "buildId":  "AUDT",
-                       "platform":  "macarm64",
-                       "version":  "26.3",
-                       "type":  "Desktop",
-                       "goLive":  "1781711918255"
-                   },
-                   {
-                       "buildId":  "AUDT",
-                       "platform":  "osx10-64",
-                       "version":  "26.3",
-                       "type":  "Desktop",
-                       "goLive":  "1781711918255"
-                   },
-                   {
-                       "buildId":  "AUDT",
                        "platform":  "macuniversal",
                        "version":  "25.6.6",
                        "type":  "Desktop",
@@ -128,7 +79,49 @@
                    },
                    {
                        "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "25.6.6",
+                       "type":  "Desktop",
+                       "goLive":  "1781709447630"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macarm64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "osx10-64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "AUDT",
                        "platform":  "winarm64",
+                       "version":  "26.0",
+                       "type":  "Desktop",
+                       "goLive":  "1769104604703"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macarm64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1781711918255"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "osx10-64",
                        "version":  "26.3",
                        "type":  "Desktop",
                        "goLive":  "1781711918255"
@@ -139,6 +132,41 @@
                        "version":  "26.3",
                        "type":  "Desktop",
                        "goLive":  "1781711918255"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "winarm64",
+                       "version":  "26.3",
+                       "type":  "Desktop",
+                       "goLive":  "1781711918255"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "winarm64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "osx10-64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macarm64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1789056151564"
                    }
                ],
     "displayName":  "Audition",

@@ -380,6 +380,13 @@
                    },
                    {
                        "buildId":  "PPRO",
+                       "platform":  "macarm64",
+                       "version":  "26.3.2",
+                       "type":  "Desktop",
+                       "goLive":  "1785866758415"
+                   },
+                   {
+                       "buildId":  "PPRO",
                        "platform":  "osx10-64",
                        "version":  "26.3.2",
                        "type":  "Desktop",
@@ -402,9 +409,30 @@
                    {
                        "buildId":  "PPRO",
                        "platform":  "macarm64",
-                       "version":  "26.3.2",
+                       "version":  "26.5",
                        "type":  "Desktop",
-                       "goLive":  "1785866758415"
+                       "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "win64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "osx10-64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "winarm64",
+                       "version":  "26.5",
+                       "type":  "Desktop",
+                       "goLive":  "1789056151564"
                    }
                ],
     "displayName":  "Premiere",
