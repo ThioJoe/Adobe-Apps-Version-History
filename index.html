@@ -314,6 +314,10 @@
             opacity: 1;
         }
 
+        .copy-col {
+            text-align: center;
+        }
+
         .detail-header {
             margin-bottom: 1.5rem;
         }
@@ -823,6 +827,11 @@
                         </td>
                         <td data-label="Platform"><div style="display:flex;flex-wrap:wrap;gap:4px;">${platformBadges}</div></td>
                         <td data-label="Type" style="color: var(--text-secondary)">${b.type}</td>
+                        <td class="copy-col">
+                            <button class="btn-copy" onclick="copyRowJson(this)" data-row="${buildRowJsonAttr({ app: b.appName, appId: b.appId, version: b.version, date: toIsoDateString(b.goLive), platform: [...b.platforms].sort(), type: b.type })}" title="Copy row JSON data">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                            </button>
+                        </td>
                     </tr>
                 `;
             }).join('');
@@ -836,7 +845,7 @@
                 </div>
                 <table>
                     <thead>
-                        <tr><th style="width:22%">App</th><th style="width:15%">Version</th><th style="width:22%">Release Date</th><th style="width:26%">Platform</th><th style="width:15%">Type</th></tr>
+                        <tr><th style="width:21%">App</th><th style="width:14%">Version</th><th style="width:21%">Release Date</th><th style="width:24%">Platform</th><th style="width:14%">Type</th><th style="width:36px"></th></tr>
                     </thead>
                     <tbody>
                         ${tableRows}
@@ -943,6 +952,11 @@
                         </td>
                         <td data-label="Platform"><div style="display:flex;flex-wrap:wrap;gap:4px;">${platformBadges}</div></td>
                         <td data-label="Type" style="color: var(--text-secondary)">${b.type}</td>
+                        <td class="copy-col">
+                            <button class="btn-copy" onclick="copyRowJson(this)" data-row="${buildRowJsonAttr({ version: b.version, date: toIsoDateString(b.goLive), platform: [...b.platforms].sort(), type: b.type })}" title="Copy row JSON data">
+                                <svg width="14" height="14" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><rect x="9" y="9" width="13" height="13" rx="2" ry="2"></rect><path d="M5 15H4a2 2 0 0 1-2-2V4a2 2 0 0 1 2-2h9a2 2 0 0 1 2 2v1"></path></svg>
+                            </button>
+                        </td>
                     </tr>
                 `;
             }).join('');
@@ -958,7 +972,7 @@
                 ${legendHtml}
                 <table>
                     <thead>
-                        <tr><th style="width:18%">Version</th><th style="width:25%">Release Date</th><th style="width:32%">Platform</th><th style="width:20%">Type</th></tr>
+                        <tr><th style="width:17%">Version</th><th style="width:24%">Release Date</th><th style="width:30%">Platform</th><th style="width:19%">Type</th><th style="width:36px"></th></tr>
                     </thead>
                     <tbody>
                         ${tableRows}
@@ -1027,6 +1041,25 @@
             let date = /^\d+$/.test(val) ? new Date(parseInt(val)) : new Date(val);
             if (isNaN(date.getTime())) return "";
             return '+' + date.toISOString().split('.')[0] + 'Z';
+        }
+
+        function toIsoDateString(val) {
+            if (!val) return null;
+            let date = /^\d+$/.test(val) ? new Date(parseInt(val)) : new Date(val);
+            if (isNaN(date.getTime())) return null;
+            return date.toISOString();
+        }
+
+        function buildRowJsonAttr(obj) {
+            return JSON.stringify(obj)
+                .replace(/&/g, '&amp;')
+                .replace(/"/g, '&quot;')
+                .replace(/</g, '&lt;')
+                .replace(/>/g, '&gt;');
+        }
+
+        function copyRowJson(btn) {
+            copyToClipboard(btn.getAttribute('data-row'), btn);
         }
     </script>
 </body>
