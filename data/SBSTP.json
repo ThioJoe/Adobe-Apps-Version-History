@@ -317,6 +317,20 @@
                    },
                    {
                        "buildId":  "SBSTP",
+                       "platform":  "macarm64",
+                       "version":  "12.1.4",
+                       "type":  "Desktop",
+                       "goLive":  "1788516082050"
+                   },
+                   {
+                       "buildId":  "SBSTP",
+                       "platform":  "win64",
+                       "version":  "12.1.4",
+                       "type":  "Desktop",
+                       "goLive":  "1788516082050"
+                   },
+                   {
+                       "buildId":  "SBSTP",
                        "platform":  "osx10-64",
                        "version":  "5.3.2",
                        "type":  "Desktop",
@@ -821,17 +835,17 @@
                    },
                    {
                        "buildId":  "SBSTP",
-                       "platform":  "macarm64",
-                       "version":  "12.1.4",
+                       "platform":  "win64",
+                       "version":  "12.1.5",
                        "type":  "Desktop",
-                       "goLive":  "1788516082050"
+                       "goLive":  "1789466577013"
                    },
                    {
                        "buildId":  "SBSTP",
-                       "platform":  "win64",
-                       "version":  "12.1.4",
+                       "platform":  "macarm64",
+                       "version":  "12.1.5",
                        "type":  "Desktop",
-                       "goLive":  "1788516082050"
+                       "goLive":  "1789466577013"
                    }
                ],
     "displayName":  "Substance 3D Painter",
