@@ -14465,6 +14465,13 @@
                        {
                            "buildId":  "SHPR",
                            "platform":  "win64",
+                           "version":  "1.4.1",
+                           "type":  "Desktop",
+                           "goLive":  "1778675399817"
+                       },
+                       {
+                           "buildId":  "SHPR",
+                           "platform":  "win64",
                            "version":  "1.4.2",
                            "type":  "Desktop",
                            "goLive":  "1695722420865"
@@ -14514,9 +14521,9 @@
                        {
                            "buildId":  "SHPR",
                            "platform":  "win64",
-                           "version":  "1.4.1",
+                           "version":  "1.22.8",
                            "type":  "Desktop",
-                           "goLive":  "1778675399817"
+                           "goLive":  "1790071372117"
                        }
                    ],
         "displayName":  "Substance 3D Modeler",
