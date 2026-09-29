@@ -20,7 +20,7 @@
         "id":  "IDSN"
     },
     {
-        "buildCount":  20,
+        "buildCount":  23,
         "displayName":  "InDesign (Beta)",
         "id":  "IDSNBETA"
     },
@@ -170,7 +170,7 @@
         "id":  "TAPI"
     },
     {
-        "buildCount":  46,
+        "buildCount":  48,
         "displayName":  "Lightroom Classic",
         "id":  "LTRM"
     },
@@ -185,12 +185,12 @@
         "id":  "LRCCPR"
     },
     {
-        "buildCount":  34,
+        "buildCount":  38,
         "displayName":  "CC Library",
         "id":  "LIBS"
     },
     {
-        "buildCount":  57,
+        "buildCount":  60,
         "displayName":  "Lightroom",
         "id":  "LRCC"
     },
@@ -220,19 +220,14 @@
         "id":  "PHSPBETA"
     },
     {
-        "buildCount":  66,
+        "buildCount":  70,
         "displayName":  "Premiere",
         "id":  "PPRO"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Codecs",
-        "id":  "CDEC"
-    },
-    {
-        "buildCount":  7,
-        "displayName":  "Character Animator",
-        "id":  "CHAR"
+        "buildCount":  0,
+        "displayName":  "Photoshop",
+        "id":  "FFC_psweb"
     },
     {
         "buildCount":  52,
@@ -240,9 +235,9 @@
         "id":  "CCXP"
     },
     {
-        "buildCount":  24,
-        "displayName":  "Audition",
-        "id":  "AUDT"
+        "buildCount":  2,
+        "displayName":  "Codecs",
+        "id":  "CDEC"
     },
     {
         "buildCount":  13,
@@ -250,19 +245,19 @@
         "id":  "AUDTBETA"
     },
     {
-        "buildCount":  4,
-        "displayName":  "Character Animator (Beta)",
-        "id":  "CHARBETA"
+        "buildCount":  2,
+        "displayName":  "Scout CC",
+        "id":  "ASCT"
     },
     {
-        "buildCount":  3,
-        "displayName":  "STI_Color_HD",
-        "id":  "CORE"
+        "buildCount":  24,
+        "displayName":  "Audition",
+        "id":  "AUDT"
     },
     {
-        "buildCount":  5,
-        "displayName":  "STI_ColorCommonSet_RGB_HD",
-        "id":  "CORG"
+        "buildCount":  7,
+        "displayName":  "Character Animator",
+        "id":  "CHAR"
     },
     {
         "buildCount":  3,
@@ -271,13 +266,23 @@
     },
     {
         "buildCount":  3,
-        "displayName":  "STI_ColorCommonSet_CMYK_HD",
-        "id":  "COCM"
+        "displayName":  "STI_Color_HD",
+        "id":  "CORE"
     },
     {
         "buildCount":  11,
         "displayName":  "STI_Color_MotionPicture_HD",
         "id":  "COMP"
+    },
+    {
+        "buildCount":  4,
+        "displayName":  "Character Animator (Beta)",
+        "id":  "CHARBETA"
+    },
+    {
+        "buildCount":  3,
+        "displayName":  "STI_ColorCommonSet_CMYK_HD",
+        "id":  "COCM"
     },
     {
         "buildCount":  43,
@@ -290,7 +295,7 @@
         "id":  "AEFTBETA"
     },
     {
-        "buildCount":  234,
+        "buildCount":  237,
         "displayName":  "Camera Raw",
         "id":  "ACR"
     },
@@ -310,24 +315,14 @@
         "id":  "AICY"
     },
     {
-        "buildCount":  6,
-        "displayName":  "Acrobat",
-        "id":  "APRO"
-    },
-    {
-        "buildCount":  2,
-        "displayName":  "Scout CC",
-        "id":  "ASCT"
-    },
-    {
         "buildCount":  2,
         "displayName":  "Adobe Character Animator (Preview 4)",
         "id":  "ANML"
     },
     {
-        "buildCount":  50,
-        "displayName":  "Media Encoder",
-        "id":  "AME"
+        "buildCount":  6,
+        "displayName":  "Acrobat",
+        "id":  "APRO"
     },
     {
         "buildCount":  16,
@@ -335,19 +330,19 @@
         "id":  "AMEBETA"
     },
     {
-        "buildCount":  49,
-        "displayName":  "CoreSync",
-        "id":  "COSY"
+        "buildCount":  3,
+        "displayName":  "InCopy (Beta)",
+        "id":  "AICYBETA"
     },
     {
-        "buildCount":  0,
-        "displayName":  "Frame.io",
-        "id":  "FFC_frameweb"
+        "buildCount":  54,
+        "displayName":  "Media Encoder",
+        "id":  "AME"
     },
     {
-        "buildCount":  0,
-        "displayName":  "Lightroom",
-        "id":  "FFC_lightroomweb"
+        "buildCount":  5,
+        "displayName":  "STI_ColorCommonSet_RGB_HD",
+        "id":  "CORG"
     },
     {
         "buildCount":  0,
@@ -356,8 +351,8 @@
     },
     {
         "buildCount":  0,
-        "displayName":  "Acrobat",
-        "id":  "FFC_dcweb"
+        "displayName":  "Frame.io",
+        "id":  "FFC_frameweb"
     },
     {
         "buildCount":  0,
@@ -366,18 +361,18 @@
     },
     {
         "buildCount":  0,
-        "displayName":  "Adobe Live",
-        "id":  "FFC_live"
+        "displayName":  "Adobe Content Authenticity",
+        "id":  "FFC_contentauth"
     },
     {
         "buildCount":  0,
-        "displayName":  "Portfolio",
-        "id":  "FFC_portfolio"
+        "displayName":  "Acrobat",
+        "id":  "FFC_dcweb"
     },
     {
         "buildCount":  0,
-        "displayName":  "Photoshop",
-        "id":  "FFC_psweb"
+        "displayName":  "Lightroom",
+        "id":  "FFC_lightroomweb"
     },
     {
         "buildCount":  0,
@@ -386,8 +381,8 @@
     },
     {
         "buildCount":  0,
-        "displayName":  "Mixamo",
-        "id":  "FFC_mixamo"
+        "displayName":  "Portfolio",
+        "id":  "FFC_portfolio"
     },
     {
         "buildCount":  0,
@@ -395,14 +390,14 @@
         "id":  "FFC_neo"
     },
     {
-        "buildCount":  22,
-        "displayName":  "Dreamweaver",
-        "id":  "DRWV"
+        "buildCount":  0,
+        "displayName":  "Adobe Live",
+        "id":  "FFC_live"
     },
     {
-        "buildCount":  10,
-        "displayName":  "Camera Raw Elements 13.0",
-        "id":  "ECR"
+        "buildCount":  0,
+        "displayName":  "Mixamo",
+        "id":  "FFC_mixamo"
     },
     {
         "buildCount":  1,
@@ -410,9 +405,9 @@
         "id":  "DIST"
     },
     {
-        "buildCount":  2,
-        "displayName":  "Adobe Captivate Assets 2017",
-        "id":  "CPAS"
+        "buildCount":  22,
+        "displayName":  "Dreamweaver",
+        "id":  "DRWV"
     },
     {
         "buildCount":  2,
@@ -420,9 +415,24 @@
         "id":  "CPVC"
     },
     {
-        "buildCount":  62,
-        "displayName":  "Dimension",
-        "id":  "ESHR"
+        "buildCount":  49,
+        "displayName":  "CoreSync",
+        "id":  "COSY"
+    },
+    {
+        "buildCount":  2,
+        "displayName":  "Adobe Captivate Assets 2017",
+        "id":  "CPAS"
+    },
+    {
+        "buildCount":  10,
+        "displayName":  "Camera Raw Elements 13.0",
+        "id":  "ECR"
+    },
+    {
+        "buildCount":  0,
+        "displayName":  "Behance",
+        "id":  "FFC_behance"
     },
     {
         "buildCount":  0,
@@ -431,22 +441,17 @@
     },
     {
         "buildCount":  0,
-        "displayName":  "Adobe Content Authenticity",
-        "id":  "FFC_contentauth"
+        "displayName":  "Adobe Express",
+        "id":  "FFC_adobeexpress"
     },
     {
-        "buildCount":  0,
-        "displayName":  "Behance",
-        "id":  "FFC_behance"
+        "buildCount":  62,
+        "displayName":  "Dimension",
+        "id":  "ESHR"
     },
     {
         "buildCount":  33,
         "displayName":  "FFC",
         "id":  "FFC"
-    },
-    {
-        "buildCount":  0,
-        "displayName":  "Adobe Express",
-        "id":  "FFC_adobeexpress"
     }
 ]

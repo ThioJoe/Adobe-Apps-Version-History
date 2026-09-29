@@ -1,0 +1,27 @@
+﻿{
+    "builds":  [
+                   {
+                       "buildId":  "AICYBETA",
+                       "platform":  "winarm64",
+                       "version":  "22.0",
+                       "type":  "Desktop",
+                       "goLive":  "1790605767343"
+                   },
+                   {
+                       "buildId":  "AICYBETA",
+                       "platform":  "macuniversal",
+                       "version":  "22.0",
+                       "type":  "Desktop",
+                       "goLive":  "1790605767343"
+                   },
+                   {
+                       "buildId":  "AICYBETA",
+                       "platform":  "win64",
+                       "version":  "22.0",
+                       "type":  "Desktop",
+                       "goLive":  "1790605767343"
+                   }
+               ],
+    "displayName":  "InCopy (Beta)",
+    "id":  "AICYBETA"
+}

@@ -121,10 +121,10 @@
                    },
                    {
                        "buildId":  "IDSNBETA",
-                       "platform":  "winarm64",
-                       "version":  "21.9",
+                       "platform":  "macuniversal",
+                       "version":  "21.6",
                        "type":  "Desktop",
-                       "goLive":  "1780664188600"
+                       "goLive":  "1787222680893"
                    },
                    {
                        "buildId":  "IDSNBETA",
@@ -135,10 +135,31 @@
                    },
                    {
                        "buildId":  "IDSNBETA",
-                       "platform":  "macuniversal",
-                       "version":  "21.6",
+                       "platform":  "winarm64",
+                       "version":  "21.9",
                        "type":  "Desktop",
-                       "goLive":  "1787222680893"
+                       "goLive":  "1780664188600"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "winarm64",
+                       "version":  "22.0",
+                       "type":  "Desktop",
+                       "goLive":  "1790605669011"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "macuniversal",
+                       "version":  "22.0",
+                       "type":  "Desktop",
+                       "goLive":  "1790605669011"
+                   },
+                   {
+                       "buildId":  "IDSNBETA",
+                       "platform":  "win64",
+                       "version":  "22.0",
+                       "type":  "Desktop",
+                       "goLive":  "1790605669011"
                    }
                ],
     "displayName":  "InDesign (Beta)",
