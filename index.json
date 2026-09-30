@@ -100,7 +100,7 @@
         "id":  "GSDK"
     },
     {
-        "buildCount":  5,
+        "buildCount":  7,
         "displayName":  "Fresco",
         "id":  "FRSC"
     },
@@ -195,7 +195,7 @@
         "id":  "LRCC"
     },
     {
-        "buildCount":  98,
+        "buildCount":  101,
         "displayName":  "Photoshop",
         "id":  "PHSP"
     },
