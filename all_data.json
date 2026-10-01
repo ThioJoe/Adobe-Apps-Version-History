@@ -8143,6 +8143,20 @@
                        {
                            "buildId":  "KBRG",
                            "platform":  "macuniversal",
+                           "version":  "15.1.8",
+                           "type":  "Desktop",
+                           "goLive":  "1789122030593"
+                       },
+                       {
+                           "buildId":  "KBRG",
+                           "platform":  "win64",
+                           "version":  "15.1.8",
+                           "type":  "Desktop",
+                           "goLive":  "1789122030593"
+                       },
+                       {
+                           "buildId":  "KBRG",
+                           "platform":  "macuniversal",
                            "version":  "16.0.0",
                            "type":  "Desktop",
                            "goLive":  "1761645871512"
@@ -8248,23 +8262,23 @@
                        {
                            "buildId":  "KBRG",
                            "platform":  "win64",
-                           "version":  "15.1.8",
+                           "version":  "16.0.7",
                            "type":  "Desktop",
-                           "goLive":  "1789122030593"
+                           "goLive":  "1789121417265"
                        },
                        {
                            "buildId":  "KBRG",
                            "platform":  "macuniversal",
-                           "version":  "15.1.8",
+                           "version":  "16.0.8",
                            "type":  "Desktop",
-                           "goLive":  "1789122030593"
+                           "goLive":  "1790766254264"
                        },
                        {
                            "buildId":  "KBRG",
                            "platform":  "win64",
-                           "version":  "16.0.7",
+                           "version":  "16.0.8",
                            "type":  "Desktop",
-                           "goLive":  "1789121417265"
+                           "goLive":  "1790766254264"
                        }
                    ],
         "displayName":  "Bridge",
@@ -11530,6 +11544,13 @@
         "builds":  [
                        {
                            "buildId":  "PPROBETA",
+                           "platform":  "macarm64",
+                           "version":  "15.1",
+                           "type":  "Desktop",
+                           "goLive":  "1614737717295"
+                       },
+                       {
+                           "buildId":  "PPROBETA",
                            "platform":  "win64",
                            "version":  "26.1.1",
                            "type":  "Desktop",
@@ -11607,6 +11628,13 @@
                        },
                        {
                            "buildId":  "PPROBETA",
+                           "platform":  "macarm64",
+                           "version":  "27.0",
+                           "type":  "Desktop",
+                           "goLive":  "1785923401469"
+                       },
+                       {
+                           "buildId":  "PPROBETA",
                            "platform":  "win64",
                            "version":  "27.0",
                            "type":  "Desktop",
@@ -11621,17 +11649,17 @@
                        },
                        {
                            "buildId":  "PPROBETA",
-                           "platform":  "macarm64",
-                           "version":  "15.1",
+                           "platform":  "winarm64",
+                           "version":  "27.1",
                            "type":  "Desktop",
-                           "goLive":  "1614737717295"
+                           "goLive":  "1790787234441"
                        },
                        {
                            "buildId":  "PPROBETA",
-                           "platform":  "macarm64",
-                           "version":  "27.0",
+                           "platform":  "win64",
+                           "version":  "27.1",
                            "type":  "Desktop",
-                           "goLive":  "1785923401469"
+                           "goLive":  "1790795623842"
                        }
                    ],
         "displayName":  "Premiere (Beta)",
