@@ -2,6 +2,13 @@
     "builds":  [
                    {
                        "buildId":  "AMEBETA",
+                       "platform":  "macarm64",
+                       "version":  "15.1",
+                       "type":  "Desktop",
+                       "goLive":  "1614741926956"
+                   },
+                   {
+                       "buildId":  "AMEBETA",
                        "platform":  "winarm64",
                        "version":  "26.0",
                        "type":  "Desktop",
@@ -86,6 +93,13 @@
                    },
                    {
                        "buildId":  "AMEBETA",
+                       "platform":  "macarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1785862527180"
+                   },
+                   {
+                       "buildId":  "AMEBETA",
                        "platform":  "win64",
                        "version":  "27.0",
                        "type":  "Desktop",
@@ -100,17 +114,17 @@
                    },
                    {
                        "buildId":  "AMEBETA",
-                       "platform":  "macarm64",
-                       "version":  "27.0",
+                       "platform":  "win64",
+                       "version":  "27.1",
                        "type":  "Desktop",
-                       "goLive":  "1785862527180"
+                       "goLive":  "1790872364104"
                    },
                    {
                        "buildId":  "AMEBETA",
                        "platform":  "macarm64",
-                       "version":  "15.1",
+                       "version":  "27.1",
                        "type":  "Desktop",
-                       "goLive":  "1614741926956"
+                       "goLive":  "1790869777235"
                    }
                ],
     "displayName":  "Media Encoder (Beta)",

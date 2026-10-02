@@ -107,6 +107,13 @@
                    },
                    {
                        "buildId":  "PPROBETA",
+                       "platform":  "win64",
+                       "version":  "27.1",
+                       "type":  "Desktop",
+                       "goLive":  "1790795623842"
+                   },
+                   {
+                       "buildId":  "PPROBETA",
                        "platform":  "winarm64",
                        "version":  "27.1",
                        "type":  "Desktop",
@@ -114,10 +121,10 @@
                    },
                    {
                        "buildId":  "PPROBETA",
-                       "platform":  "win64",
+                       "platform":  "macarm64",
                        "version":  "27.1",
                        "type":  "Desktop",
-                       "goLive":  "1790795623842"
+                       "goLive":  "1790881359276"
                    }
                ],
     "displayName":  "Premiere (Beta)",

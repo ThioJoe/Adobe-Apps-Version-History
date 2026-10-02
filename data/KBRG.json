@@ -321,6 +321,20 @@
                        "version":  "16.0.8",
                        "type":  "Desktop",
                        "goLive":  "1790766254264"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "macuniversal",
+                       "version":  "15.1.9",
+                       "type":  "Desktop",
+                       "goLive":  "1790852576607"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "win64",
+                       "version":  "15.1.9",
+                       "type":  "Desktop",
+                       "goLive":  "1790852576607"
                    }
                ],
     "displayName":  "Bridge",
