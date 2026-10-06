@@ -234,6 +234,27 @@
                    {
                        "buildId":  "PHSP",
                        "platform":  "macuniversal",
+                       "version":  "26.11.8",
+                       "type":  "Desktop",
+                       "goLive":  "1790654651801"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "win64",
+                       "version":  "26.11.8",
+                       "type":  "Desktop",
+                       "goLive":  "1790654651801"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "winarm64",
+                       "version":  "26.11.8",
+                       "type":  "Desktop",
+                       "goLive":  "1790654651801"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
                        "version":  "26.2",
                        "type":  "Desktop",
                        "goLive":  "1734498219754"
@@ -689,23 +710,23 @@
                    {
                        "buildId":  "PHSP",
                        "platform":  "win64",
-                       "version":  "26.11.8",
+                       "version":  "27.11",
                        "type":  "Desktop",
-                       "goLive":  "1790654651801"
-                   },
-                   {
-                       "buildId":  "PHSP",
-                       "platform":  "macuniversal",
-                       "version":  "26.11.8",
-                       "type":  "Desktop",
-                       "goLive":  "1790654651801"
+                       "goLive":  "1791210877672"
                    },
                    {
                        "buildId":  "PHSP",
                        "platform":  "winarm64",
-                       "version":  "26.11.8",
+                       "version":  "27.11",
                        "type":  "Desktop",
-                       "goLive":  "1790654651801"
+                       "goLive":  "1791210877672"
+                   },
+                   {
+                       "buildId":  "PHSP",
+                       "platform":  "macuniversal",
+                       "version":  "27.11",
+                       "type":  "Desktop",
+                       "goLive":  "1791210877672"
                    }
                ],
     "displayName":  "Photoshop",
