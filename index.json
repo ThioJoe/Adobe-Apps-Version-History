@@ -230,7 +230,7 @@
         "id":  "FFC_psweb"
     },
     {
-        "buildCount":  52,
+        "buildCount":  56,
         "displayName":  "CCX Process",
         "id":  "CCXP"
     },
@@ -240,7 +240,7 @@
         "id":  "CDEC"
     },
     {
-        "buildCount":  15,
+        "buildCount":  16,
         "displayName":  "Audition (Beta)",
         "id":  "AUDTBETA"
     },
@@ -290,7 +290,7 @@
         "id":  "AEFT"
     },
     {
-        "buildCount":  15,
+        "buildCount":  18,
         "displayName":  "After Effects (Beta)",
         "id":  "AEFTBETA"
     },
@@ -415,7 +415,7 @@
         "id":  "CPVC"
     },
     {
-        "buildCount":  49,
+        "buildCount":  53,
         "displayName":  "CoreSync",
         "id":  "COSY"
     },
