@@ -135,7 +135,7 @@
         "id":  "SBSTA"
     },
     {
-        "buildCount":  120,
+        "buildCount":  122,
         "displayName":  "Substance 3D Designer",
         "id":  "SBSTD"
     },
@@ -160,7 +160,7 @@
         "id":  "UAM"
     },
     {
-        "buildCount":  66,
+        "buildCount":  68,
         "displayName":  "Substance 3D Stager",
         "id":  "STGR"
     },
@@ -445,7 +445,7 @@
         "id":  "FFC_adobeexpress"
     },
     {
-        "buildCount":  62,
+        "buildCount":  64,
         "displayName":  "Dimension",
         "id":  "ESHR"
     },

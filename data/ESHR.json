@@ -422,6 +422,13 @@
                    },
                    {
                        "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.8",
+                       "type":  "Desktop",
+                       "goLive":  "1772704831145"
+                   },
+                   {
+                       "buildId":  "ESHR",
                        "platform":  "win64",
                        "version":  "4.1.8",
                        "type":  "Desktop",
@@ -429,10 +436,17 @@
                    },
                    {
                        "buildId":  "ESHR",
-                       "platform":  "osx10-64",
-                       "version":  "4.1.8",
+                       "platform":  "win64",
+                       "version":  "4.1.9",
                        "type":  "Desktop",
-                       "goLive":  "1772704831145"
+                       "goLive":  "1791451906780"
+                   },
+                   {
+                       "buildId":  "ESHR",
+                       "platform":  "osx10-64",
+                       "version":  "4.1.9",
+                       "type":  "Desktop",
+                       "goLive":  "1791451906780"
                    }
                ],
     "displayName":  "Dimension",

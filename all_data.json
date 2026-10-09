@@ -5364,6 +5364,13 @@
                        },
                        {
                            "buildId":  "ESHR",
+                           "platform":  "osx10-64",
+                           "version":  "4.1.8",
+                           "type":  "Desktop",
+                           "goLive":  "1772704831145"
+                       },
+                       {
+                           "buildId":  "ESHR",
                            "platform":  "win64",
                            "version":  "4.1.8",
                            "type":  "Desktop",
@@ -5371,10 +5378,17 @@
                        },
                        {
                            "buildId":  "ESHR",
-                           "platform":  "osx10-64",
-                           "version":  "4.1.8",
+                           "platform":  "win64",
+                           "version":  "4.1.9",
                            "type":  "Desktop",
-                           "goLive":  "1772704831145"
+                           "goLive":  "1791451906780"
+                       },
+                       {
+                           "buildId":  "ESHR",
+                           "platform":  "osx10-64",
+                           "version":  "4.1.9",
+                           "type":  "Desktop",
+                           "goLive":  "1791451906780"
                        }
                    ],
         "displayName":  "Dimension",
@@ -13647,6 +13661,20 @@
                        },
                        {
                            "buildId":  "SBSTD",
+                           "platform":  "macarm64",
+                           "version":  "16.0.6",
+                           "type":  "Desktop",
+                           "goLive":  "1788516082050"
+                       },
+                       {
+                           "buildId":  "SBSTD",
+                           "platform":  "win64",
+                           "version":  "16.0.6",
+                           "type":  "Desktop",
+                           "goLive":  "1788516082050"
+                       },
+                       {
+                           "buildId":  "SBSTD",
                            "platform":  "osx10-64",
                            "version":  "9.3.0",
                            "type":  "Desktop",
@@ -13661,17 +13689,17 @@
                        },
                        {
                            "buildId":  "SBSTD",
-                           "platform":  "macarm64",
-                           "version":  "16.0.6",
+                           "platform":  "win64",
+                           "version":  "16.0.7",
                            "type":  "Desktop",
-                           "goLive":  "1788516082050"
+                           "goLive":  "1791451957856"
                        },
                        {
                            "buildId":  "SBSTD",
-                           "platform":  "win64",
-                           "version":  "16.0.6",
+                           "platform":  "macarm64",
+                           "version":  "16.0.7",
                            "type":  "Desktop",
-                           "goLive":  "1788516082050"
+                           "goLive":  "1791451957856"
                        }
                    ],
         "displayName":  "Substance 3D Designer",
@@ -15473,6 +15501,20 @@
                            "version":  "3.1.8",
                            "type":  "Desktop",
                            "goLive":  "1772704831145"
+                       },
+                       {
+                           "buildId":  "STGR",
+                           "platform":  "osx10-64",
+                           "version":  "3.1.9",
+                           "type":  "Desktop",
+                           "goLive":  "1791451906780"
+                       },
+                       {
+                           "buildId":  "STGR",
+                           "platform":  "win64",
+                           "version":  "3.1.9",
+                           "type":  "Desktop",
+                           "goLive":  "1791451906780"
                        }
                    ],
         "displayName":  "Substance 3D Stager",
