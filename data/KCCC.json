@@ -493,6 +493,34 @@
                    {
                        "buildId":  "KCCC",
                        "platform":  "macarm64",
+                       "version":  "6.10.0",
+                       "type":  "Desktop",
+                       "goLive":  "1780902074448"
+                   },
+                   {
+                       "buildId":  "KCCC",
+                       "platform":  "osx10",
+                       "version":  "6.10.0",
+                       "type":  "Desktop",
+                       "goLive":  "1780902472726"
+                   },
+                   {
+                       "buildId":  "KCCC",
+                       "platform":  "win64",
+                       "version":  "6.10.0",
+                       "type":  "Desktop",
+                       "goLive":  "1780902887273"
+                   },
+                   {
+                       "buildId":  "KCCC",
+                       "platform":  "winarm64",
+                       "version":  "6.10.0",
+                       "type":  "Desktop",
+                       "goLive":  "1780903309168"
+                   },
+                   {
+                       "buildId":  "KCCC",
+                       "platform":  "macarm64",
                        "version":  "6.2.0",
                        "type":  "Desktop",
                        "goLive":  "1714465478796"
@@ -772,31 +800,31 @@
                    },
                    {
                        "buildId":  "KCCC",
-                       "platform":  "winarm64",
-                       "version":  "6.10.0",
-                       "type":  "Desktop",
-                       "goLive":  "1780903309168"
-                   },
-                   {
-                       "buildId":  "KCCC",
                        "platform":  "macarm64",
-                       "version":  "6.10.0",
+                       "version":  "6.11.0",
                        "type":  "Desktop",
-                       "goLive":  "1780902074448"
+                       "goLive":  "1791284342386"
                    },
                    {
                        "buildId":  "KCCC",
-                       "platform":  "win64",
-                       "version":  "6.10.0",
+                       "platform":  "winarm64",
+                       "version":  "6.11.0",
                        "type":  "Desktop",
-                       "goLive":  "1780902887273"
+                       "goLive":  "1791285484868"
                    },
                    {
                        "buildId":  "KCCC",
                        "platform":  "osx10",
-                       "version":  "6.10.0",
+                       "version":  "6.11.0",
                        "type":  "Desktop",
-                       "goLive":  "1780902472726"
+                       "goLive":  "1791284714639"
+                   },
+                   {
+                       "buildId":  "KCCC",
+                       "platform":  "win64",
+                       "version":  "6.11.0",
+                       "type":  "Desktop",
+                       "goLive":  "1791285078912"
                    }
                ],
     "displayName":  "Creative Cloud",
