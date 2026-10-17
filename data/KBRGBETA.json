@@ -3,16 +3,23 @@
                    {
                        "buildId":  "KBRGBETA",
                        "platform":  "macuniversal",
-                       "version":  "16.0.1",
+                       "version":  "16.0.0",
                        "type":  "Desktop",
-                       "goLive":  "1763631425714"
+                       "goLive":  "1760090950538"
+                   },
+                   {
+                       "buildId":  "KBRGBETA",
+                       "platform":  "win64",
+                       "version":  "16.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1760090950538"
                    },
                    {
                        "buildId":  "KBRGBETA",
                        "platform":  "macuniversal",
-                       "version":  "16.0.0",
+                       "version":  "16.0.1",
                        "type":  "Desktop",
-                       "goLive":  "1760090950538"
+                       "goLive":  "1763631425714"
                    },
                    {
                        "buildId":  "KBRGBETA",
@@ -24,9 +31,16 @@
                    {
                        "buildId":  "KBRGBETA",
                        "platform":  "win64",
-                       "version":  "16.0.0",
+                       "version":  "17.0.0",
                        "type":  "Desktop",
-                       "goLive":  "1760090950538"
+                       "goLive":  "1792154718998"
+                   },
+                   {
+                       "buildId":  "KBRGBETA",
+                       "platform":  "macuniversal",
+                       "version":  "17.0.0",
+                       "type":  "Desktop",
+                       "goLive":  "1792154718998"
                    }
                ],
     "displayName":  "Bridge (Beta)",
