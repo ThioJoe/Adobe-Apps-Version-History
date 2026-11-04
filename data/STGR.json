@@ -475,6 +475,20 @@
                        "version":  "3.1.9",
                        "type":  "Desktop",
                        "goLive":  "1791451906780"
+                   },
+                   {
+                       "buildId":  "STGR",
+                       "platform":  "win64",
+                       "version":  "3.1.10",
+                       "type":  "Desktop",
+                       "goLive":  "1793697538888"
+                   },
+                   {
+                       "buildId":  "STGR",
+                       "platform":  "osx10-64",
+                       "version":  "3.1.10",
+                       "type":  "Desktop",
+                       "goLive":  "1793697538888"
                    }
                ],
     "displayName":  "Substance 3D Stager",

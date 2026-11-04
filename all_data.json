@@ -5385,6 +5385,13 @@
                        },
                        {
                            "buildId":  "ESHR",
+                           "platform":  "osx10-64",
+                           "version":  "4.1.9",
+                           "type":  "Desktop",
+                           "goLive":  "1791451906780"
+                       },
+                       {
+                           "buildId":  "ESHR",
                            "platform":  "win64",
                            "version":  "4.1.9",
                            "type":  "Desktop",
@@ -5393,9 +5400,16 @@
                        {
                            "buildId":  "ESHR",
                            "platform":  "osx10-64",
-                           "version":  "4.1.9",
+                           "version":  "4.1.10",
                            "type":  "Desktop",
-                           "goLive":  "1791451906780"
+                           "goLive":  "1793697538888"
+                       },
+                       {
+                           "buildId":  "ESHR",
+                           "platform":  "win64",
+                           "version":  "4.1.10",
+                           "type":  "Desktop",
+                           "goLive":  "1793697538888"
                        }
                    ],
         "displayName":  "Dimension",
@@ -15648,6 +15662,20 @@
                            "version":  "3.1.9",
                            "type":  "Desktop",
                            "goLive":  "1791451906780"
+                       },
+                       {
+                           "buildId":  "STGR",
+                           "platform":  "win64",
+                           "version":  "3.1.10",
+                           "type":  "Desktop",
+                           "goLive":  "1793697538888"
+                       },
+                       {
+                           "buildId":  "STGR",
+                           "platform":  "osx10-64",
+                           "version":  "3.1.10",
+                           "type":  "Desktop",
+                           "goLive":  "1793697538888"
                        }
                    ],
         "displayName":  "Substance 3D Stager",
