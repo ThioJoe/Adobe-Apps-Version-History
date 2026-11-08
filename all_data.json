@@ -6611,6 +6611,20 @@
                        {
                            "buildId":  "HLAN",
                            "platform":  "osx10-64",
+                           "version":  "23.0.17",
+                           "type":  "Desktop",
+                           "goLive":  "1788527408682"
+                       },
+                       {
+                           "buildId":  "HLAN",
+                           "platform":  "win64",
+                           "version":  "23.0.17",
+                           "type":  "Desktop",
+                           "goLive":  "1788527408682"
+                       },
+                       {
+                           "buildId":  "HLAN",
+                           "platform":  "osx10-64",
                            "version":  "23.0.2",
                            "type":  "Desktop",
                            "goLive":  "1683649540857"
@@ -6821,6 +6835,20 @@
                        {
                            "buildId":  "HLAN",
                            "platform":  "macuniversal",
+                           "version":  "24.0.15",
+                           "type":  "Desktop",
+                           "goLive":  "1788527408682"
+                       },
+                       {
+                           "buildId":  "HLAN",
+                           "platform":  "win64",
+                           "version":  "24.0.15",
+                           "type":  "Desktop",
+                           "goLive":  "1788527408682"
+                       },
+                       {
+                           "buildId":  "HLAN",
+                           "platform":  "macuniversal",
                            "version":  "24.0.2",
                            "type":  "Desktop",
                            "goLive":  "1712041201556"
@@ -6932,31 +6960,17 @@
                        },
                        {
                            "buildId":  "HLAN",
+                           "platform":  "win64",
+                           "version":  "27.0.0",
+                           "type":  "Desktop",
+                           "goLive":  "1794028663324"
+                       },
+                       {
+                           "buildId":  "HLAN",
                            "platform":  "macuniversal",
-                           "version":  "24.0.15",
+                           "version":  "27.0.0",
                            "type":  "Desktop",
-                           "goLive":  "1788527408682"
-                       },
-                       {
-                           "buildId":  "HLAN",
-                           "platform":  "win64",
-                           "version":  "23.0.17",
-                           "type":  "Desktop",
-                           "goLive":  "1788527408682"
-                       },
-                       {
-                           "buildId":  "HLAN",
-                           "platform":  "osx10-64",
-                           "version":  "23.0.17",
-                           "type":  "Desktop",
-                           "goLive":  "1788527408682"
-                       },
-                       {
-                           "buildId":  "HLAN",
-                           "platform":  "win64",
-                           "version":  "24.0.15",
-                           "type":  "Desktop",
-                           "goLive":  "1788527408682"
+                           "goLive":  "1794028663324"
                        }
                    ],
         "displayName":  "Animate HLAN",
