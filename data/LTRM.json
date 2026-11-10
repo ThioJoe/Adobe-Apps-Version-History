@@ -335,6 +335,20 @@
                        "version":  "15.6",
                        "type":  "Desktop",
                        "goLive":  "1790592139784"
+                   },
+                   {
+                       "buildId":  "LTRM",
+                       "platform":  "win64",
+                       "version":  "16.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287410487"
+                   },
+                   {
+                       "buildId":  "LTRM",
+                       "platform":  "macuniversal",
+                       "version":  "16.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287410487"
                    }
                ],
     "displayName":  "Lightroom Classic",

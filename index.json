@@ -10,17 +10,17 @@
         "id":  "KANC"
     },
     {
-        "buildCount":  66,
+        "buildCount":  69,
         "displayName":  "Illustrator",
         "id":  "ILST"
     },
     {
-        "buildCount":  59,
+        "buildCount":  61,
         "displayName":  "InDesign",
         "id":  "IDSN"
     },
     {
-        "buildCount":  23,
+        "buildCount":  26,
         "displayName":  "InDesign (Beta)",
         "id":  "IDSNBETA"
     },
@@ -80,7 +80,7 @@
         "id":  "FFC_sbstshare"
     },
     {
-        "buildCount":  68,
+        "buildCount":  70,
         "displayName":  "Animate",
         "id":  "FLPR"
     },
@@ -170,7 +170,7 @@
         "id":  "TAPI"
     },
     {
-        "buildCount":  48,
+        "buildCount":  50,
         "displayName":  "Lightroom Classic",
         "id":  "LTRM"
     },
@@ -190,12 +190,12 @@
         "id":  "LIBS"
     },
     {
-        "buildCount":  60,
+        "buildCount":  63,
         "displayName":  "Lightroom",
         "id":  "LRCC"
     },
     {
-        "buildCount":  107,
+        "buildCount":  110,
         "displayName":  "Photoshop",
         "id":  "PHSP"
     },
@@ -220,7 +220,7 @@
         "id":  "PHSPBETA"
     },
     {
-        "buildCount":  70,
+        "buildCount":  77,
         "displayName":  "Premiere",
         "id":  "PPRO"
     },
@@ -250,7 +250,7 @@
         "id":  "ASCT"
     },
     {
-        "buildCount":  24,
+        "buildCount":  31,
         "displayName":  "Audition",
         "id":  "AUDT"
     },
@@ -285,7 +285,7 @@
         "id":  "COCM"
     },
     {
-        "buildCount":  43,
+        "buildCount":  49,
         "displayName":  "After Effects",
         "id":  "AEFT"
     },
@@ -295,7 +295,7 @@
         "id":  "AEFTBETA"
     },
     {
-        "buildCount":  237,
+        "buildCount":  240,
         "displayName":  "Camera Raw",
         "id":  "ACR"
     },
@@ -310,7 +310,7 @@
         "id":  "ACAI"
     },
     {
-        "buildCount":  42,
+        "buildCount":  45,
         "displayName":  "InCopy",
         "id":  "AICY"
     },
@@ -335,7 +335,7 @@
         "id":  "AICYBETA"
     },
     {
-        "buildCount":  54,
+        "buildCount":  61,
         "displayName":  "Media Encoder",
         "id":  "AME"
     },

@@ -142,7 +142,7 @@
                    },
                    {
                        "buildId":  "AUDT",
-                       "platform":  "winarm64",
+                       "platform":  "macarm64",
                        "version":  "26.5",
                        "type":  "Desktop",
                        "goLive":  "1789056151564"
@@ -156,17 +156,66 @@
                    },
                    {
                        "buildId":  "AUDT",
-                       "platform":  "macarm64",
+                       "platform":  "win64",
                        "version":  "26.5",
                        "type":  "Desktop",
                        "goLive":  "1789056151564"
                    },
                    {
                        "buildId":  "AUDT",
-                       "platform":  "win64",
+                       "platform":  "winarm64",
                        "version":  "26.5",
                        "type":  "Desktop",
                        "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "winarm64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "osx10-64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "win64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "macarm64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "AUDT",
+                       "platform":  "winarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
                    }
                ],
     "displayName":  "Audition",

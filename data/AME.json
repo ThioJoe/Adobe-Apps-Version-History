@@ -352,14 +352,14 @@
                    },
                    {
                        "buildId":  "AME",
-                       "platform":  "winarm64",
+                       "platform":  "macarm64",
                        "version":  "26.5.2",
                        "type":  "Desktop",
                        "goLive":  "1790611323319"
                    },
                    {
                        "buildId":  "AME",
-                       "platform":  "macarm64",
+                       "platform":  "osx10-64",
                        "version":  "26.5.2",
                        "type":  "Desktop",
                        "goLive":  "1790611323319"
@@ -373,10 +373,59 @@
                    },
                    {
                        "buildId":  "AME",
-                       "platform":  "osx10-64",
+                       "platform":  "winarm64",
                        "version":  "26.5.2",
                        "type":  "Desktop",
                        "goLive":  "1790611323319"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "macarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "win64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "winarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "macarm64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "osx10-64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "win64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "AME",
+                       "platform":  "winarm64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
                    }
                ],
     "displayName":  "Media Encoder",

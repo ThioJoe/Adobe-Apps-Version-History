@@ -464,14 +464,21 @@
                    },
                    {
                        "buildId":  "PPRO",
-                       "platform":  "win64",
+                       "platform":  "macarm64",
                        "version":  "26.5.2",
                        "type":  "Desktop",
                        "goLive":  "1790611323319"
                    },
                    {
                        "buildId":  "PPRO",
-                       "platform":  "macarm64",
+                       "platform":  "osx10-64",
+                       "version":  "26.5.2",
+                       "type":  "Desktop",
+                       "goLive":  "1790611323319"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "win64",
                        "version":  "26.5.2",
                        "type":  "Desktop",
                        "goLive":  "1790611323319"
@@ -485,10 +492,52 @@
                    },
                    {
                        "buildId":  "PPRO",
-                       "platform":  "osx10-64",
-                       "version":  "26.5.2",
+                       "platform":  "win64",
+                       "version":  "27.0",
                        "type":  "Desktop",
-                       "goLive":  "1790611323319"
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "winarm64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "win64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "macarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "winarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "macarm64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "PPRO",
+                       "platform":  "osx10-64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
                    }
                ],
     "displayName":  "Premiere",

@@ -129,6 +129,20 @@
                    {
                        "buildId":  "FLPR",
                        "platform":  "osx10-64",
+                       "version":  "23.0.17",
+                       "type":  "Desktop",
+                       "goLive":  "1788527436197"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "win64",
+                       "version":  "23.0.17",
+                       "type":  "Desktop",
+                       "goLive":  "1788527436197"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "osx10-64",
                        "version":  "23.0.2",
                        "type":  "Desktop",
                        "goLive":  "1683649617534"
@@ -339,6 +353,20 @@
                    {
                        "buildId":  "FLPR",
                        "platform":  "macuniversal",
+                       "version":  "24.0.15",
+                       "type":  "Desktop",
+                       "goLive":  "1788527491364"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "win64",
+                       "version":  "24.0.15",
+                       "type":  "Desktop",
+                       "goLive":  "1788527491364"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "macuniversal",
                        "version":  "24.0.2",
                        "type":  "Desktop",
                        "goLive":  "1712041418281"
@@ -450,31 +478,17 @@
                    },
                    {
                        "buildId":  "FLPR",
-                       "platform":  "osx10-64",
-                       "version":  "23.0.17",
+                       "platform":  "win64",
+                       "version":  "27.0",
                        "type":  "Desktop",
-                       "goLive":  "1788527436197"
+                       "goLive":  "1794287572610"
                    },
                    {
                        "buildId":  "FLPR",
                        "platform":  "macuniversal",
-                       "version":  "24.0.15",
+                       "version":  "27.0",
                        "type":  "Desktop",
-                       "goLive":  "1788527491364"
-                   },
-                   {
-                       "buildId":  "FLPR",
-                       "platform":  "win64",
-                       "version":  "24.0.15",
-                       "type":  "Desktop",
-                       "goLive":  "1788527491364"
-                   },
-                   {
-                       "buildId":  "FLPR",
-                       "platform":  "win64",
-                       "version":  "23.0.17",
-                       "type":  "Desktop",
-                       "goLive":  "1788527436197"
+                       "goLive":  "1794287572610"
                    }
                ],
     "displayName":  "Animate",

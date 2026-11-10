@@ -300,6 +300,48 @@
                        "version":  "26.5",
                        "type":  "Desktop",
                        "goLive":  "1789056151564"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "winarm64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "win64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "macuniversal",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "winarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "macarm64",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287342397"
+                   },
+                   {
+                       "buildId":  "AEFT",
+                       "platform":  "win64",
+                       "version":  "26.5.3",
+                       "type":  "Desktop",
+                       "goLive":  "1794287396220"
                    }
                ],
     "displayName":  "After Effects",

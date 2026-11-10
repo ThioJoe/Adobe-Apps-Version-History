@@ -412,6 +412,20 @@
                        "version":  "22.0",
                        "type":  "Desktop",
                        "goLive":  "1793797425919"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "win64",
+                       "version":  "22.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287391386"
+                   },
+                   {
+                       "buildId":  "IDSN",
+                       "platform":  "winarm64",
+                       "version":  "22.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287391386"
                    }
                ],
     "displayName":  "InDesign",
