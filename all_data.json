@@ -7441,6 +7441,13 @@
                        },
                        {
                            "buildId":  "IDSN",
+                           "platform":  "macuniversal",
+                           "version":  "21.6",
+                           "type":  "Desktop",
+                           "goLive":  "1789735027642"
+                       },
+                       {
+                           "buildId":  "IDSN",
                            "platform":  "win64",
                            "version":  "21.6",
                            "type":  "Desktop",
@@ -7449,9 +7456,9 @@
                        {
                            "buildId":  "IDSN",
                            "platform":  "macuniversal",
-                           "version":  "21.6",
+                           "version":  "22.0",
                            "type":  "Desktop",
-                           "goLive":  "1789735027642"
+                           "goLive":  "1793797425919"
                        }
                    ],
         "displayName":  "InDesign",
@@ -8388,6 +8395,20 @@
                        {
                            "buildId":  "KBRG",
                            "platform":  "macuniversal",
+                           "version":  "15.1.9",
+                           "type":  "Desktop",
+                           "goLive":  "1790852576607"
+                       },
+                       {
+                           "buildId":  "KBRG",
+                           "platform":  "win64",
+                           "version":  "15.1.9",
+                           "type":  "Desktop",
+                           "goLive":  "1790852576607"
+                       },
+                       {
+                           "buildId":  "KBRG",
+                           "platform":  "macuniversal",
                            "version":  "16.0.0",
                            "type":  "Desktop",
                            "goLive":  "1761645871512"
@@ -8513,17 +8534,17 @@
                        },
                        {
                            "buildId":  "KBRG",
-                           "platform":  "macuniversal",
-                           "version":  "15.1.9",
+                           "platform":  "win64",
+                           "version":  "17.0.0",
                            "type":  "Desktop",
-                           "goLive":  "1790852576607"
+                           "goLive":  "1793104550072"
                        },
                        {
                            "buildId":  "KBRG",
-                           "platform":  "win64",
-                           "version":  "15.1.9",
+                           "platform":  "macuniversal",
+                           "version":  "17.0.0",
                            "type":  "Desktop",
-                           "goLive":  "1790852576607"
+                           "goLive":  "1793104297604"
                        }
                    ],
         "displayName":  "Bridge",
@@ -11149,6 +11170,27 @@
                        {
                            "buildId":  "PHSP",
                            "platform":  "macuniversal",
+                           "version":  "27.11",
+                           "type":  "Desktop",
+                           "goLive":  "1791210877672"
+                       },
+                       {
+                           "buildId":  "PHSP",
+                           "platform":  "win64",
+                           "version":  "27.11",
+                           "type":  "Desktop",
+                           "goLive":  "1791210877672"
+                       },
+                       {
+                           "buildId":  "PHSP",
+                           "platform":  "winarm64",
+                           "version":  "27.11",
+                           "type":  "Desktop",
+                           "goLive":  "1791210877672"
+                       },
+                       {
+                           "buildId":  "PHSP",
+                           "platform":  "macuniversal",
                            "version":  "27.2",
                            "type":  "Desktop",
                            "goLive":  "1765947718308"
@@ -11331,23 +11373,23 @@
                        {
                            "buildId":  "PHSP",
                            "platform":  "win64",
-                           "version":  "27.11",
+                           "version":  "28.0",
                            "type":  "Desktop",
-                           "goLive":  "1791210877672"
-                       },
-                       {
-                           "buildId":  "PHSP",
-                           "platform":  "winarm64",
-                           "version":  "27.11",
-                           "type":  "Desktop",
-                           "goLive":  "1791210877672"
+                           "goLive":  "1793790815800"
                        },
                        {
                            "buildId":  "PHSP",
                            "platform":  "macuniversal",
-                           "version":  "27.11",
+                           "version":  "28.0",
                            "type":  "Desktop",
-                           "goLive":  "1791210877672"
+                           "goLive":  "1793790224052"
+                       },
+                       {
+                           "buildId":  "PHSP",
+                           "platform":  "winarm64",
+                           "version":  "28.0",
+                           "type":  "Desktop",
+                           "goLive":  "1793789545986"
                        }
                    ],
         "displayName":  "Photoshop",

@@ -199,6 +199,20 @@
                    {
                        "buildId":  "KBRG",
                        "platform":  "macuniversal",
+                       "version":  "15.1.9",
+                       "type":  "Desktop",
+                       "goLive":  "1790852576607"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "win64",
+                       "version":  "15.1.9",
+                       "type":  "Desktop",
+                       "goLive":  "1790852576607"
+                   },
+                   {
+                       "buildId":  "KBRG",
+                       "platform":  "macuniversal",
                        "version":  "16.0.0",
                        "type":  "Desktop",
                        "goLive":  "1761645871512"
@@ -324,17 +338,17 @@
                    },
                    {
                        "buildId":  "KBRG",
-                       "platform":  "macuniversal",
-                       "version":  "15.1.9",
+                       "platform":  "win64",
+                       "version":  "17.0.0",
                        "type":  "Desktop",
-                       "goLive":  "1790852576607"
+                       "goLive":  "1793104550072"
                    },
                    {
                        "buildId":  "KBRG",
-                       "platform":  "win64",
-                       "version":  "15.1.9",
+                       "platform":  "macuniversal",
+                       "version":  "17.0.0",
                        "type":  "Desktop",
-                       "goLive":  "1790852576607"
+                       "goLive":  "1793104297604"
                    }
                ],
     "displayName":  "Bridge",
