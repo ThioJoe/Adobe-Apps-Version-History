@@ -16292,7 +16292,7 @@
                        },
                        {
                            "buildId":  "UXPD",
-                           "platform":  "win64",
+                           "platform":  "macarm64",
                            "version":  "2.3.0",
                            "type":  "Desktop",
                            "goLive":  "1789053544414"
@@ -16306,10 +16306,31 @@
                        },
                        {
                            "buildId":  "UXPD",
-                           "platform":  "macarm64",
+                           "platform":  "win64",
                            "version":  "2.3.0",
                            "type":  "Desktop",
                            "goLive":  "1789053544414"
+                       },
+                       {
+                           "buildId":  "UXPD",
+                           "platform":  "win64",
+                           "version":  "2.4.0",
+                           "type":  "Desktop",
+                           "goLive":  "1794842156108"
+                       },
+                       {
+                           "buildId":  "UXPD",
+                           "platform":  "macarm64",
+                           "version":  "2.4.0",
+                           "type":  "Desktop",
+                           "goLive":  "1794842156108"
+                       },
+                       {
+                           "buildId":  "UXPD",
+                           "platform":  "osx10-64",
+                           "version":  "2.4.0",
+                           "type":  "Desktop",
+                           "goLive":  "1794842156108"
                        }
                    ],
         "displayName":  "UXP Developer Tools",
