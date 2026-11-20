@@ -478,6 +478,13 @@
                    },
                    {
                        "buildId":  "FLPR",
+                       "platform":  "macuniversal",
+                       "version":  "27.0",
+                       "type":  "Desktop",
+                       "goLive":  "1794287572610"
+                   },
+                   {
+                       "buildId":  "FLPR",
                        "platform":  "win64",
                        "version":  "27.0",
                        "type":  "Desktop",
@@ -485,10 +492,31 @@
                    },
                    {
                        "buildId":  "FLPR",
-                       "platform":  "macuniversal",
-                       "version":  "27.0",
+                       "platform":  "win64",
+                       "version":  "27.0.1",
                        "type":  "Desktop",
-                       "goLive":  "1794287572610"
+                       "goLive":  "1795075920960"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "macuniversal",
+                       "version":  "27.0.1",
+                       "type":  "Desktop",
+                       "goLive":  "1795075920960"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "win64",
+                       "version":  "24.0.16",
+                       "type":  "Desktop",
+                       "goLive":  "1795075944130"
+                   },
+                   {
+                       "buildId":  "FLPR",
+                       "platform":  "macuniversal",
+                       "version":  "24.0.16",
+                       "type":  "Desktop",
+                       "goLive":  "1795075944130"
                    }
                ],
     "displayName":  "Animate",

@@ -6530,6 +6530,13 @@
                        },
                        {
                            "buildId":  "FLPR",
+                           "platform":  "macuniversal",
+                           "version":  "27.0",
+                           "type":  "Desktop",
+                           "goLive":  "1794287572610"
+                       },
+                       {
+                           "buildId":  "FLPR",
                            "platform":  "win64",
                            "version":  "27.0",
                            "type":  "Desktop",
@@ -6537,10 +6544,31 @@
                        },
                        {
                            "buildId":  "FLPR",
-                           "platform":  "macuniversal",
-                           "version":  "27.0",
+                           "platform":  "win64",
+                           "version":  "27.0.1",
                            "type":  "Desktop",
-                           "goLive":  "1794287572610"
+                           "goLive":  "1795075920960"
+                       },
+                       {
+                           "buildId":  "FLPR",
+                           "platform":  "macuniversal",
+                           "version":  "27.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1795075920960"
+                       },
+                       {
+                           "buildId":  "FLPR",
+                           "platform":  "win64",
+                           "version":  "24.0.16",
+                           "type":  "Desktop",
+                           "goLive":  "1795075944130"
+                       },
+                       {
+                           "buildId":  "FLPR",
+                           "platform":  "macuniversal",
+                           "version":  "24.0.16",
+                           "type":  "Desktop",
+                           "goLive":  "1795075944130"
                        }
                    ],
         "displayName":  "Animate",
@@ -7184,6 +7212,13 @@
                        },
                        {
                            "buildId":  "HLAN",
+                           "platform":  "macuniversal",
+                           "version":  "27.0.0",
+                           "type":  "Desktop",
+                           "goLive":  "1794028663324"
+                       },
+                       {
+                           "buildId":  "HLAN",
                            "platform":  "win64",
                            "version":  "27.0.0",
                            "type":  "Desktop",
@@ -7192,9 +7227,30 @@
                        {
                            "buildId":  "HLAN",
                            "platform":  "macuniversal",
-                           "version":  "27.0.0",
+                           "version":  "27.0.1",
                            "type":  "Desktop",
-                           "goLive":  "1794028663324"
+                           "goLive":  "1795075852119"
+                       },
+                       {
+                           "buildId":  "HLAN",
+                           "platform":  "win64",
+                           "version":  "27.0.1",
+                           "type":  "Desktop",
+                           "goLive":  "1795075852119"
+                       },
+                       {
+                           "buildId":  "HLAN",
+                           "platform":  "win64",
+                           "version":  "24.0.16",
+                           "type":  "Desktop",
+                           "goLive":  "1795075877878"
+                       },
+                       {
+                           "buildId":  "HLAN",
+                           "platform":  "macuniversal",
+                           "version":  "24.0.16",
+                           "type":  "Desktop",
+                           "goLive":  "1795075877878"
                        }
                    ],
         "displayName":  "Animate HLAN",
